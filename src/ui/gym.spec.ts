@@ -146,7 +146,7 @@ describe('a gym battle', () => {
 
     await clickButton(wrapper, 'Attack');
 
-    expect(savedGame().cards.t1).toEqual({ box: 2, dueAt: NOW + 24 * 60 * 60 * 1000 });
+    expect(savedGame().cards.t1).toEqual({ box: 2, dueAt: NOW + 20 * 60 * 1000 });
   });
 
   it('lets the leader attack and explains the rule in French on a wrong answer', async () => {

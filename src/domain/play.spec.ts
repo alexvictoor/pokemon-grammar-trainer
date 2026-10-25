@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest';
 import { answer, explore, remember, type PlayContext } from './play';
 import { emptyGame } from './save';
-import { aQuestion, DAY, sequence } from './testing';
+import { aQuestion, MINUTE, sequence } from './testing';
 
 const NOW = 1_800_000_000_000;
 const questions = [
@@ -53,7 +53,7 @@ describe('answer', () => {
 
     expect(result.feedback).toEqual({ correct: true, correctAnswer: 'has lived', explanation: 'depuis → present perfect', outcome: { kind: 'throw', ball: 'poke', caught: true } });
     expect(result.game.caught).toEqual({ 25: 1 });
-    expect(result.game.cards.q1).toEqual({ box: 2, dueAt: NOW + DAY });
+    expect(result.game.cards.q1).toEqual({ box: 2, dueAt: NOW + 20 * MINUTE });
     expect(result.game.streak).toBe(1);
     expect(result.encounter).toEqual({ pokemonId: 25, rarity: 'common', attempts: 1, status: 'caught' });
     expect(result.next).toBeUndefined();

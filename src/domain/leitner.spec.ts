@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { DAY } from './testing';
+import { DAY, MINUTE } from './testing';
 import { isDue, newCard, review } from './leitner';
 
 const NOW = 1_800_000_000_000;
@@ -14,7 +14,7 @@ describe('newCard', () => {
 
 describe('review', () => {
   it.each([
-    { box: 1, nextBox: 2, delay: 1 * DAY },
+    { box: 1, nextBox: 2, delay: 20 * MINUTE },
     { box: 2, nextBox: 3, delay: 3 * DAY },
     { box: 3, nextBox: 4, delay: 7 * DAY },
     { box: 4, nextBox: 5, delay: 21 * DAY },

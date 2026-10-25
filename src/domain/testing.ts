@@ -48,4 +48,5 @@ export const sequence = (...values: number[]): (() => number) => {
   };
 };
 
-export const DAY = 24 * 60 * 60 * 1000;
+export const MINUTE = 60 * 1000;
+export const DAY = 24 * 60 * MINUTE;

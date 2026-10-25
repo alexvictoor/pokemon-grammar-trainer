@@ -3,10 +3,11 @@ export interface Card {
   dueAt: number;
 }
 
-const DAY = 24 * 60 * 60 * 1000;
+const MINUTE = 60 * 1000;
+const DAY = 24 * 60 * MINUTE;
 const TOP_BOX = 5;
 const DELAY_AFTER_REACHING_BOX: Record<number, number> = {
-  2: 1 * DAY,
+  2: 20 * MINUTE,
   3: 3 * DAY,
   4: 7 * DAY,
   5: 21 * DAY,

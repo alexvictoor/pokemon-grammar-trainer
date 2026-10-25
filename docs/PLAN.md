@@ -19,7 +19,7 @@ The syllabus is chapters 15 to 33 of the grammar workbook in `workbook/precis-gr
 | 9 | Pokémon | All species (about 1,025), as 96px pixel sprites. The build reports the missing sprites and uses a fallback image. |
 | 10 | Structure | 19 routes (one chapter each) and 8 gyms (each tests a group of chapters). |
 | 11 | Encounters | A correct answer throws a ball. Streaks give better balls (3: Great Ball, 5: Ultra Ball). A wrong answer resets the streak and can make a rare Pokémon flee. Nothing caught is ever lost. |
-| 12 | Mastery | Leitner boxes per question. Mastery is computed per grammar rule. A gym unlocks at 70% mastery on its routes. |
+| 12 | Mastery | Leitner boxes per question. Mastery is computed per grammar rule. A gym unlocks at 70% mastery on its routes. A question is mastered from box 3. A first correct answer waits 20 minutes before it can move up again, so a gym can open within one lesson; the later boxes wait 3, 7 and 21 days. |
 | 13 | Battles | Team of 3. Each turn: choose a move, then answer. A stronger move asks a harder question. Real type matchups, simplified damage formula. Losing costs nothing. |
 | 14 | Language | The interface is in English. The explanations after a wrong answer are in French. The Pokédex also shows the French name. |
 | 15 | Progress code | The code carries the save itself: nickname, Leitner box per question, Pokémon seen and caught, date. The teacher page computes mastery per rule from it with the questions it ships with. Format `GT<version>-<checksum>-<deflated JSON, base64url>`. The checksum catches typos and truncation. No protection against forging. |
