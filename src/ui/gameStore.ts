@@ -132,6 +132,7 @@ export const useGameStore = defineStore('game', () => {
     pokemonById,
     routeQuestions,
     now: deps.now,
+    enterFullscreen: deps.enterFullscreen ?? (() => undefined),
     recordReview,
     receive,
     awardBadge,

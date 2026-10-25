@@ -1,5 +1,16 @@
 import { describe, expect, it } from 'vitest';
-import { canUseServiceWorker } from './pwa';
+import { canUseServiceWorker, shouldRequestFullscreen } from './pwa';
+
+describe('shouldRequestFullscreen', () => {
+  it.each([
+    { label: 'a browser tab that supports it', supported: true, alreadyFullscreen: false, installed: false, expected: true },
+    { label: 'a browser without the Fullscreen API (iPhone)', supported: false, alreadyFullscreen: false, installed: false, expected: false },
+    { label: 'a page already in full screen', supported: true, alreadyFullscreen: true, installed: false, expected: false },
+    { label: 'the installed app', supported: true, alreadyFullscreen: false, installed: true, expected: false },
+  ])('returns $expected for $label', ({ supported, alreadyFullscreen, installed, expected }) => {
+    expect(shouldRequestFullscreen({ supported, alreadyFullscreen, installed })).toBe(expected);
+  });
+});
 
 describe('canUseServiceWorker', () => {
   it.each([

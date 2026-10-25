@@ -13,6 +13,7 @@ export interface GameDeps {
   pokemon: PokemonEntry[];
   gyms: Gym[];
   typeChart: TypeChart;
+  enterFullscreen?: () => void;
 }
 
 export const GAME_DEPS: InjectionKey<GameDeps> = Symbol('game-deps');

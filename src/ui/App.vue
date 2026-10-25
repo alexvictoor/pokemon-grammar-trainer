@@ -4,6 +4,7 @@ import EncounterView from './EncounterView.vue';
 import { useGameStore } from './gameStore';
 import GymView from './GymView.vue';
 import { useGymStore } from './gymStore';
+import IntroView from './IntroView.vue';
 import MapView from './MapView.vue';
 import PokedexView from './PokedexView.vue';
 import RouteView from './RouteView.vue';
@@ -15,8 +16,14 @@ const gyms = useGymStore();
 const tab = ref<'map' | 'pokedex' | 'share'>('map');
 const isTeacherPage = () => window.location.hash === '#teacher';
 const teacher = ref(isTeacherPage());
+const showIntro = ref(!teacher.value);
 const followHash = () => {
   teacher.value = isTeacherPage();
+  if (teacher.value) showIntro.value = false;
+};
+const start = () => {
+  showIntro.value = false;
+  store.enterFullscreen();
 };
 
 onMounted(() => window.addEventListener('hashchange', followHash));
@@ -25,6 +32,7 @@ onBeforeUnmount(() => window.removeEventListener('hashchange', followHash));
 
 <template>
   <div class="app">
+    <IntroView v-if="showIntro" @start="start" />
     <header class="shell">
       <div class="lights" aria-hidden="true"><span class="lens"></span><span></span><span></span><span></span></div>
       <h1 class="brand">Grammar Trainer</h1>

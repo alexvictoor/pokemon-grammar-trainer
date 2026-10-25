@@ -6,7 +6,7 @@ import typeChart from './data/type-chart.json';
 import { GYMS } from './domain/gym';
 import type { PokemonEntry, TypeChart } from './domain/pokemon';
 import type { SaveStorage } from './domain/save';
-import { registerServiceWorker } from './pwa';
+import { enterFullscreen, registerServiceWorker } from './pwa';
 import App from './ui/App.vue';
 import { GAME_DEPS } from './ui/deps';
 
@@ -26,6 +26,7 @@ createApp(App)
     pokemon: pokemon as PokemonEntry[],
     gyms: GYMS,
     typeChart: typeChart as TypeChart,
+    enterFullscreen,
   })
   .mount('#app');
 
