@@ -1,19 +1,10 @@
 <script setup lang="ts">
-import type { Gym } from '../domain/gym';
-import { CHAPTER_TITLES, isGymOpen } from '../domain/region';
+import { CHAPTER_TITLES, isGymOpen, routesLabel } from '../domain/region';
 import { useGameStore } from './gameStore';
 import { useGymStore } from './gymStore';
 
 const store = useGameStore();
 const gyms = useGymStore();
-
-const routesLabel = (gym: Gym) => {
-  const [first] = gym.chapters;
-  const last = gym.chapters.at(-1);
-  if (gym.chapters.length === 1) return `Route ${first}`;
-  if (gym.chapters.length === 2) return `Routes ${first} and ${last}`;
-  return `Routes ${first} to ${last}`;
-};
 </script>
 
 <template>
@@ -46,10 +37,10 @@ const routesLabel = (gym: Gym) => {
           <button v-if="gyms.progressOf(gym).unlocked" :id="`challenge-${gym.id}`" type="button" class="primary" @click="gyms.open(gym)">
             Challenge {{ gym.leader }}
           </button>
-          <p v-else class="locked">Reach {{ gym.unlockAt }}% on {{ routesLabel(gym) }} to challenge {{ gym.leader }}. Now: {{ gyms.progressOf(gym).mastery }}%.</p>
+          <p v-else class="locked">Reach {{ gym.unlockAt }}% on {{ routesLabel(gym.chapters) }} to challenge {{ gym.leader }}. Now: {{ gyms.progressOf(gym).mastery }}%.</p>
         </div>
       </template>
-      <p v-else class="locked">Earn the {{ gyms.gyms[index - 1]?.badge }} to open {{ routesLabel(gym) }} and the {{ gym.city }} Gym.</p>
+      <p v-else class="locked">Earn the {{ gyms.gyms[index - 1]?.badge }} to open {{ routesLabel(gym.chapters) }} and the {{ gym.city }} Gym.</p>
     </section>
   </section>
 </template>

@@ -1,6 +1,8 @@
 <script setup lang="ts">
 import { computed, ref } from 'vue';
-import type { Combatant } from '../domain/battle';
+import type { Combatant, Side } from '../domain/battle';
+import { routesLabel } from '../domain/region';
+import Burst from './Burst.vue';
 import { useGymStore, TEAM_SIZE } from './gymStore';
 
 const store = useGymStore();
@@ -9,6 +11,9 @@ const placed = ref<number[]>([]);
 
 const hpPercent = (combatant: Combatant | undefined) => (combatant ? Math.round((100 * combatant.hp) / combatant.maxHp) : 0);
 const hpLevel = (combatant: Combatant | undefined) => (hpPercent(combatant) > 50 ? 'high' : hpPercent(combatant) > 20 ? 'mid' : 'low');
+
+const attacker = computed<Side | undefined>(() => (store.phase === 'result' && store.feedback ? (store.feedback.correct ? 'player' : 'leader') : undefined));
+const motionOf = (side: string) => (attacker.value === undefined ? undefined : attacker.value === side ? 'lunge' : 'hit');
 
 const promptParts = computed(() => store.question?.prompt.split('___') ?? []);
 const sentence = computed(() => placed.value.map(index => store.options[index]).join(' '));
@@ -64,7 +69,7 @@ const unplace = (position: number) => {
 
     <template v-else>
       <div class="arena">
-        <div v-for="side in [{ key: 'leader', combatant: store.leaderActive }, { key: 'player', combatant: store.playerActive }]" :key="side.key" class="fighter" :class="side.key">
+        <div v-for="side in [{ key: 'leader', combatant: store.leaderActive }, { key: 'player', combatant: store.playerActive }]" :key="side.key" class="fighter" :class="[side.key, motionOf(side.key)]">
           <div class="status">
             <span class="name">{{ side.key === 'leader' ? `${store.gym.leader}'s ` : '' }}{{ side.combatant?.entry.name }}</span>
             <span class="hp-bar" role="meter" :aria-valuenow="side.combatant?.hp" aria-valuemin="0" :aria-valuemax="side.combatant?.maxHp" :aria-label="`${side.combatant?.entry.name} HP`">
@@ -72,7 +77,15 @@ const unplace = (position: number) => {
             </span>
             <span class="hp-text">{{ side.combatant?.hp }} / {{ side.combatant?.maxHp }} HP</span>
           </div>
-          <img v-if="side.combatant?.entry.sprite" class="sprite" :src="side.combatant.entry.sprite" :alt="side.combatant.entry.name" width="96" height="96" />
+          <img
+            v-if="side.combatant?.entry.sprite"
+            :key="side.combatant.entry.id"
+            class="sprite"
+            :src="side.combatant.entry.sprite"
+            :alt="side.combatant.entry.name"
+            width="96"
+            height="96"
+          />
         </div>
       </div>
 
@@ -141,14 +154,27 @@ const unplace = (position: number) => {
 
         <button v-if="store.phase === 'result'" id="continue" type="button" class="primary" @click="store.proceed()">Continue</button>
         <template v-else>
-          <p v-if="store.battle?.status === 'won'" class="outcome good">You received the {{ store.gym.badge }}!</p>
-          <p v-if="store.reward" class="reward">
-            <img v-if="store.reward.sprite" :src="store.reward.sprite" alt="" width="96" height="96" />
-            {{ store.gym.leader }} gives you {{ store.reward.name }}!
-          </p>
-          <p v-else class="outcome">You lose nothing. Train on the route and try again!</p>
-          <button id="retry" type="button" class="primary" @click="store.open(store.gym)">Try again</button>
-          <button id="back-to-route" type="button" class="secondary" @click="store.close()">Back to the route</button>
+          <template v-if="store.battle?.status === 'won'">
+            <div class="badge-reveal" aria-hidden="true">
+              <span class="badge-gem"></span>
+              <Burst :delay="0.5" :colors="['#f4c542', '#ffffff', '#6d9bff']" />
+            </div>
+            <p class="outcome good">You received the {{ store.gym.badge }}!</p>
+            <p v-if="store.reward" class="reward">
+              <span class="reward-sprite">
+                <img v-if="store.reward.sprite" :src="store.reward.sprite" alt="" width="96" height="96" />
+                <Burst :delay="1.3" :colors="['#ffffff', '#c7f0ff', '#f4c542']" />
+              </span>
+              {{ store.gym.leader }} gives you {{ store.reward.name }}!
+            </p>
+            <p v-if="store.nextGym" class="unlock-banner">New area open: {{ store.nextGym.city }} · {{ routesLabel(store.nextGym.chapters) }}!</p>
+            <button id="back-to-route" type="button" class="primary" @click="store.close()">Back to the route</button>
+          </template>
+          <template v-else>
+            <p class="outcome">You lose nothing. Train on the route and try again!</p>
+            <button id="retry" type="button" class="primary" @click="store.open(store.gym)">Try again</button>
+            <button id="back-to-route" type="button" class="secondary" @click="store.close()">Back to the route</button>
+          </template>
         </template>
       </div>
     </template>
@@ -291,6 +317,67 @@ const unplace = (position: number) => {
 .sprite {
   width: 112px;
   height: 112px;
+  animation: sent-out 0.45s cubic-bezier(0.3, 1.5, 0.5, 1) both;
+}
+
+/* The attacker lunges towards the other side; the target shakes and blinks as it takes the hit. */
+.fighter.leader.lunge .sprite {
+  animation: lunge-leader 0.4s ease-in-out both;
+}
+
+.fighter.player.lunge .sprite {
+  animation: lunge-player 0.4s ease-in-out both;
+}
+
+.fighter.hit .sprite {
+  animation: take-hit 0.6s steps(6) 0.3s both;
+}
+
+.fighter.hit .hp-bar span {
+  animation: hp-flash 0.6s steps(3) 0.3s both;
+}
+
+@keyframes sent-out {
+  from {
+    transform: scale(0);
+    filter: brightness(6);
+  }
+}
+
+@keyframes lunge-leader {
+  50% {
+    transform: translate(-36px, 24px);
+  }
+}
+
+@keyframes lunge-player {
+  50% {
+    transform: translate(36px, -24px);
+  }
+}
+
+@keyframes take-hit {
+  0%,
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  20%,
+  60% {
+    transform: translateX(-8px);
+    opacity: 0.2;
+  }
+  40%,
+  80% {
+    transform: translateX(8px);
+    opacity: 1;
+  }
+}
+
+@keyframes hp-flash {
+  50% {
+    filter: brightness(2);
+  }
 }
 
 .moves {
@@ -455,8 +542,82 @@ const unplace = (position: number) => {
   font-weight: 700;
 }
 
+.reward-sprite {
+  position: relative;
+  display: inline-flex;
+}
+
 .reward img {
   image-rendering: pixelated;
+  animation: reward-rise 0.8s cubic-bezier(0.3, 1.4, 0.5, 1) 1.1s both;
+}
+
+@keyframes reward-rise {
+  from {
+    transform: translateY(30px) scale(0.3);
+    filter: brightness(8);
+    opacity: 0;
+  }
+}
+
+/* The badge spins in, a light sweeps across it, then the stars burst. */
+.badge-reveal {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  padding: 12px 0;
+}
+
+.badge-gem {
+  position: relative;
+  width: 84px;
+  height: 84px;
+  clip-path: polygon(50% 0, 93% 25%, 93% 75%, 50% 100%, 7% 75%, 7% 25%);
+  background: linear-gradient(135deg, #ffe58a, #f4c542 45%, #c8901c);
+  overflow: hidden;
+  animation: badge-spin 0.9s cubic-bezier(0.3, 1.3, 0.5, 1) both;
+}
+
+.badge-gem::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(110deg, transparent 35%, rgba(255, 255, 255, 0.85) 50%, transparent 65%);
+  animation: shine 0.9s ease-in-out 0.8s both;
+}
+
+@keyframes badge-spin {
+  from {
+    transform: rotateY(720deg) scale(0.2);
+    opacity: 0;
+  }
+}
+
+@keyframes shine {
+  from {
+    transform: translateX(-120%);
+  }
+  to {
+    transform: translateX(120%);
+  }
+}
+
+.unlock-banner {
+  padding: 10px 12px;
+  border: 3px solid var(--frame);
+  border-radius: 8px;
+  background: #f4c542;
+  color: #1b1f2a;
+  font: 11px/1.6 var(--font-pixel);
+  text-align: center;
+  animation: banner-in 0.5s cubic-bezier(0.3, 1.4, 0.5, 1) 2s both;
+}
+
+@keyframes banner-in {
+  from {
+    transform: translateX(-110%);
+    opacity: 0;
+  }
 }
 
 button:disabled {

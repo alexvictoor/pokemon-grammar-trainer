@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest';
 import type { Gym } from './gym';
-import { encounterTable, gymOfChapter, isGymOpen, openChapters } from './region';
+import { encounterTable, gymOfChapter, isGymOpen, openChapters, routesLabel } from './region';
 
 const gym = (id: string, chapters: number[], types: string[]): Gym => ({
   id,
@@ -33,6 +33,16 @@ describe('isGymOpen', () => {
 describe('openChapters', () => {
   it('returns the chapters of every open gym', () => {
     expect(openChapters(gyms, ['boulder'])).toEqual([15, 16, 17, 18]);
+  });
+});
+
+describe('routesLabel', () => {
+  it.each([
+    { chapters: [21], label: 'Route 21' },
+    { chapters: [19, 20], label: 'Routes 19 and 20' },
+    { chapters: [26, 27, 28, 29, 30], label: 'Routes 26 to 30' },
+  ])('names the routes of chapters $chapters', ({ chapters, label }) => {
+    expect(routesLabel(chapters)).toBe(label);
   });
 });
 

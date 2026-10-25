@@ -107,6 +107,8 @@ describe('a gym battle', () => {
     await clickButton(wrapper, 'Continue');
     expect(wrapper.text()).toContain('You received the Cascade Badge!');
     expect(savedGame().badges).toEqual(['cascade']);
+    expect(wrapper.find('button.primary').text()).toBe('Back to the route');
+    expect(wrapper.findAll('button').some(button => button.text() === 'Try again')).toBe(false);
   });
 
   it('gives the gym’s reward Pokémon on the first win', async () => {
@@ -132,6 +134,8 @@ describe('a gym battle', () => {
     await clickButton(wrapper, 'Continue');
 
     expect(wrapper.text()).not.toContain('gives you');
+    expect(wrapper.text()).toContain('You received the Cascade Badge!');
+    expect(wrapper.text()).not.toContain('You lose nothing');
     expect(savedGame().caught).toEqual({ 25: 1, 130: 1 });
   });
 

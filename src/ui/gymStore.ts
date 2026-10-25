@@ -44,6 +44,10 @@ export const useGymStore = defineStore('gym', () => {
   const playerActive = computed(() => battle.value?.player[battle.value.playerActive]);
   const leaderActive = computed(() => battle.value?.leader[battle.value.leaderActive]);
   const moves = computed(() => (playerActive.value ? movesFor(playerActive.value.entry) : []));
+  const nextGym = computed(() => {
+    const index = deps.gyms.findIndex(candidate => candidate.id === gym.value?.id);
+    return index === -1 ? undefined : deps.gyms[index + 1];
+  });
   const progressOf = (target: Gym) => gymProgress(target, game.routeQuestions, game.game.cards);
 
   const open = (target: Gym) => {
@@ -126,6 +130,7 @@ export const useGymStore = defineStore('gym', () => {
     leaderActive,
     moves,
     gyms: deps.gyms,
+    nextGym,
     progressOf,
     open,
     toggle,

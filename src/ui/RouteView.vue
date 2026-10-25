@@ -6,12 +6,16 @@ import { useGameStore } from './gameStore';
 const store = useGameStore();
 const chapter = computed(() => store.route ?? 0);
 const rules = computed(() => store.rules.filter(rule => rule.chapter === chapter.value));
+const newChapter = computed(() => !store.routeQuestions.some(question => question.chapter === chapter.value && store.game.cards[question.id]));
 </script>
 
 <template>
-  <section class="route panel" aria-labelledby="route-title">
-    <p class="eyebrow">Route {{ chapter }} · Chapter {{ chapter }}</p>
-    <h2 id="route-title" class="pixel">{{ CHAPTER_TITLES[chapter] }}</h2>
+  <section :key="chapter" class="route panel" aria-labelledby="route-title">
+    <div class="location-sign">
+      <p class="eyebrow">Route {{ chapter }} · Chapter {{ chapter }}</p>
+      <h2 id="route-title" class="pixel">{{ CHAPTER_TITLES[chapter] }}</h2>
+      <span v-if="newChapter" class="new-chapter">New chapter!</span>
+    </div>
     <p class="summary">
       Caught {{ store.caughtCount }} / {{ store.pokemon.length }}
       <span class="streak">Streak {{ store.game.streak }}</span>
@@ -37,6 +41,54 @@ const rules = computed(() => store.rules.filter(rule => rule.chapter === chapter
   display: flex;
   flex-direction: column;
   gap: 12px;
+}
+
+/* Like the games' location signs: the board drops in, then the label pops. */
+.location-sign {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 12px 14px;
+  margin: -4px -4px 0;
+  border: 3px solid var(--frame);
+  border-radius: 8px;
+  background: var(--bg);
+  animation: sign-drop 0.55s cubic-bezier(0.3, 1.4, 0.5, 1) both;
+}
+
+.new-chapter {
+  position: absolute;
+  top: -12px;
+  right: 10px;
+  padding: 3px 10px;
+  border: 2px solid var(--frame);
+  border-radius: 999px;
+  background: #f4c542;
+  color: #1b1f2a;
+  font: 10px/1.4 var(--font-pixel);
+  animation:
+    pop-in 0.4s cubic-bezier(0.3, 1.6, 0.5, 1) 0.5s both,
+    glow 1.6s ease-in-out 1s infinite;
+}
+
+@keyframes sign-drop {
+  from {
+    transform: translateY(-40px) rotate(-3deg);
+    opacity: 0;
+  }
+}
+
+@keyframes pop-in {
+  from {
+    transform: scale(0);
+  }
+}
+
+@keyframes glow {
+  50% {
+    box-shadow: 0 0 12px #f4c542;
+  }
 }
 
 .eyebrow {

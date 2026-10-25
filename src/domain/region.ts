@@ -23,7 +23,15 @@ export const CHAPTER_TITLES: Record<number, string> = {
   33: 'Relative clauses',
 };
 
-export const isGymOpen = (gyms: Gym[], index: number, badges: string[]): boolean => {
+export const routesLabel = (chapters: number[]): string => {
+  const [first] = chapters;
+  const last = chapters.at(-1);
+  if (chapters.length === 1) return `Route ${first}`;
+  if (chapters.length === 2) return `Routes ${first} and ${last}`;
+  return `Routes ${first} to ${last}`;
+};
+
+export const isGymOpen =(gyms: Gym[], index: number, badges: string[]): boolean => {
   const previous = gyms[index - 1];
   return index === 0 || (previous !== undefined && badges.includes(previous.id));
 };
