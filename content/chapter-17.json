@@ -1,0 +1,482 @@
+[
+  {
+    "id": "ch17-third-person-001",
+    "chapter": 17,
+    "rule": "simple-present.third-person",
+    "difficulty": 1,
+    "kind": "choice",
+    "prompt": "Misty ___ her Pokémon in the pool every morning.",
+    "answers": [
+      "washes"
+    ],
+    "distractors": [
+      "washs",
+      "wash"
+    ],
+    "explanation": "Avec he / she / it, le verbe prend un -s au présent simple. Après -sh, -ch, -ss, -x ou -o, on ajoute -es : wash → washes."
+  },
+  {
+    "id": "ch17-third-person-002",
+    "chapter": 17,
+    "rule": "simple-present.third-person",
+    "difficulty": 1,
+    "kind": "choice",
+    "prompt": "Professor Oak ___ a big laboratory in Pallet Town.",
+    "answers": [
+      "has"
+    ],
+    "distractors": [
+      "haves",
+      "have"
+    ],
+    "explanation": "À la 3e personne du singulier, have devient has. La forme « haves » n'existe pas."
+  },
+  {
+    "id": "ch17-third-person-003",
+    "chapter": 17,
+    "rule": "simple-present.third-person",
+    "difficulty": 2,
+    "kind": "choice",
+    "prompt": "Every evening, my Pidgeotto ___ over the forest before it comes home.",
+    "answers": [
+      "flies"
+    ],
+    "distractors": [
+      "flys",
+      "fly"
+    ],
+    "explanation": "Pidgeotto = it, donc le verbe prend un -s. Après consonne + y, le y devient -ies : fly → flies."
+  },
+  {
+    "id": "ch17-third-person-004",
+    "chapter": 17,
+    "rule": "simple-present.third-person",
+    "difficulty": 2,
+    "kind": "choice",
+    "prompt": "Ash usually ___ to bed early before a Gym battle.",
+    "answers": [
+      "goes"
+    ],
+    "distractors": [
+      "gos",
+      "go"
+    ],
+    "explanation": "Ash = he, donc le verbe prend la marque de la 3e personne. Go se termine par -o, on ajoute -es : go → goes."
+  },
+  {
+    "id": "ch17-third-person-005",
+    "chapter": 17,
+    "rule": "simple-present.third-person",
+    "difficulty": 3,
+    "kind": "choice",
+    "prompt": "When it battles, Squirtle ___ water from its mouth.",
+    "answers": [
+      "sprays"
+    ],
+    "distractors": [
+      "spraies",
+      "spray"
+    ],
+    "explanation": "Squirtle = it, donc -s. Le piège : après voyelle + y (ay, ey, oy), on garde le y et on ajoute seulement -s : spray → sprays. Le -ies ne s'emploie qu'après consonne + y (fly → flies)."
+  },
+  {
+    "id": "ch17-do-does-001",
+    "chapter": 17,
+    "rule": "simple-present.do-does",
+    "difficulty": 1,
+    "kind": "choice",
+    "prompt": "Pikachu ___ like its Poké Ball.",
+    "answers": [
+      "doesn't"
+    ],
+    "distractors": [
+      "don't",
+      "isn't"
+    ],
+    "explanation": "À la forme négative du présent simple, on emploie does not (doesn't) + base verbale avec he / she / it. Isn't ne peut pas être suivi de la base verbale like."
+  },
+  {
+    "id": "ch17-do-does-002",
+    "chapter": 17,
+    "rule": "simple-present.do-does",
+    "difficulty": 1,
+    "kind": "choice",
+    "prompt": "___ you train your Pokémon every day?",
+    "answers": [
+      "Do"
+    ],
+    "distractors": [
+      "Does",
+      "Are"
+    ],
+    "explanation": "Question au présent simple : do + sujet + base verbale. Avec you, c'est do ; does est réservé à he / she / it. « Are you train » est impossible : are se construit avec V-ing."
+  },
+  {
+    "id": "ch17-do-does-003",
+    "chapter": 17,
+    "rule": "simple-present.do-does",
+    "difficulty": 2,
+    "kind": "choice",
+    "prompt": "Where ___ Professor Oak live?",
+    "answers": [
+      "does"
+    ],
+    "distractors": [
+      "do",
+      "is"
+    ],
+    "explanation": "Question au présent simple avec he : mot interrogatif + does + sujet + base verbale (Where does he live?). « Where is he live? » est un mélange fautif de be et du présent simple."
+  },
+  {
+    "id": "ch17-do-does-004",
+    "chapter": 17,
+    "rule": "simple-present.do-does",
+    "difficulty": 2,
+    "kind": "choice",
+    "prompt": "My Snorlax doesn't ___ up before noon.",
+    "answers": [
+      "wake"
+    ],
+    "distractors": [
+      "wakes",
+      "woke"
+    ],
+    "explanation": "Après doesn't, le verbe est à la base verbale, sans -s : la marque de la 3e personne est déjà portée par does. On ne dit donc pas « doesn't wakes »."
+  },
+  {
+    "id": "ch17-do-does-005",
+    "chapter": 17,
+    "rule": "simple-present.do-does",
+    "difficulty": 3,
+    "kind": "choice",
+    "prompt": "Does your Eevee ___ to the Pokémon Center every week?",
+    "answers": [
+      "go"
+    ],
+    "distractors": [
+      "goes",
+      "going"
+    ],
+    "explanation": "Dans une question, does porte déjà la marque de la 3e personne : le verbe reste à la base verbale (Does it go…?). « Does it goes » marque deux fois la 3e personne."
+  },
+  {
+    "id": "ch17-habits-001",
+    "chapter": 17,
+    "rule": "simple-present.habits",
+    "difficulty": 1,
+    "kind": "choice",
+    "prompt": "Brock ___ for his friends. He loves it!",
+    "answers": [
+      "always cooks"
+    ],
+    "distractors": [
+      "cooks always",
+      "always is cooking"
+    ],
+    "explanation": "Une habitude s'exprime au présent simple. L'adverbe de fréquence (always, often, never…) se place devant le verbe conjugué : he always cooks, et non « he cooks always » comme en français."
+  },
+  {
+    "id": "ch17-habits-002",
+    "chapter": 17,
+    "rule": "simple-present.habits",
+    "difficulty": 3,
+    "kind": "choice",
+    "prompt": "My sister ___ late for her Pokémon training.",
+    "answers": [
+      "is never"
+    ],
+    "distractors": [
+      "never is",
+      "does never be"
+    ],
+    "explanation": "L'adverbe de fréquence se place devant le verbe, sauf avec be : il vient alors après (she is never late). Be ne se conjugue pas avec does."
+  },
+  {
+    "id": "ch17-habits-003",
+    "chapter": 17,
+    "rule": "simple-present.habits",
+    "difficulty": 2,
+    "kind": "choice",
+    "prompt": "I usually ___ my Pokémon before breakfast.",
+    "answers": [
+      "feed"
+    ],
+    "distractors": [
+      "am feeding",
+      "feeds"
+    ],
+    "explanation": "Usually exprime une habitude : on emploie le présent simple (I feed). « Am feeding » décrirait une action en cours, pas une habitude."
+  },
+  {
+    "id": "ch17-habits-004",
+    "chapter": 17,
+    "rule": "simple-present.habits",
+    "difficulty": 3,
+    "kind": "choice",
+    "prompt": "Poor Psyduck! It ___ headaches.",
+    "answers": [
+      "often has"
+    ],
+    "distractors": [
+      "has often",
+      "often have"
+    ],
+    "explanation": "Often se place devant le verbe : it often has. Ici, have est un verbe ordinaire (« avoir mal »), pas un auxiliaire : l'adverbe ne passe donc pas après lui, contrairement au français « il a souvent »."
+  },
+  {
+    "id": "ch17-habits-005",
+    "chapter": 17,
+    "rule": "simple-present.habits",
+    "difficulty": 3,
+    "kind": "choice",
+    "prompt": "\"___ do you go to the Safari Zone?\" \"Twice a month.\"",
+    "answers": [
+      "How often"
+    ],
+    "distractors": [
+      "How much",
+      "How many"
+    ],
+    "explanation": "La réponse (twice a month) est une fréquence : on la demande avec How often…? (« À quelle fréquence… ? ») suivi de do / does. How much et How many portent sur une quantité."
+  },
+  {
+    "id": "ch17-truths-001",
+    "chapter": 17,
+    "rule": "simple-present.general-truths",
+    "difficulty": 1,
+    "kind": "choice",
+    "prompt": "It's her job: Nurse Joy ___ at the Pokémon Center.",
+    "answers": [
+      "works"
+    ],
+    "distractors": [
+      "is working",
+      "work"
+    ],
+    "explanation": "Pour donner une caractéristique, comme une profession, on emploie le présent simple : she works. « Is working » décrirait une activité en cours ou temporaire."
+  },
+  {
+    "id": "ch17-truths-002",
+    "chapter": 17,
+    "rule": "simple-present.general-truths",
+    "difficulty": 1,
+    "kind": "choice",
+    "prompt": "Like all Pikachu, my Pikachu ___ electricity in its red cheeks.",
+    "answers": [
+      "stores"
+    ],
+    "distractors": [
+      "is storing",
+      "store"
+    ],
+    "explanation": "C'est une caractéristique de tous les Pikachu, toujours vraie : présent simple. Pikachu = it, donc stores."
+  },
+  {
+    "id": "ch17-truths-003",
+    "chapter": 17,
+    "rule": "simple-present.general-truths",
+    "difficulty": 2,
+    "kind": "choice",
+    "prompt": "In the Pokémon world, Eggs ___ after a long walk.",
+    "answers": [
+      "hatch"
+    ],
+    "distractors": [
+      "are hatching",
+      "hatches"
+    ],
+    "explanation": "Une vérité générale, vraie en tout temps, s'exprime au présent simple. Le sujet Eggs est au pluriel, donc pas de -s : they hatch."
+  },
+  {
+    "id": "ch17-truths-004",
+    "chapter": 17,
+    "rule": "simple-present.general-truths",
+    "difficulty": 2,
+    "kind": "choice",
+    "prompt": "In Pokémon battles, Fire ___ Grass.",
+    "answers": [
+      "beats"
+    ],
+    "distractors": [
+      "is beating",
+      "beating"
+    ],
+    "explanation": "C'est une règle toujours vraie du jeu : présent simple, fire beats grass. « Is beating » décrirait un combat précis en cours."
+  },
+  {
+    "id": "ch17-truths-005",
+    "chapter": 17,
+    "rule": "simple-present.general-truths",
+    "difficulty": 3,
+    "kind": "choice",
+    "prompt": "Electric-type moves ___ Ground-type Pokémon.",
+    "answers": [
+      "don't affect"
+    ],
+    "distractors": [
+      "aren't affecting",
+      "doesn't affect"
+    ],
+    "explanation": "Vérité générale du jeu : présent simple. À la forme négative, avec un sujet pluriel (moves = they), on emploie don't + base verbale."
+  },
+  {
+    "id": "ch17-states-001",
+    "chapter": 17,
+    "rule": "simple-present.state-verbs",
+    "difficulty": 1,
+    "kind": "choice",
+    "prompt": "I ___ the answer: Pikachu is an Electric type!",
+    "answers": [
+      "know"
+    ],
+    "distractors": [
+      "am knowing",
+      "knows"
+    ],
+    "explanation": "Know est un verbe de connaissance, qui décrit un état : il s'emploie au présent simple, pas en be + V-ing."
+  },
+  {
+    "id": "ch17-states-002",
+    "chapter": 17,
+    "rule": "simple-present.state-verbs",
+    "difficulty": 1,
+    "kind": "choice",
+    "prompt": "Misty ___ Water-type Pokémon.",
+    "answers": [
+      "loves"
+    ],
+    "distractors": [
+      "is loving",
+      "love"
+    ],
+    "explanation": "Love est un verbe de goût, comme like ou hate : il décrit un état et se met au présent simple. Misty = she, donc loves."
+  },
+  {
+    "id": "ch17-states-003",
+    "chapter": 17,
+    "rule": "simple-present.state-verbs",
+    "difficulty": 2,
+    "kind": "choice",
+    "prompt": "I ___ that Gengar is the scariest Ghost-type Pokémon.",
+    "answers": [
+      "believe"
+    ],
+    "distractors": [
+      "am believing",
+      "believes"
+    ],
+    "explanation": "Believe exprime une opinion : c'est un verbe d'état, employé au présent simple. On ne dit pas « I am believing »."
+  },
+  {
+    "id": "ch17-states-004",
+    "chapter": 17,
+    "rule": "simple-present.state-verbs",
+    "difficulty": 2,
+    "kind": "choice",
+    "prompt": "\"Is this Poké Ball yours?\" \"No, it ___ to Misty.\"",
+    "answers": [
+      "belongs"
+    ],
+    "distractors": [
+      "is belonging",
+      "belong"
+    ],
+    "explanation": "Belong (« appartenir ») exprime la possession : c'est un verbe d'état, employé au présent simple et non en be + V-ing. It → belongs."
+  },
+  {
+    "id": "ch17-states-005",
+    "chapter": 17,
+    "rule": "simple-present.state-verbs",
+    "difficulty": 3,
+    "kind": "choice",
+    "prompt": "Jessie and James ___ Pikachu, so they try to steal it again and again.",
+    "answers": [
+      "want"
+    ],
+    "distractors": [
+      "are wanting",
+      "wants"
+    ],
+    "explanation": "Want exprime la volonté : c'est un verbe d'état, au présent simple. Le sujet est pluriel (Jessie and James = they), donc pas de -s."
+  },
+  {
+    "id": "ch17-timetable-001",
+    "chapter": 17,
+    "rule": "simple-present.frequency-adverbs",
+    "difficulty": 1,
+    "kind": "choice",
+    "prompt": "Misty ___ her Pokémon before a battle.",
+    "answers": [
+      "always checks"
+    ],
+    "distractors": [
+      "checks always",
+      "always check"
+    ],
+    "explanation": "L'adverbe de fréquence always se place devant le verbe : she always checks, et non « checks always » comme en français (« elle vérifie toujours »). Misty = she, donc -s."
+  },
+  {
+    "id": "ch17-timetable-002",
+    "chapter": 17,
+    "rule": "simple-present.frequency-adverbs",
+    "difficulty": 2,
+    "kind": "choice",
+    "prompt": "Pikachu hates its Poké Ball, so it ___ inside it.",
+    "answers": [
+      "never stays"
+    ],
+    "distractors": [
+      "stays never",
+      "never is staying"
+    ],
+    "explanation": "Never se place devant le verbe : it never stays. Le français place « jamais » après le verbe (« il ne reste jamais »), d'où le piège « stays never »."
+  },
+  {
+    "id": "ch17-timetable-003",
+    "chapter": 17,
+    "rule": "simple-present.frequency-adverbs",
+    "difficulty": 3,
+    "kind": "choice",
+    "prompt": "My cousin ___ her Pokémon to school.",
+    "answers": [
+      "doesn't often take"
+    ],
+    "distractors": [
+      "doesn't take often",
+      "often doesn't takes"
+    ],
+    "explanation": "À la forme négative, often se place ici après doesn't et devant le verbe : she doesn't often take. On ne sépare pas le verbe de son complément (« take often her Pokémon »), et après doesn't le verbe reste à la base verbale."
+  },
+  {
+    "id": "ch17-timetable-004",
+    "chapter": 17,
+    "rule": "simple-present.frequency-adverbs",
+    "difficulty": 2,
+    "kind": "choice",
+    "prompt": "I ___ my Pokémon to the Pokémon Center on Sundays.",
+    "answers": [
+      "sometimes take"
+    ],
+    "distractors": [
+      "take sometimes",
+      "am sometimes taking"
+    ],
+    "explanation": "Sometimes se place ici devant le verbe : I sometimes take. « Take sometimes my Pokémon » sépare le verbe de son complément, calque du français « j'emmène parfois »."
+  },
+  {
+    "id": "ch17-timetable-005",
+    "chapter": 17,
+    "rule": "simple-present.frequency-adverbs",
+    "difficulty": 3,
+    "kind": "choice",
+    "prompt": "Psyduck ___ its psychic powers.",
+    "answers": [
+      "hardly ever uses"
+    ],
+    "distractors": [
+      "uses hardly ever",
+      "hardly ever is using"
+    ],
+    "explanation": "Hardly ever (« presque jamais ») se place, comme never, devant le verbe : it hardly ever uses. Une habitude s'exprime au présent simple, avec -s pour it."
+  }
+]

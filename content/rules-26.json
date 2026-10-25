@@ -1,0 +1,7 @@
+[
+  { "id": "modals.third-person", "chapter": 26, "label": "No -s in the third person: he can, she must" },
+  { "id": "modals.base-verb", "chapter": 26, "label": "Modal + base verb: no to, no -ing, no past form" },
+  { "id": "modals.questions-negatives", "chapter": 26, "label": "Questions and negatives without do: Can you…? I can't, mustn't, won't" },
+  { "id": "modals.short-answers", "chapter": 26, "label": "Short answers and question tags: Yes, it can / can't it?" },
+  { "id": "modals.substitutes", "chapter": 26, "label": "Substitutes: will be able to, had to, be allowed to (never two modals)" }
+]

@@ -1,0 +1,110 @@
+[
+  {
+    "id": "ch27-gym-can-001",
+    "chapter": 27,
+    "rule": "ability.can-present",
+    "difficulty": 1,
+    "kind": "typed",
+    "prompt": "Shh! I ___ (can / hear) a wild Pokémon behind that bush.",
+    "answers": ["can hear"],
+    "explanation": "Avec un verbe de perception (hear, see, feel…), l'anglais emploie très souvent can : I can hear (« j'entends »). Can + base verbale, sans to."
+  },
+  {
+    "id": "ch27-gym-could-001",
+    "chapter": 27,
+    "rule": "ability.could-past",
+    "difficulty": 2,
+    "kind": "typed",
+    "prompt": "When I was six, I ___ (can / not) read the names of the Pokémon.",
+    "answers": ["couldn't", "could not"],
+    "explanation": "When I was six : une incapacité générale dans le passé, donc le passé de can, could not (couldn't), sans did."
+  },
+  {
+    "id": "ch27-gym-managed-001",
+    "chapter": 27,
+    "rule": "ability.managed-to",
+    "difficulty": 2,
+    "kind": "typed",
+    "prompt": "The Abra kept teleporting, but in the end my brother ___ (manage / catch) it.",
+    "answers": ["managed to catch"],
+    "explanation": "Une réussite ponctuelle dans le passé, après des efforts : managed to + base verbale (« il a réussi à l'attraper »). Manage est un verbe régulier : managed."
+  },
+  {
+    "id": "ch27-gym-able-001",
+    "chapter": 27,
+    "rule": "ability.be-able-to",
+    "difficulty": 2,
+    "kind": "typed",
+    "prompt": "Don't worry: Nurse Joy says your Pikachu ___ (be able to / battle) again next week.",
+    "answers": ["will be able to battle", "is going to be able to battle"],
+    "explanation": "Next week : futur. Can n'a pas de futur, donc on emploie be able to après will : will be able to battle (« il pourra combattre »)."
+  },
+  {
+    "id": "ch27-gym-able-002",
+    "chapter": 27,
+    "rule": "ability.be-able-to",
+    "difficulty": 3,
+    "kind": "typed",
+    "prompt": "My Pidgeotto ___ (not / be able to / fly) since it hurt its wing last week.",
+    "answers": ["hasn't been able to fly", "has not been able to fly"],
+    "explanation": "Since + une situation qui dure encore : present perfect. Can n'a pas de participe passé, donc has not (hasn't) been able to fly (« il ne peut pas voler depuis… »)."
+  },
+  {
+    "id": "ch27-gym-other-001",
+    "chapter": 27,
+    "rule": "ability.other-structures",
+    "difficulty": 3,
+    "kind": "typed",
+    "prompt": "Jessie and James have never succeeded in ___ (steal) Pikachu.",
+    "answers": ["stealing"],
+    "explanation": "Succeed in + V-ing : in est une préposition, donc le verbe prend la forme en -ing (succeeded in stealing, « réussir à voler »)."
+  },
+  {
+    "id": "ch27-gym-order-managed-001",
+    "chapter": 27,
+    "rule": "ability.managed-to",
+    "difficulty": 2,
+    "kind": "reorder",
+    "prompt": "Ash a réussi à attraper le Roucoups.",
+    "tiles": ["Ash", "managed", "to", "catch", "the", "Pidgeotto."],
+    "decoys": ["could", "catching"],
+    "answers": ["Ash managed to catch the Pidgeotto."],
+    "explanation": "« Réussir à » pour une réussite ponctuelle dans le passé : managed to + base verbale. Could décrit une capacité générale passée et ne traduit pas « a réussi à »."
+  },
+  {
+    "id": "ch27-gym-order-could-001",
+    "chapter": 27,
+    "rule": "ability.could-past",
+    "difficulty": 2,
+    "kind": "reorder",
+    "prompt": "Quand il avait six ans, mon grand-père savait nager.",
+    "tiles": ["My", "grandfather", "could", "swim", "when", "he", "was", "six."],
+    "decoys": ["can", "knew"],
+    "answers": ["My grandfather could swim when he was six."],
+    "explanation": "« Savoir faire » dans le passé (une capacité générale) : could + base verbale. Know ne traduit pas « savoir » suivi d'un verbe : « knew swim » est impossible."
+  },
+  {
+    "id": "ch27-gym-order-able-001",
+    "chapter": 27,
+    "rule": "ability.be-able-to",
+    "difficulty": 3,
+    "kind": "reorder",
+    "prompt": "Mon Rondoudou ne peut pas chanter depuis lundi.",
+    "tiles": ["My", "Jigglypuff", "hasn't", "been", "able", "to", "sing", "since", "Monday."],
+    "decoys": ["can't", "could"],
+    "answers": ["My Jigglypuff hasn't been able to sing since Monday."],
+    "explanation": "« Depuis » + une situation qui dure encore : present perfect, là où le français emploie le présent. Can n'a pas de participe passé : hasn't been able to sing."
+  },
+  {
+    "id": "ch27-gym-order-other-001",
+    "chapter": 27,
+    "rule": "ability.other-structures",
+    "difficulty": 3,
+    "kind": "reorder",
+    "prompt": "Mon Ronflex est incapable de rester éveillé.",
+    "tiles": ["My", "Snorlax", "is", "incapable", "of", "staying", "awake."],
+    "decoys": ["to", "stay"],
+    "answers": ["My Snorlax is incapable of staying awake."],
+    "explanation": "« Être incapable de faire » : be incapable of + V-ing. Of est une préposition, donc staying, pas « incapable to stay »."
+  }
+]

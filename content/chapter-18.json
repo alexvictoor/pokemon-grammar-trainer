@@ -1,0 +1,482 @@
+[
+  {
+    "id": "ch18-form-001",
+    "chapter": 18,
+    "rule": "present-continuous.form",
+    "difficulty": 1,
+    "kind": "choice",
+    "prompt": "Look! Pikachu ___ with Togepi.",
+    "answers": [
+      "is playing"
+    ],
+    "distractors": [
+      "are playing",
+      "playing"
+    ],
+    "explanation": "Be + V-ing : l'auxiliaire be est conjugué au présent. Avec he / she / it, c'est is : Pikachu is playing. Sans be, « Pikachu playing » n'est pas une phrase complète."
+  },
+  {
+    "id": "ch18-form-002",
+    "chapter": 18,
+    "rule": "present-continuous.form",
+    "difficulty": 3,
+    "kind": "choice",
+    "prompt": "We ___ our Pokémon right now; we're watching a battle on TV.",
+    "answers": [
+      "aren't training"
+    ],
+    "distractors": [
+      "don't training",
+      "aren't train"
+    ],
+    "explanation": "Forme négative de be + V-ing : are not (aren't) + verbe en -ing. On ne mélange pas don't avec -ing, et le verbe garde toujours sa terminaison -ing."
+  },
+  {
+    "id": "ch18-form-003",
+    "chapter": 18,
+    "rule": "present-continuous.form",
+    "difficulty": 1,
+    "kind": "choice",
+    "prompt": "___ you listening to me, Ash?",
+    "answers": [
+      "Are"
+    ],
+    "distractors": [
+      "Do",
+      "Is"
+    ],
+    "explanation": "Question en be + V-ing : be passe devant le sujet (Are you listening?). Avec you, c'est are. Do ne s'emploie pas avec un verbe en -ing."
+  },
+  {
+    "id": "ch18-form-004",
+    "chapter": 18,
+    "rule": "present-continuous.form",
+    "difficulty": 1,
+    "kind": "choice",
+    "prompt": "I ___ for my Squirtle. Have you seen it?",
+    "answers": [
+      "am looking"
+    ],
+    "distractors": [
+      "am look",
+      "looking"
+    ],
+    "explanation": "Be + V-ing : I am (I'm) + verbe en -ing. Il faut les deux éléments, l'auxiliaire am et la terminaison -ing."
+  },
+  {
+    "id": "ch18-form-005",
+    "chapter": 18,
+    "rule": "present-continuous.form",
+    "difficulty": 2,
+    "kind": "choice",
+    "prompt": "What ___ Brock cooking? It smells great!",
+    "answers": [
+      "is"
+    ],
+    "distractors": [
+      "does",
+      "are"
+    ],
+    "explanation": "Question en be + V-ing : mot interrogatif + is + sujet + V-ing. Brock = he, donc is. Does ne s'emploie pas avec un verbe en -ing."
+  },
+  {
+    "id": "ch18-ing-spelling-001",
+    "chapter": 18,
+    "rule": "present-continuous.ing-spelling",
+    "difficulty": 1,
+    "kind": "choice",
+    "prompt": "Look! Ash is ___ after Team Rocket's balloon.",
+    "answers": [
+      "running"
+    ],
+    "distractors": [
+      "runing",
+      "runs"
+    ],
+    "explanation": "Run se termine par une voyelle unique suivie d'une consonne unique : on double la consonne avant -ing (running). Après is, il faut la forme en -ing, pas runs."
+  },
+  {
+    "id": "ch18-ing-spelling-002",
+    "chapter": 18,
+    "rule": "present-continuous.ing-spelling",
+    "difficulty": 1,
+    "kind": "choice",
+    "prompt": "Misty is ___ in the lake with her Staryu.",
+    "answers": [
+      "swimming"
+    ],
+    "distractors": [
+      "swiming",
+      "swimeing"
+    ],
+    "explanation": "Swim se termine par une voyelle unique (i) suivie d'une consonne unique (m) : on double le m avant -ing, swimming."
+  },
+  {
+    "id": "ch18-ing-spelling-003",
+    "chapter": 18,
+    "rule": "present-continuous.ing-spelling",
+    "difficulty": 2,
+    "kind": "choice",
+    "prompt": "Professor Oak is ___ a letter to Ash's mother.",
+    "answers": [
+      "writing"
+    ],
+    "distractors": [
+      "writting",
+      "writeing"
+    ],
+    "explanation": "Write se termine par un e muet, qui disparaît devant -ing : writing. On ne double pas le t, car write ne finit pas par voyelle + consonne."
+  },
+  {
+    "id": "ch18-ing-spelling-004",
+    "chapter": 18,
+    "rule": "present-continuous.ing-spelling",
+    "difficulty": 2,
+    "kind": "choice",
+    "prompt": "Brock is ___ sandwiches for everyone.",
+    "answers": [
+      "making"
+    ],
+    "distractors": [
+      "makeing",
+      "makking"
+    ],
+    "explanation": "Make se termine par un e muet : on le supprime devant -ing (making). La consonne k ne se double pas."
+  },
+  {
+    "id": "ch18-ing-spelling-005",
+    "chapter": 18,
+    "rule": "present-continuous.ing-spelling",
+    "difficulty": 3,
+    "kind": "choice",
+    "prompt": "Take your seats, everyone! The final battle is ___!",
+    "answers": [
+      "beginning"
+    ],
+    "distractors": [
+      "begining",
+      "begineing"
+    ],
+    "explanation": "Begin se termine par une voyelle unique (i) suivie d'une consonne unique (n) : on double le n avant -ing, beginning."
+  },
+  {
+    "id": "ch18-now-001",
+    "chapter": 18,
+    "rule": "present-continuous.now",
+    "difficulty": 1,
+    "kind": "choice",
+    "prompt": "Look! A wild Pidgey ___ over the lake.",
+    "answers": [
+      "is flying"
+    ],
+    "distractors": [
+      "flies",
+      "fly"
+    ],
+    "explanation": "Look! annonce une action que l'on voit se dérouler au moment où l'on parle : be + V-ing. Le présent simple (flies) exprimerait une habitude."
+  },
+  {
+    "id": "ch18-now-002",
+    "chapter": 18,
+    "rule": "present-continuous.now",
+    "difficulty": 1,
+    "kind": "choice",
+    "prompt": "Be quiet, please! Professor Oak ___ on the phone right now.",
+    "answers": [
+      "is talking"
+    ],
+    "distractors": [
+      "talks",
+      "talk"
+    ],
+    "explanation": "Right now : l'action est en cours au moment où l'on parle, donc be + V-ing. Le présent simple français (« il parle ») ne se calque pas."
+  },
+  {
+    "id": "ch18-now-003",
+    "chapter": 18,
+    "rule": "present-continuous.now",
+    "difficulty": 2,
+    "kind": "choice",
+    "prompt": "\"Where's Ash?\" \"He ___ against Gary in the garden at the moment.\"",
+    "answers": [
+      "is battling"
+    ],
+    "distractors": [
+      "battles",
+      "battle"
+    ],
+    "explanation": "At the moment : l'action se déroule maintenant, donc be + V-ing (he is battling). Battles exprimerait une habitude."
+  },
+  {
+    "id": "ch18-now-004",
+    "chapter": 18,
+    "rule": "present-continuous.now",
+    "difficulty": 2,
+    "kind": "choice",
+    "prompt": "Listen! Somebody ___ at the door of the Pokémon Center.",
+    "answers": [
+      "is knocking"
+    ],
+    "distractors": [
+      "knocks",
+      "knock"
+    ],
+    "explanation": "Listen! signale une action en cours que l'on entend en ce moment : be + V-ing. Le présent simple ne décrit pas ce qui se passe sous nos yeux."
+  },
+  {
+    "id": "ch18-now-005",
+    "chapter": 18,
+    "rule": "present-continuous.now",
+    "difficulty": 3,
+    "kind": "choice",
+    "prompt": "Can you call back later? Ash ___ a shower.",
+    "answers": [
+      "is having"
+    ],
+    "distractors": [
+      "has",
+      "have"
+    ],
+    "explanation": "Ash ne peut pas répondre parce qu'il est en train de se doucher : action en cours, be + V-ing. Have est ici un verbe d'action (have a shower), il accepte donc -ing, contrairement à have « posséder »."
+  },
+  {
+    "id": "ch18-temporary-001",
+    "chapter": 18,
+    "rule": "present-continuous.temporary",
+    "difficulty": 2,
+    "kind": "choice",
+    "prompt": "I usually travel with Pikachu, but this week it ___ at Professor Oak's lab.",
+    "answers": [
+      "is staying"
+    ],
+    "distractors": [
+      "stays",
+      "stay"
+    ],
+    "explanation": "This week marque une situation temporaire, opposée à l'habitude (usually travel) : be + V-ing, it is staying."
+  },
+  {
+    "id": "ch18-temporary-002",
+    "chapter": 18,
+    "rule": "present-continuous.temporary",
+    "difficulty": 2,
+    "kind": "choice",
+    "prompt": "My cousin ___ at the Pokémon Center this summer, but she wants to be a Gym Leader.",
+    "answers": [
+      "is working"
+    ],
+    "distractors": [
+      "works",
+      "work"
+    ],
+    "explanation": "This summer : c'est un travail temporaire, pas sa profession. On emploie be + V-ing. Works présenterait ce travail comme permanent."
+  },
+  {
+    "id": "ch18-temporary-003",
+    "chapter": 18,
+    "rule": "present-continuous.temporary",
+    "difficulty": 3,
+    "kind": "choice",
+    "prompt": "We ___ in a hotel in Saffron City until our new house is ready.",
+    "answers": [
+      "are living"
+    ],
+    "distractors": [
+      "live",
+      "lives"
+    ],
+    "explanation": "Until our new house is ready : la situation est temporaire, elle va prendre fin. On emploie be + V-ing. Le présent simple (we live) décrirait une situation durable."
+  },
+  {
+    "id": "ch18-temporary-004",
+    "chapter": 18,
+    "rule": "present-continuous.temporary",
+    "difficulty": 2,
+    "kind": "choice",
+    "prompt": "Ash and his Pokémon ___ very hard at the moment because the Pokémon League starts next week.",
+    "answers": [
+      "are training"
+    ],
+    "distractors": [
+      "train",
+      "trains"
+    ],
+    "explanation": "At the moment : c'est une période d'entraînement intensif, limitée dans le temps. On emploie be + V-ing, avec are pour un sujet pluriel."
+  },
+  {
+    "id": "ch18-temporary-005",
+    "chapter": 18,
+    "rule": "present-continuous.temporary",
+    "difficulty": 3,
+    "kind": "choice",
+    "prompt": "My dad usually drives to work, but this week he ___ the bus because his car is broken.",
+    "answers": [
+      "is taking"
+    ],
+    "distractors": [
+      "takes",
+      "take"
+    ],
+    "explanation": "Usually drives décrit l'habitude ; this week et la panne de voiture décrivent une situation temporaire : be + V-ing, he is taking."
+  },
+  {
+    "id": "ch18-future-001",
+    "chapter": 18,
+    "rule": "present-continuous.future",
+    "difficulty": 2,
+    "kind": "choice",
+    "prompt": "I ___ my cousin in Celadon City tomorrow. I've already bought my train ticket.",
+    "answers": [
+      "am visiting"
+    ],
+    "distractors": [
+      "visit",
+      "visited"
+    ],
+    "explanation": "Un projet personnel déjà organisé (le billet est acheté) s'exprime avec be + V-ing, là où le français emploie le présent (« je rends visite à mon cousin demain »). Le présent simple à valeur de futur est réservé aux horaires officiels."
+  },
+  {
+    "id": "ch18-future-002",
+    "chapter": 18,
+    "rule": "present-continuous.future",
+    "difficulty": 2,
+    "kind": "choice",
+    "prompt": "\"What ___ this weekend?\" \"We're going to the Safari Zone.\"",
+    "answers": [
+      "are you doing"
+    ],
+    "distractors": [
+      "do you do",
+      "you are doing"
+    ],
+    "explanation": "Pour demander les projets de quelqu'un, on emploie be + V-ing : What are you doing this weekend? « What do you do? » porte sur une habitude ou un métier, et dans la question, are passe devant le sujet."
+  },
+  {
+    "id": "ch18-future-003",
+    "chapter": 18,
+    "rule": "present-continuous.future",
+    "difficulty": 3,
+    "kind": "choice",
+    "prompt": "Brock ___ a big dinner for us on Saturday; he has already invited everyone.",
+    "answers": [
+      "is cooking"
+    ],
+    "distractors": [
+      "cooks",
+      "cooked"
+    ],
+    "explanation": "Le dîner de samedi est déjà organisé (les invitations sont faites) : be + V-ing exprime ce projet futur. Cooks ne s'emploie pas pour un projet personnel, et cooked est un passé."
+  },
+  {
+    "id": "ch18-future-004",
+    "chapter": 18,
+    "rule": "present-continuous.future",
+    "difficulty": 2,
+    "kind": "choice",
+    "prompt": "I ___ Misty and Brock at the café tomorrow evening. We booked a table yesterday.",
+    "answers": [
+      "am meeting"
+    ],
+    "distractors": [
+      "meet",
+      "met"
+    ],
+    "explanation": "Un rendez-vous fixé à l'avance (la table est réservée) s'exprime avec be + V-ing : I am meeting. Met est un passé, impossible avec tomorrow evening."
+  },
+  {
+    "id": "ch18-future-005",
+    "chapter": 18,
+    "rule": "present-continuous.future",
+    "difficulty": 3,
+    "kind": "choice",
+    "prompt": "Sorry, Pikachu and I ___ to your party on Saturday. We have a Gym battle.",
+    "answers": [
+      "aren't coming"
+    ],
+    "distractors": [
+      "don't come",
+      "didn't come"
+    ],
+    "explanation": "On annonce une décision déjà prise pour samedi prochain : be + V-ing à la forme négative, we aren't coming. Don't come exprimerait une habitude, didn't come un passé."
+  },
+  {
+    "id": "ch18-states-001",
+    "chapter": 18,
+    "rule": "present-continuous.state-verbs",
+    "difficulty": 1,
+    "kind": "choice",
+    "prompt": "Ash ___ Pikachu very much.",
+    "answers": [
+      "loves"
+    ],
+    "distractors": [
+      "is loving",
+      "love"
+    ],
+    "explanation": "Love est un verbe de goût, qui décrit un état : il ne se met normalement pas en be + V-ing. On emploie le présent simple, avec -s pour he."
+  },
+  {
+    "id": "ch18-states-002",
+    "chapter": 18,
+    "rule": "present-continuous.state-verbs",
+    "difficulty": 1,
+    "kind": "choice",
+    "prompt": "I ___ what you mean, Professor.",
+    "answers": [
+      "understand"
+    ],
+    "distractors": [
+      "am understanding",
+      "understands"
+    ],
+    "explanation": "Understand est un verbe de compréhension : il décrit un état et reste au présent simple, même pour parler de maintenant."
+  },
+  {
+    "id": "ch18-states-003",
+    "chapter": 18,
+    "rule": "present-continuous.state-verbs",
+    "difficulty": 2,
+    "kind": "choice",
+    "prompt": "Wait, I ___ that trainer! He's from Pallet Town.",
+    "answers": [
+      "know"
+    ],
+    "distractors": [
+      "am knowing",
+      "knows"
+    ],
+    "explanation": "Même si la scène se passe maintenant (Wait), know est un verbe de connaissance : il refuse be + V-ing. On dit I know."
+  },
+  {
+    "id": "ch18-states-004",
+    "chapter": 18,
+    "rule": "present-continuous.state-verbs",
+    "difficulty": 3,
+    "kind": "choice",
+    "prompt": "Right now, Snorlax ___ more berries.",
+    "answers": [
+      "wants"
+    ],
+    "distractors": [
+      "is wanting",
+      "want"
+    ],
+    "explanation": "Le piège est right now : want exprime la volonté, c'est un verbe d'état qui refuse be + V-ing. On emploie le présent simple, avec -s pour it."
+  },
+  {
+    "id": "ch18-states-005",
+    "chapter": 18,
+    "rule": "present-continuous.state-verbs",
+    "difficulty": 3,
+    "kind": "choice",
+    "prompt": "Shh, don't talk to me. I ___ about my next move.",
+    "answers": [
+      "am thinking"
+    ],
+    "distractors": [
+      "think",
+      "thinks"
+    ],
+    "explanation": "Think about (« réfléchir à ») décrit une activité en cours, pas une opinion : il accepte be + V-ing. Au sens d'« être d'avis que » (I think that…), think reste au présent simple."
+  }
+]

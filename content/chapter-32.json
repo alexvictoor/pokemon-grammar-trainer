@@ -1,0 +1,486 @@
+[
+  {
+    "id": "ch32-form-001",
+    "chapter": 32,
+    "rule": "passive.form",
+    "difficulty": 1,
+    "kind": "choice",
+    "prompt": "Thousands of Potions ___ at the Pokémon Center every week.",
+    "answers": [
+      "are used"
+    ],
+    "distractors": [
+      "are using",
+      "use"
+    ],
+    "explanation": "Les Potions ne font pas l'action, elles la subissent : voix passive, be + participe passé. Every week indique une habitude au présent simple, donc are used. Are using et use feraient des Potions le sujet qui agit."
+  },
+  {
+    "id": "ch32-form-002",
+    "chapter": 32,
+    "rule": "passive.form",
+    "difficulty": 1,
+    "kind": "choice",
+    "prompt": "This old Poké Ball ___ by my grandfather fifty years ago.",
+    "answers": [
+      "was made"
+    ],
+    "distractors": [
+      "was make",
+      "made"
+    ],
+    "explanation": "Le passif se forme avec be + participe passé : was made (make – made – made). Sans be, la phrase n'a plus de verbe conjugué ; après was, la base verbale make est impossible."
+  },
+  {
+    "id": "ch32-form-003",
+    "chapter": 32,
+    "rule": "passive.form",
+    "difficulty": 2,
+    "kind": "choice",
+    "prompt": "Misty's bike ___ by Pikachu's Thunderbolt on the day she met Ash.",
+    "answers": [
+      "was destroyed"
+    ],
+    "distractors": [
+      "destroyed",
+      "was destroying"
+    ],
+    "explanation": "Le vélo subit l'action : voix passive au prétérit, was + participe passé (destroyed). Was destroying est une forme progressive active : le vélo détruirait quelque chose."
+  },
+  {
+    "id": "ch32-form-004",
+    "chapter": 32,
+    "rule": "passive.form",
+    "difficulty": 3,
+    "kind": "choice",
+    "prompt": "The Moon Stone ___ inside Mt. Moon last week.",
+    "answers": [
+      "was found"
+    ],
+    "distractors": [
+      "was founded",
+      "found"
+    ],
+    "explanation": "Find – found – found : le passif est was found (« la pierre a été trouvée »). Was founded vient d'un autre verbe, found – founded – founded (« fonder »). Sans was, la pierre deviendrait le sujet qui trouve."
+  },
+  {
+    "id": "ch32-form-005",
+    "chapter": 32,
+    "rule": "passive.form",
+    "difficulty": 2,
+    "kind": "choice",
+    "prompt": "___ the new Battle Tower built last year?",
+    "answers": [
+      "Was"
+    ],
+    "distractors": [
+      "Did",
+      "Has"
+    ],
+    "explanation": "À la voix passive, l'auxiliaire est be, et c'est lui qui passe devant le sujet dans la question : Was the Battle Tower built…? Did se construit avec la base verbale (build), et last year exclut le present perfect."
+  },
+  {
+    "id": "ch32-form-006",
+    "chapter": 32,
+    "rule": "passive.form",
+    "difficulty": 1,
+    "kind": "choice",
+    "prompt": "The Pokémon League trophy ___ of real gold, so don't drop it!",
+    "answers": [
+      "is made"
+    ],
+    "distractors": [
+      "makes",
+      "is making"
+    ],
+    "explanation": "Le trophée ne fabrique rien, il est fabriqué : voix passive au présent, is + participe passé, is made of (« est fait en »). Makes et is making sont des formes actives."
+  },
+  {
+    "id": "ch32-tenses-001",
+    "chapter": 32,
+    "rule": "passive.tenses",
+    "difficulty": 2,
+    "kind": "choice",
+    "prompt": "Good news! Your Pokémon ___ by Nurse Joy. You can take them back now.",
+    "answers": [
+      "have been healed"
+    ],
+    "distractors": [
+      "will be healed",
+      "are being healed"
+    ],
+    "explanation": "Les soins sont terminés et le résultat est présent (you can take them back now) : passif au present perfect, have been + participe passé. Will be healed (futur) et are being healed (en cours) contredisent ce résultat."
+  },
+  {
+    "id": "ch32-tenses-002",
+    "chapter": 32,
+    "rule": "passive.tenses",
+    "difficulty": 3,
+    "kind": "choice",
+    "prompt": "Sorry, you can't go in: the Pokémon Center ___ at the moment. The workers will finish tonight.",
+    "answers": [
+      "is being painted"
+    ],
+    "distractors": [
+      "is painting",
+      "has been painted",
+      "was painted"
+    ],
+    "explanation": "Les travaux sont en cours (at the moment, they will finish tonight) : passif à la forme progressive, is being + participe passé. Has been painted dirait que c'est fini ; is painting ferait du Centre celui qui peint."
+  },
+  {
+    "id": "ch32-tenses-003",
+    "chapter": 32,
+    "rule": "passive.tenses",
+    "difficulty": 1,
+    "kind": "choice",
+    "prompt": "Nobody knows who won the tournament yet. The winner's name ___ at the closing ceremony.",
+    "answers": [
+      "will be announced"
+    ],
+    "distractors": [
+      "has been announced",
+      "was announced"
+    ],
+    "explanation": "Personne ne connaît encore le gagnant (Nobody knows… yet) : l'annonce n'a pas encore eu lieu, donc passif au futur, will be + participe passé. Has been announced et was announced sont aussi des passifs, mais ils diraient que le nom est déjà connu."
+  },
+  {
+    "id": "ch32-tenses-004",
+    "chapter": 32,
+    "rule": "passive.tenses",
+    "difficulty": 2,
+    "kind": "choice",
+    "prompt": "Wild Pokémon ___ in the Safari Zone without a special ticket.",
+    "answers": [
+      "can't be caught"
+    ],
+    "distractors": [
+      "can't catch",
+      "can't be catch",
+      "can't been caught"
+    ],
+    "explanation": "Avec un modal, le passif se forme avec modal + be + participe passé : can't be caught. Can't catch ferait des Pokémon ceux qui attrapent. Après un modal, be reste à la base verbale (pas been), et catch devient caught."
+  },
+  {
+    "id": "ch32-tenses-005",
+    "chapter": 32,
+    "rule": "passive.tenses",
+    "difficulty": 3,
+    "kind": "choice",
+    "prompt": "When Ash arrived at Professor Oak's lab, the three starter Pokémon ___ already.",
+    "answers": [
+      "had been taken"
+    ],
+    "distractors": [
+      "have been taken",
+      "had taken",
+      "were taking"
+    ],
+    "explanation": "L'action a eu lieu avant un moment du passé (when Ash arrived) : passif au past perfect, had been + participe passé. Have been taken ne s'accorde pas avec le récit au passé ; had taken et were taking sont actifs. Take – took – taken."
+  },
+  {
+    "id": "ch32-tenses-006",
+    "chapter": 32,
+    "rule": "passive.tenses",
+    "difficulty": 2,
+    "kind": "choice",
+    "prompt": "Our Gym ___ three times since January! Team Rocket never gives up.",
+    "answers": [
+      "has been attacked"
+    ],
+    "distractors": [
+      "was attacked",
+      "is attacked",
+      "has attacked"
+    ],
+    "explanation": "Since January fait le bilan jusqu'à maintenant : present perfect. L'arène subit l'action, donc passif : has been + participe passé. Le prétérit et le présent sont impossibles avec since ; has attacked est actif."
+  },
+  {
+    "id": "ch32-agent-001",
+    "chapter": 32,
+    "rule": "passive.agent",
+    "difficulty": 1,
+    "kind": "choice",
+    "prompt": "This picture of Pikachu was drawn ___ my little sister.",
+    "answers": [
+      "by"
+    ],
+    "distractors": [
+      "of",
+      "from"
+    ],
+    "explanation": "« Dessiné par ma petite sœur » : la personne qui fait l'action (le complément d'agent) est toujours introduite par by. Of et from ne traduisent jamais « par » devant un agent : of indique l'appartenance ou le sujet du dessin (a picture of Pikachu), from l'origine."
+  },
+  {
+    "id": "ch32-agent-002",
+    "chapter": 32,
+    "rule": "passive.agent",
+    "difficulty": 3,
+    "kind": "choice",
+    "prompt": "The final of the Pokémon League ___ millions of people on TV.",
+    "answers": [
+      "was watched by"
+    ],
+    "distractors": [
+      "was watched of",
+      "was watching by"
+    ],
+    "explanation": "La finale est regardée : passif, was + participe passé (watched). Les spectateurs, qui font l'action, sont introduits par by. Was watching est une forme active."
+  },
+  {
+    "id": "ch32-agent-003",
+    "chapter": 32,
+    "rule": "passive.agent",
+    "difficulty": 3,
+    "kind": "choice",
+    "prompt": "— Who was the Pokédex invented ___? — By Professor Oak.",
+    "answers": [
+      "by"
+    ],
+    "distractors": [
+      "of",
+      "from"
+    ],
+    "explanation": "La question porte sur l'agent d'un verbe passif : « Par qui… ? » se dit Who… by?, avec by rejeté en fin de question. La réponse le confirme : By Professor Oak."
+  },
+  {
+    "id": "ch32-agent-004",
+    "chapter": 32,
+    "rule": "passive.agent",
+    "difficulty": 2,
+    "kind": "choice",
+    "prompt": "Mewtwo was created ___ scientists in a secret lab.",
+    "answers": [
+      "by"
+    ],
+    "distractors": [
+      "of",
+      "from"
+    ],
+    "explanation": "Les scientifiques font l'action (ils ont créé Mewtwo) : ce complément d'agent est introduit par by. Created from scientists voudrait dire « fabriqué à partir de scientifiques »."
+  },
+  {
+    "id": "ch32-agent-005",
+    "chapter": 32,
+    "rule": "passive.agent",
+    "difficulty": 1,
+    "kind": "choice",
+    "prompt": "— Who took this amazing photo of Mew? — It ___ a famous photographer.",
+    "answers": [
+      "was taken by"
+    ],
+    "distractors": [
+      "was taken of",
+      "took by"
+    ],
+    "explanation": "La photo est prise : passif, was + participe passé (take – took – taken). Celui qui fait l'action, le photographe, est introduit par by. Took by oublie l'auxiliaire be."
+  },
+  {
+    "id": "ch32-agent-006",
+    "chapter": 32,
+    "rule": "passive.agent",
+    "difficulty": 2,
+    "kind": "choice",
+    "prompt": "After the storm, the Pokémon Center was rebuilt ___ the people of the town.",
+    "answers": [
+      "by"
+    ],
+    "distractors": [
+      "of",
+      "from"
+    ],
+    "explanation": "Les habitants font l'action (ils ont reconstruit le Centre) : complément d'agent introduit par by. Il correspond au sujet de la phrase active : The people of the town rebuilt the Pokémon Center."
+  },
+  {
+    "id": "ch32-active-passive-001",
+    "chapter": 32,
+    "rule": "passive.active-or-passive",
+    "difficulty": 1,
+    "kind": "choice",
+    "prompt": "My Charmander ___ by a wild Pidgey this morning, so it's resting at the Pokémon Center.",
+    "answers": [
+      "was attacked"
+    ],
+    "distractors": [
+      "attacked",
+      "was attacking"
+    ],
+    "explanation": "Salamèche subit l'attaque, et le Roucool qui la fait est introduit par by : voix passive, was attacked. Attacked et was attacking sont actifs : Salamèche serait l'attaquant."
+  },
+  {
+    "id": "ch32-active-passive-002",
+    "chapter": 32,
+    "rule": "passive.active-or-passive",
+    "difficulty": 1,
+    "kind": "choice",
+    "prompt": "Professor Oak ___ all over the world for his research.",
+    "answers": [
+      "is known"
+    ],
+    "distractors": [
+      "knows",
+      "is knowing"
+    ],
+    "explanation": "Le professeur ne connaît pas, il est connu : voix passive, is known (know – knew – known). Knows est actif, et know ne se met pas à la forme progressive."
+  },
+  {
+    "id": "ch32-active-passive-003",
+    "chapter": 32,
+    "rule": "passive.active-or-passive",
+    "difficulty": 3,
+    "kind": "choice",
+    "prompt": "When the forest caught fire, my Squirtle ___ it out with Water Gun.",
+    "answers": [
+      "put"
+    ],
+    "distractors": [
+      "was put",
+      "has been put"
+    ],
+    "explanation": "Carapuce fait l'action (il éteint le feu, it) : voix active, au prétérit comme le reste du récit, put (put – put – put). Le passif est impossible puisque le verbe a ici un sujet qui agit et un complément, it."
+  },
+  {
+    "id": "ch32-active-passive-004",
+    "chapter": 32,
+    "rule": "passive.active-or-passive",
+    "difficulty": 2,
+    "kind": "choice",
+    "prompt": "Nobody saw the thief, but the Gym's Pokémon statue ___ last week.",
+    "answers": [
+      "was stolen"
+    ],
+    "distractors": [
+      "stole",
+      "has stolen"
+    ],
+    "explanation": "« On a volé la statue » : on ne sait pas qui l'a fait, donc l'anglais emploie un passif sans agent, was stolen. Stole et has stolen feraient de la statue la voleuse. Steal – stole – stolen."
+  },
+  {
+    "id": "ch32-active-passive-005",
+    "chapter": 32,
+    "rule": "passive.active-or-passive",
+    "difficulty": 3,
+    "kind": "choice",
+    "prompt": "It ___ that a Mew lives somewhere in this forest.",
+    "answers": [
+      "is said"
+    ],
+    "distractors": [
+      "is saying",
+      "tells"
+    ],
+    "explanation": "« On dit que… » se traduit par un passif : It is said that… Is saying et tells feraient de it quelqu'un qui parle."
+  },
+  {
+    "id": "ch32-active-passive-006",
+    "chapter": 32,
+    "rule": "passive.active-or-passive",
+    "difficulty": 2,
+    "kind": "choice",
+    "prompt": "Pokémon Centers ___ in almost every town in Kanto.",
+    "answers": [
+      "can be found"
+    ],
+    "distractors": [
+      "can find",
+      "can be find"
+    ],
+    "explanation": "« On trouve des Centres Pokémon… » : les Centres ne trouvent rien, ils sont trouvés. Le pronom « on » devient un passif : can be + participe passé, can be found."
+  },
+  {
+    "id": "ch32-two-objects-001",
+    "chapter": 32,
+    "rule": "passive.two-objects",
+    "difficulty": 1,
+    "kind": "choice",
+    "prompt": "Ash ___ a Pikachu by Professor Oak on his first day as a trainer.",
+    "answers": [
+      "was given"
+    ],
+    "distractors": [
+      "gave",
+      "was gave"
+    ],
+    "explanation": "Give a deux compléments (give someone something). La personne qui reçoit peut devenir le sujet du passif : Ash was given a Pikachu, « On a donné un Pikachu à Sacha ». Give – gave – given."
+  },
+  {
+    "id": "ch32-two-objects-002",
+    "chapter": 32,
+    "rule": "passive.two-objects",
+    "difficulty": 2,
+    "kind": "choice",
+    "prompt": "We ___ the way to Viridian City by a friendly Officer Jenny.",
+    "answers": [
+      "were shown"
+    ],
+    "distractors": [
+      "showed",
+      "were showing"
+    ],
+    "explanation": "Show someone something : la personne à qui l'on montre devient le sujet du passif, we were shown the way. L'agent, l'agente Jenny, est introduit par by. Showed et were showing sont actifs."
+  },
+  {
+    "id": "ch32-two-objects-003",
+    "chapter": 32,
+    "rule": "passive.two-objects",
+    "difficulty": 3,
+    "kind": "choice",
+    "prompt": "I ___ that the Gym was closed, so I went to the Pokémon Center instead.",
+    "answers": [
+      "was told"
+    ],
+    "distractors": [
+      "told",
+      "was telling"
+    ],
+    "explanation": "« On m'a dit que… » : tell someone something, et la personne à qui l'on parle devient le sujet du passif, I was told. Told et was telling sont actifs et demanderaient un complément (told him)."
+  },
+  {
+    "id": "ch32-two-objects-004",
+    "chapter": 32,
+    "rule": "passive.two-objects",
+    "difficulty": 3,
+    "kind": "choice",
+    "prompt": "A Pokémon Egg ___ my sister by the Day-Care Man.",
+    "answers": [
+      "was given to"
+    ],
+    "distractors": [
+      "gave to",
+      "was giving to"
+    ],
+    "explanation": "Ici, c'est la chose donnée (A Pokémon Egg) qui devient le sujet du passif : was given, et la personne qui reçoit est introduite par to. Gave to et was giving to sont actifs : l'Œuf ne donne rien."
+  },
+  {
+    "id": "ch32-two-objects-005",
+    "chapter": 32,
+    "rule": "passive.two-objects",
+    "difficulty": 3,
+    "kind": "choice",
+    "prompt": "Misty ___ a new fishing rod by her sisters for her birthday.",
+    "answers": [
+      "was given"
+    ],
+    "distractors": [
+      "gave",
+      "was giving"
+    ],
+    "explanation": "Ondine reçoit la canne à pêche, et ses sœurs, qui la donnent, sont introduites par by : passif, was given. Avec give, la personne qui reçoit peut être le sujet du passif. Gave et was giving sont actifs."
+  },
+  {
+    "id": "ch32-two-objects-006",
+    "chapter": 32,
+    "rule": "passive.two-objects",
+    "difficulty": 2,
+    "kind": "choice",
+    "prompt": "We ___ how to throw a Poké Ball by Professor Oak's assistant.",
+    "answers": [
+      "were taught"
+    ],
+    "distractors": [
+      "taught",
+      "were teached"
+    ],
+    "explanation": "Teach someone something : les élèves deviennent le sujet du passif, we were taught, et l'assistant est introduit par by. Teach est irrégulier : teach – taught – taught ; « teached » n'existe pas."
+  }
+]

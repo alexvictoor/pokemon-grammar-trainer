@@ -1,0 +1,110 @@
+[
+  {
+    "id": "ch32-gym-form-001",
+    "chapter": 32,
+    "rule": "passive.form",
+    "difficulty": 1,
+    "kind": "typed",
+    "prompt": "The Pewter City Museum ___ (be / build) more than fifty years ago.",
+    "answers": ["was built"],
+    "explanation": "Le musée subit l'action : be + participe passé. Ago impose le prétérit, donc was. Build – built – built."
+  },
+  {
+    "id": "ch32-gym-form-002",
+    "chapter": 32,
+    "rule": "passive.form",
+    "difficulty": 2,
+    "kind": "typed",
+    "prompt": "I ___ (be / not / invite) to Misty's birthday party last week.",
+    "answers": ["wasn't invited", "was not invited"],
+    "explanation": "Last week impose le prétérit. Au passif, la négation porte sur be : was not (wasn't) + participe passé, invited. On n'emploie pas did avec be."
+  },
+  {
+    "id": "ch32-gym-tenses-001",
+    "chapter": 32,
+    "rule": "passive.tenses",
+    "difficulty": 3,
+    "kind": "typed",
+    "prompt": "Twelve wild Pokémon ___ (be / rescue) by the Pokémon Rangers since the start of the month.",
+    "answers": ["have been rescued"],
+    "explanation": "Since fait le bilan jusqu'à maintenant : present perfect. Au passif, have been + participe passé. Le sujet (twelve wild Pokémon) est pluriel, donc have."
+  },
+  {
+    "id": "ch32-gym-tenses-002",
+    "chapter": 32,
+    "rule": "passive.tenses",
+    "difficulty": 1,
+    "kind": "typed",
+    "prompt": "Don't worry, your Poké Balls ___ (will / be / send) to Professor Oak's lab tomorrow.",
+    "answers": ["will be sent"],
+    "explanation": "Au futur, le passif se forme avec will be + participe passé. Après will, be reste à la base verbale. Send – sent – sent."
+  },
+  {
+    "id": "ch32-gym-tenses-003",
+    "chapter": 32,
+    "rule": "passive.tenses",
+    "difficulty": 3,
+    "kind": "typed",
+    "prompt": "Shh! The two baby Pokémon ___ (be / feed) by Nurse Joy right now.",
+    "answers": ["are being fed"],
+    "explanation": "Right now : l'action est en cours, donc forme progressive. Au passif, being se place entre be et le participe passé : are being fed. Feed – fed – fed."
+  },
+  {
+    "id": "ch32-gym-two-objects-001",
+    "chapter": 32,
+    "rule": "passive.two-objects",
+    "difficulty": 2,
+    "kind": "typed",
+    "prompt": "Every year, each new trainer in Pallet Town ___ (be / give) a Pokédex by Professor Oak.",
+    "answers": ["is given"],
+    "explanation": "Every year : une habitude, au présent simple. Give a deux compléments, et la personne qui reçoit (each new trainer) devient le sujet du passif : is given. Give – gave – given."
+  },
+  {
+    "id": "ch32-gym-order-agent-001",
+    "chapter": 32,
+    "rule": "passive.agent",
+    "difficulty": 2,
+    "kind": "reorder",
+    "prompt": "Pierre a été battu par un dresseur de Bourg Palette.",
+    "tiles": ["Brock", "was", "beaten", "by", "a", "trainer", "from", "Pallet", "Town."],
+    "decoys": ["of", "has"],
+    "answers": ["Brock was beaten by a trainer from Pallet Town."],
+    "explanation": "Passif au prétérit : was + participe passé (beat – beat – beaten). Celui qui fait l'action, le dresseur, est introduit par by, pas par of."
+  },
+  {
+    "id": "ch32-gym-order-active-passive-001",
+    "chapter": 32,
+    "rule": "passive.active-or-passive",
+    "difficulty": 2,
+    "kind": "reorder",
+    "prompt": "On a volé mon vélo la semaine dernière.",
+    "tiles": ["My", "bike", "was", "stolen", "last", "week."],
+    "decoys": ["One", "stole"],
+    "answers": ["My bike was stolen last week."],
+    "explanation": "« On » désigne ici un voleur inconnu : l'anglais met le vélo en sujet d'un passif, sans agent, My bike was stolen. « One stole » est un calque du français. Steal – stole – stolen."
+  },
+  {
+    "id": "ch32-gym-order-two-objects-001",
+    "chapter": 32,
+    "rule": "passive.two-objects",
+    "difficulty": 3,
+    "kind": "reorder",
+    "prompt": "On m'a offert un Évoli pour mon anniversaire.",
+    "tiles": ["I", "was", "given", "an", "Eevee", "for", "my", "birthday."],
+    "decoys": ["gave", "to"],
+    "answers": ["I was given an Eevee for my birthday."],
+    "explanation": "« On m'a offert… » : avec give, la personne qui reçoit devient le sujet du passif, I was given. Le français ne permet pas cette construction, d'où le piège."
+  },
+  {
+    "id": "ch32-gym-order-tenses-001",
+    "chapter": 32,
+    "rule": "passive.tenses",
+    "difficulty": 2,
+    "kind": "reorder",
+    "prompt": "Les gagnants seront annoncés demain.",
+    "tiles": ["The", "winners", "will", "be", "announced", "tomorrow."],
+    "decoys": ["announce", "been"],
+    "answers": ["The winners will be announced tomorrow."],
+    "explanation": "Passif au futur : will be + participe passé. Après will, be reste à la base verbale, jamais been."
+  }
+]

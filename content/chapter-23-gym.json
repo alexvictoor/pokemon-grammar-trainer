@@ -1,0 +1,110 @@
+[
+  {
+    "id": "ch23-gym-form-001",
+    "chapter": 23,
+    "rule": "present-perfect-continuous.form",
+    "difficulty": 2,
+    "kind": "typed",
+    "prompt": "Ash's Pokémon have been ___ (lie) in the sun since lunch.",
+    "answers": ["lying"],
+    "explanation": "Après have been, il faut la forme en -ing. Les verbes en -ie changent ie en y devant -ing : lie → lying."
+  },
+  {
+    "id": "ch23-gym-form-002",
+    "chapter": 23,
+    "rule": "present-perfect-continuous.form",
+    "difficulty": 3,
+    "kind": "typed",
+    "prompt": "My cousin has been ___ (travel) around Kanto with her Eevee for six months.",
+    "answers": ["travelling", "traveling"],
+    "explanation": "Après has been, il faut la forme en -ing. L'anglais britannique double le l (travelling), l'anglais américain ne le double pas (traveling) : les deux orthographes sont correctes."
+  },
+  {
+    "id": "ch23-gym-result-001",
+    "chapter": 23,
+    "rule": "present-perfect-continuous.result",
+    "difficulty": 2,
+    "kind": "typed",
+    "prompt": "Psyduck ___ (drink) four bottles of water since lunch!",
+    "answers": ["has drunk"],
+    "explanation": "Avec une quantité (four bottles), on fait un bilan : present perfect simple, pas has been drinking. Since interdit le prétérit. Drink – drank – drunk."
+  },
+  {
+    "id": "ch23-gym-result-002",
+    "chapter": 23,
+    "rule": "present-perfect-continuous.result",
+    "difficulty": 3,
+    "kind": "typed",
+    "prompt": "How many Pokémon ___ (you / catch) since you left Pallet Town?",
+    "answers": ["have you caught"],
+    "explanation": "How many…? demande un bilan chiffré, et since impose le present perfect : forme simple, have you caught. La forme en be + V-ing est normalement impossible avec how many. Catch – caught – caught."
+  },
+  {
+    "id": "ch23-gym-state-001",
+    "chapter": 23,
+    "rule": "present-perfect-continuous.state-verbs",
+    "difficulty": 3,
+    "kind": "typed",
+    "prompt": "We ___ (know) about Team Rocket's plan since yesterday.",
+    "answers": ["have known"],
+    "explanation": "« Nous sommes au courant depuis hier » : since impose le present perfect. Know est un verbe d'état, il ne prend pas la forme en be + V-ing : have known."
+  },
+  {
+    "id": "ch23-gym-activity-001",
+    "chapter": 23,
+    "rule": "present-perfect-continuous.activity",
+    "difficulty": 3,
+    "kind": "typed",
+    "prompt": "Brock ___ (paint) the Gym since Monday, and he has only done one wall.",
+    "answers": ["has been painting"],
+    "explanation": "Le travail n'est pas fini (only one wall) : on insiste sur l'activité, donc has been painting. Has painted the Gym présenterait le travail comme terminé ; since interdit le présent et le prétérit."
+  },
+  {
+    "id": "ch23-gym-order-duration-001",
+    "chapter": 23,
+    "rule": "present-perfect-continuous.duration",
+    "difficulty": 2,
+    "kind": "reorder",
+    "prompt": "Je t'attends depuis une heure !",
+    "tiles": ["I", "have", "been", "waiting", "for", "you", "for", "an", "hour!"],
+    "decoys": ["am", "since"],
+    "answers": ["I have been waiting for you for an hour!"],
+    "explanation": "« J'attends depuis une heure » : l'activité dure encore, donc present perfect en be + V-ing (have been waiting), pas le présent comme en français. An hour est une durée : for."
+  },
+  {
+    "id": "ch23-gym-order-activity-001",
+    "chapter": 23,
+    "rule": "present-perfect-continuous.activity",
+    "difficulty": 3,
+    "kind": "reorder",
+    "prompt": "Tu as encore lu mon journal intime !",
+    "tiles": ["You", "have", "been", "reading", "my", "diary", "again!"],
+    "decoys": ["are", "did"],
+    "answers": ["You have been reading my diary again!"],
+    "explanation": "Ton accusateur : on reproche à quelqu'un de s'être adonné à une activité. L'anglais emploie souvent have been + V-ing, là où le français dit « tu as encore lu »."
+  },
+  {
+    "id": "ch23-gym-order-result-001",
+    "chapter": 23,
+    "rule": "present-perfect-continuous.result",
+    "difficulty": 2,
+    "kind": "reorder",
+    "prompt": "Combien de baies as-tu mangées aujourd'hui ?",
+    "tiles": ["How", "many", "berries", "have", "you", "eaten", "today?"],
+    "decoys": ["been", "eating"],
+    "answers": ["How many berries have you eaten today?"],
+    "explanation": "How many…? demande un bilan chiffré : present perfect simple, have you eaten. Have you been eating est normalement impossible avec how many. Eat – ate – eaten."
+  },
+  {
+    "id": "ch23-gym-order-state-001",
+    "chapter": 23,
+    "rule": "present-perfect-continuous.state-verbs",
+    "difficulty": 3,
+    "kind": "reorder",
+    "prompt": "Mon frère a ce Ronflex depuis 2018.",
+    "tiles": ["My", "brother", "has", "had", "this", "Snorlax", "since", "2018."],
+    "decoys": ["been", "having"],
+    "answers": ["My brother has had this Snorlax since 2018."],
+    "explanation": "Since impose le present perfect, alors que le français dit « a » au présent. Have au sens de « posséder » est un verbe d'état : pas de has been having. Le premier has est l'auxiliaire, had le participe passé."
+  }
+]

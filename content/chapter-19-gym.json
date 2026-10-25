@@ -1,0 +1,110 @@
+[
+  {
+    "id": "ch19-gym-irregular-001",
+    "chapter": 19,
+    "rule": "simple-past.irregular-verbs",
+    "difficulty": 2,
+    "kind": "typed",
+    "prompt": "Snorlax ___ (eat) forty berries yesterday!",
+    "answers": ["ate"],
+    "explanation": "Yesterday impose le prétérit. Eat est irrégulier : eat – ate – eaten. Avec une quantité (forty berries), on emploie la forme simple, pas was eating."
+  },
+  {
+    "id": "ch19-gym-irregular-002",
+    "chapter": 19,
+    "rule": "simple-past.irregular-verbs",
+    "difficulty": 2,
+    "kind": "typed",
+    "prompt": "Professor Oak ___ (give) me my first Pokémon three years ago.",
+    "answers": ["gave"],
+    "explanation": "Ago date un événement passé : prétérit. Give est irrégulier : give – gave – given. Given est le participe passé."
+  },
+  {
+    "id": "ch19-gym-spelling-001",
+    "chapter": 19,
+    "rule": "simple-past.regular-spelling",
+    "difficulty": 2,
+    "kind": "typed",
+    "prompt": "Ash ___ (drop) his Poké Ball twice on his way to the Gym yesterday.",
+    "answers": ["dropped"],
+    "explanation": "Drop se termine par une seule voyelle suivie d'une seule consonne : on double le p avant -ed (dropped). Avec twice, on emploie la forme simple, pas was dropping."
+  },
+  {
+    "id": "ch19-gym-spelling-002",
+    "chapter": 19,
+    "rule": "simple-past.regular-spelling",
+    "difficulty": 3,
+    "kind": "typed",
+    "prompt": "Team Rocket ___ (try) to steal Pikachu three times last week.",
+    "answers": ["tried"],
+    "explanation": "Consonne + -y → -ied : try → tried. Last week impose le prétérit, et three times exclut was trying."
+  },
+  {
+    "id": "ch19-gym-did-001",
+    "chapter": 19,
+    "rule": "simple-past.did-negative-question",
+    "difficulty": 2,
+    "kind": "typed",
+    "prompt": "We ___ (not / find) any Pokémon in the cave yesterday.",
+    "answers": ["didn't find", "did not find"],
+    "explanation": "Négation au prétérit : did not (didn't) + base verbale. C'est did qui porte le passé : on écrit didn't find, pas « didn't found »."
+  },
+  {
+    "id": "ch19-gym-did-002",
+    "chapter": 19,
+    "rule": "simple-past.did-negative-question",
+    "difficulty": 3,
+    "kind": "typed",
+    "prompt": "___ (you / see) the Pokémon parade yesterday?",
+    "answers": ["Did you see"],
+    "explanation": "Question au prétérit : Did + sujet + base verbale. Yesterday exclut le present perfect (Have you seen…?), et on écrit see, pas saw, après did."
+  },
+  {
+    "id": "ch19-gym-order-dated-001",
+    "chapter": 19,
+    "rule": "simple-past.dated-past",
+    "difficulty": 2,
+    "kind": "reorder",
+    "prompt": "J'ai attrapé un Pikachu il y a deux jours.",
+    "tiles": ["I", "caught", "a", "Pikachu", "two", "days", "ago."],
+    "decoys": ["have", "catched"],
+    "answers": ["I caught a Pikachu two days ago."],
+    "explanation": "« Il y a deux jours » : two days ago, avec le prétérit (caught). Le passé composé français ne se traduit pas par have caught quand l'action est datée. Catch – caught – caught."
+  },
+  {
+    "id": "ch19-gym-order-dated-002",
+    "chapter": 19,
+    "rule": "simple-past.dated-past",
+    "difficulty": 2,
+    "kind": "reorder",
+    "prompt": "Nous sommes allés à Jadielle hier.",
+    "tiles": ["We", "went", "to", "Viridian", "City", "yesterday."],
+    "decoys": ["have", "gone"],
+    "answers": ["We went to Viridian City yesterday."],
+    "explanation": "Yesterday date l'action : prétérit (went), pas have gone. Le passé composé français « sommes allés » ne se calque pas. Go – went – gone."
+  },
+  {
+    "id": "ch19-gym-order-did-001",
+    "chapter": 19,
+    "rule": "simple-past.did-negative-question",
+    "difficulty": 3,
+    "kind": "reorder",
+    "prompt": "Est-ce que tu as gagné le combat hier ?",
+    "tiles": ["Did", "you", "win", "the", "battle", "yesterday?"],
+    "decoys": ["Have", "won"],
+    "answers": ["Did you win the battle yesterday?"],
+    "explanation": "Yesterday impose le prétérit : Did + sujet + base verbale (win). Have you won serait un present perfect, impossible avec yesterday."
+  },
+  {
+    "id": "ch19-gym-order-narrative-001",
+    "chapter": 19,
+    "rule": "simple-past.narrative",
+    "difficulty": 2,
+    "kind": "reorder",
+    "prompt": "Il était une fois un Évoli qui vivait dans une forêt.",
+    "tiles": ["Once", "upon", "a", "time,", "an", "Eevee", "lived", "in", "a", "forest."],
+    "decoys": ["lives", "living"],
+    "answers": ["Once upon a time, an Eevee lived in a forest."],
+    "explanation": "Le conte se raconte au prétérit : « vivait » devient lived. Once upon a time traduit « il était une fois »."
+  }
+]

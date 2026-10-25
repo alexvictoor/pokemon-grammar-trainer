@@ -1,0 +1,482 @@
+[
+  {
+    "id": "ch20-form-001",
+    "chapter": 20,
+    "rule": "past-continuous.form",
+    "difficulty": 1,
+    "kind": "choice",
+    "prompt": "At five o'clock yesterday, Ash and Pikachu ___ in the park.",
+    "answers": [
+      "were playing"
+    ],
+    "distractors": [
+      "was playing",
+      "were play"
+    ],
+    "explanation": "Prétérit en be + V-ing : was / were + verbe en -ing. Avec un sujet pluriel (Ash and Pikachu = they), l'auxiliaire est were."
+  },
+  {
+    "id": "ch20-form-002",
+    "chapter": 20,
+    "rule": "past-continuous.form",
+    "difficulty": 1,
+    "kind": "choice",
+    "prompt": "Brock ___ dinner when we arrived at the camp.",
+    "answers": [
+      "was cooking"
+    ],
+    "distractors": [
+      "was cook",
+      "were cooking"
+    ],
+    "explanation": "Was / were + verbe en -ing. Brock = he, donc was : was cooking. Après was, le verbe prend obligatoirement -ing."
+  },
+  {
+    "id": "ch20-form-003",
+    "chapter": 20,
+    "rule": "past-continuous.form",
+    "difficulty": 2,
+    "kind": "choice",
+    "prompt": "___ you sleeping when the Pokémon Center alarm rang?",
+    "answers": [
+      "Were"
+    ],
+    "distractors": [
+      "Did",
+      "Was"
+    ],
+    "explanation": "Question : l'auxiliaire be passe devant le sujet (Were you sleeping…?). Avec you, c'est toujours were. Did n'est jamais suivi d'un verbe en -ing."
+  },
+  {
+    "id": "ch20-form-004",
+    "chapter": 20,
+    "rule": "past-continuous.form",
+    "difficulty": 2,
+    "kind": "choice",
+    "prompt": "Misty ___ attention when the Gyarados attacked.",
+    "answers": [
+      "wasn't paying"
+    ],
+    "distractors": [
+      "didn't paying",
+      "wasn't pay"
+    ],
+    "explanation": "Forme négative : was not (wasn't) + verbe en -ing. Didn't est suivi de la base verbale, jamais de -ing."
+  },
+  {
+    "id": "ch20-form-005",
+    "chapter": 20,
+    "rule": "past-continuous.form",
+    "difficulty": 3,
+    "kind": "choice",
+    "prompt": "Lapras ___ across the lake when the storm began.",
+    "answers": [
+      "was swimming"
+    ],
+    "distractors": [
+      "was swiming",
+      "was swimed"
+    ],
+    "explanation": "Swim se termine par une seule voyelle suivie d'une seule consonne : on double le m avant -ing (swimming). Après was, il faut la forme en -ing."
+  },
+  {
+    "id": "ch20-form-006",
+    "chapter": 20,
+    "rule": "past-continuous.form",
+    "difficulty": 3,
+    "kind": "choice",
+    "prompt": "My sister ___ a letter to Professor Oak when the lights went out.",
+    "answers": [
+      "was writing"
+    ],
+    "distractors": [
+      "was writting",
+      "was writeing"
+    ],
+    "explanation": "Write se termine par un -e muet : on supprime le -e et on ajoute -ing (writing). Le t ne double pas, car write ne se termine pas par une voyelle suivie d'une consonne. « Writting » est une faute fréquente."
+  },
+  {
+    "id": "ch20-progress-001",
+    "chapter": 20,
+    "rule": "past-continuous.in-progress",
+    "difficulty": 1,
+    "kind": "choice",
+    "prompt": "This time yesterday, we ___ through Viridian Forest, so we didn't see your message until the evening.",
+    "answers": [
+      "were walking"
+    ],
+    "distractors": [
+      "walked",
+      "are walking"
+    ],
+    "explanation": "This time yesterday (« hier à la même heure ») désigne un moment passé où la marche était en cours : were walking (« nous marchions »). Walked présenterait la marche comme un événement complet, pas comme ce qui se déroulait à ce moment-là."
+  },
+  {
+    "id": "ch20-progress-002",
+    "chapter": 20,
+    "rule": "past-continuous.in-progress",
+    "difficulty": 2,
+    "kind": "choice",
+    "prompt": "‘Why didn't you answer the phone at six?’ ‘At six? I ___ Pikachu in the bath.’",
+    "answers": [
+      "was washing"
+    ],
+    "distractors": [
+      "washed",
+      "have washed"
+    ],
+    "explanation": "À six heures, le bain était en cours, ce qui explique pourquoi je n'ai pas répondu : was washing (« je lavais »). Washed présenterait le bain comme un événement terminé, et le present perfect ne convient pas à un moment passé précis."
+  },
+  {
+    "id": "ch20-progress-003",
+    "chapter": 20,
+    "rule": "past-continuous.in-progress",
+    "difficulty": 2,
+    "kind": "choice",
+    "prompt": "Sorry I missed your call at nine last night: at that moment, I ___ a Gym Leader.",
+    "answers": [
+      "was battling"
+    ],
+    "distractors": [
+      "battled",
+      "am battling"
+    ],
+    "explanation": "At that moment renvoie à un instant passé pendant lequel le combat était en cours : was battling (« j'étais en train d'affronter »). Battled présenterait le combat comme un événement ponctuel, ce qui ne colle pas avec at that moment."
+  },
+  {
+    "id": "ch20-progress-004",
+    "chapter": 20,
+    "rule": "past-continuous.in-progress",
+    "difficulty": 2,
+    "kind": "choice",
+    "prompt": "When we reached Route 12 at 7:15 yesterday morning, a Snorlax ___ in the middle of the road, so we couldn't get past.",
+    "answers": [
+      "was sleeping"
+    ],
+    "distractors": [
+      "slept",
+      "is sleeping"
+    ],
+    "explanation": "Ronflex dormait déjà quand nous sommes arrivés, et c'est pour cela que nous étions bloqués : action en cours, was sleeping. Slept voudrait dire qu'il s'est endormi après notre arrivée."
+  },
+  {
+    "id": "ch20-progress-005",
+    "chapter": 20,
+    "rule": "past-continuous.in-progress",
+    "difficulty": 3,
+    "kind": "choice",
+    "prompt": "When I woke up at midnight, Misty ___ Togepi in her arms. She had started at ten!",
+    "answers": [
+      "was rocking"
+    ],
+    "distractors": [
+      "rocked",
+      "rocks"
+    ],
+    "explanation": "Elle avait commencé à dix heures : à minuit, l'action était donc en cours, was rocking (« berçait »). Rocked voudrait dire qu'elle s'est mise à bercer Togepi au moment où je me suis réveillé."
+  },
+  {
+    "id": "ch20-progress-006",
+    "chapter": 20,
+    "rule": "past-continuous.in-progress",
+    "difficulty": 3,
+    "kind": "choice",
+    "prompt": "When Mum checked on the twins at ten, they ___: they were whispering about the battle under the covers. They finally fell asleep at midnight.",
+    "answers": [
+      "weren't sleeping"
+    ],
+    "distractors": [
+      "didn't sleep",
+      "aren't sleeping"
+    ],
+    "explanation": "On décrit ce qui (ne) se passait (pas) au moment où maman est passée : weren't sleeping (« ils ne dormaient pas »). Didn't sleep voudrait dire qu'ils n'ont pas dormi de la nuit, alors qu'ils se sont endormis à minuit."
+  },
+  {
+    "id": "ch20-when-while-001",
+    "chapter": 20,
+    "rule": "past-continuous.when-while",
+    "difficulty": 1,
+    "kind": "choice",
+    "prompt": "I was walking on Route 1 ___ a wild Rattata jumped out of the grass.",
+    "answers": [
+      "when"
+    ],
+    "distractors": [
+      "during",
+      "since"
+    ],
+    "explanation": "When (« quand ») introduit l'événement ponctuel, au prétérit simple, qui survient pendant l'action en cours (was walking). During est une préposition : il est suivi d'un nom (during the walk), pas d'une phrase."
+  },
+  {
+    "id": "ch20-when-while-002",
+    "chapter": 20,
+    "rule": "past-continuous.when-while",
+    "difficulty": 1,
+    "kind": "choice",
+    "prompt": "___ Brock was cooking, Pikachu ate all the ketchup.",
+    "answers": [
+      "While"
+    ],
+    "distractors": [
+      "During",
+      "For"
+    ],
+    "explanation": "While (« pendant que ») introduit l'action en cours (was cooking). During (« pendant ») est suivi d'un nom, pas d'un sujet et d'un verbe."
+  },
+  {
+    "id": "ch20-when-while-003",
+    "chapter": 20,
+    "rule": "past-continuous.when-while",
+    "difficulty": 2,
+    "kind": "choice",
+    "prompt": "Misty ___ in the river when a Gyarados suddenly appeared, so she got out of the water fast.",
+    "answers": [
+      "was swimming"
+    ],
+    "distractors": [
+      "swam",
+      "is swimming"
+    ],
+    "explanation": "Elle était dans l'eau quand le Léviator est apparu : l'action en cours est au prétérit en be + V-ing (was swimming), l'événement qui l'interrompt au prétérit simple (appeared). Swam indiquerait qu'elle s'est mise à nager après l'apparition."
+  },
+  {
+    "id": "ch20-when-while-004",
+    "chapter": 20,
+    "rule": "past-continuous.when-while",
+    "difficulty": 2,
+    "kind": "choice",
+    "prompt": "We were crossing the bridge when a Pidgeot suddenly ___ over our heads.",
+    "answers": [
+      "flew"
+    ],
+    "distractors": [
+      "was flying",
+      "flies"
+    ],
+    "explanation": "L'événement ponctuel qui survient (suddenly) est au prétérit simple : flew. L'action en cours est au prétérit en be + V-ing (were crossing). Fly – flew – flown."
+  },
+  {
+    "id": "ch20-when-while-005",
+    "chapter": 20,
+    "rule": "past-continuous.when-while",
+    "difficulty": 3,
+    "kind": "choice",
+    "prompt": "I ___ the Pokémon Center when Nurse Joy called my name, so I turned around and went back to the desk.",
+    "answers": [
+      "was leaving"
+    ],
+    "distractors": [
+      "left",
+      "have left"
+    ],
+    "explanation": "J'étais en train de partir quand l'infirmière Joëlle m'a appelé : action en cours, was leaving, interrompue par un événement au prétérit simple (called). Left voudrait dire que je suis parti à cause de l'appel, ce qui contredit « went back to the desk »."
+  },
+  {
+    "id": "ch20-when-while-006",
+    "chapter": 20,
+    "rule": "past-continuous.when-while",
+    "difficulty": 3,
+    "kind": "choice",
+    "prompt": "‘What ___ when the roof of the Gym collapsed?’ ‘I was in the stands, watching the battle.’",
+    "answers": [
+      "were you doing"
+    ],
+    "distractors": [
+      "did you do",
+      "you were doing"
+    ],
+    "explanation": "La réponse décrit la situation en cours au moment de l'effondrement, pas une réaction : What were you doing when…? (« Que faisais-tu quand… ? »). What did you do when…? demanderait ce que tu as fait ensuite. L'auxiliaire were passe devant le sujet."
+  },
+  {
+    "id": "ch20-stative-001",
+    "chapter": 20,
+    "rule": "past-continuous.stative-verbs",
+    "difficulty": 1,
+    "kind": "choice",
+    "prompt": "We were lost because nobody ___ the way to Lavender Town.",
+    "answers": [
+      "knew"
+    ],
+    "distractors": [
+      "was knowing",
+      "knows"
+    ],
+    "explanation": "Know est un verbe d'état (connaissance) : il ne se met pas à la forme en -ing. Le français « personne ne connaissait » devient le prétérit simple knew."
+  },
+  {
+    "id": "ch20-stative-002",
+    "chapter": 20,
+    "rule": "past-continuous.stative-verbs",
+    "difficulty": 1,
+    "kind": "choice",
+    "prompt": "When I was little, I ___ that Psyduck was a real duck.",
+    "answers": [
+      "believed"
+    ],
+    "distractors": [
+      "was believing",
+      "believe"
+    ],
+    "explanation": "Believe exprime une opinion : c'est un verbe d'état, qui reste au prétérit simple (believed) même quand le français emploie l'imparfait (« je croyais »)."
+  },
+  {
+    "id": "ch20-stative-003",
+    "chapter": 20,
+    "rule": "past-continuous.stative-verbs",
+    "difficulty": 2,
+    "kind": "choice",
+    "prompt": "Back then, that Gyarados ___ to a fisherman from Cerulean City.",
+    "answers": [
+      "belonged"
+    ],
+    "distractors": [
+      "was belonging",
+      "is belonging"
+    ],
+    "explanation": "Belong (« appartenir ») exprime un état, pas une action : il ne se met pas à la forme en -ing. Back then situe l'état dans le passé : belonged."
+  },
+  {
+    "id": "ch20-stative-004",
+    "chapter": 20,
+    "rule": "past-continuous.stative-verbs",
+    "difficulty": 2,
+    "kind": "choice",
+    "prompt": "Ash's Charizard ___ him, but it refused to obey.",
+    "answers": [
+      "understood"
+    ],
+    "distractors": [
+      "was understanding",
+      "understands"
+    ],
+    "explanation": "Understand est un verbe d'état (compréhension) : pas de forme en -ing. Le récit est au passé (refused), donc understood. Understand – understood – understood."
+  },
+  {
+    "id": "ch20-stative-005",
+    "chapter": 20,
+    "rule": "past-continuous.stative-verbs",
+    "difficulty": 3,
+    "kind": "choice",
+    "prompt": "When we arrived at the Gym, the leader only ___ two Pokémon left.",
+    "answers": [
+      "had"
+    ],
+    "distractors": [
+      "was having",
+      "has"
+    ],
+    "explanation": "Have au sens de « posséder, avoir » est un verbe d'état : pas de forme en -ing (« il ne lui restait que deux Pokémon » → had). Was having n'est possible que pour une activité (was having lunch)."
+  },
+  {
+    "id": "ch20-stative-006",
+    "chapter": 20,
+    "rule": "past-continuous.stative-verbs",
+    "difficulty": 3,
+    "kind": "choice",
+    "prompt": "When I saw it at the edge of the lake, the wild Lapras ___ friendly, so I walked up to it.",
+    "answers": [
+      "seemed"
+    ],
+    "distractors": [
+      "was seeming",
+      "has seemed"
+    ],
+    "explanation": "On décrit une situation en arrière-plan, mais seem (« sembler ») est un verbe d'état : il ne se met pas à la forme en -ing. Le français « semblait » devient seemed, au prétérit simple."
+  },
+  {
+    "id": "ch20-contrast-001",
+    "chapter": 20,
+    "rule": "past-continuous.simple-or-continuous",
+    "difficulty": 1,
+    "kind": "choice",
+    "prompt": "Yesterday, my sister ___ three battles in a row.",
+    "answers": [
+      "won"
+    ],
+    "distractors": [
+      "was winning",
+      "wins"
+    ],
+    "explanation": "Une action terminée et comptée (three battles) se met au prétérit simple : won. Was winning décrirait une action en cours, sans résultat. Win – won – won."
+  },
+  {
+    "id": "ch20-contrast-002",
+    "chapter": 20,
+    "rule": "past-continuous.simple-or-continuous",
+    "difficulty": 1,
+    "kind": "choice",
+    "prompt": "Pikachu woke up, ___ out of bed and ran to the kitchen.",
+    "answers": [
+      "jumped"
+    ],
+    "distractors": [
+      "was jumping",
+      "jumps"
+    ],
+    "explanation": "Des actions qui se succèdent dans un récit sont au prétérit simple (woke up, jumped, ran). Le prétérit en be + V-ing sert à l'arrière-plan, pas aux étapes du récit."
+  },
+  {
+    "id": "ch20-contrast-003",
+    "chapter": 20,
+    "rule": "past-continuous.simple-or-continuous",
+    "difficulty": 2,
+    "kind": "choice",
+    "prompt": "When we walked into the stadium, the crowd ___ Gary's name, so nobody noticed us.",
+    "answers": [
+      "was chanting"
+    ],
+    "distractors": [
+      "chanted",
+      "has chanted"
+    ],
+    "explanation": "La foule scandait déjà le nom de Régis quand nous sommes entrés : c'est l'arrière-plan, was chanting. Chanted voudrait dire qu'elle a commencé en réaction à notre arrivée, ce qui contredit « nobody noticed us »."
+  },
+  {
+    "id": "ch20-contrast-004",
+    "chapter": 20,
+    "rule": "past-continuous.simple-or-continuous",
+    "difficulty": 2,
+    "kind": "choice",
+    "prompt": "My brother ___ his homework, then he went out to play with his Eevee.",
+    "answers": [
+      "finished"
+    ],
+    "distractors": [
+      "was finishing",
+      "finishes"
+    ],
+    "explanation": "Then marque la suite du récit : la première action est terminée avant la seconde, donc prétérit simple (finished). Was finishing décrirait une action encore en cours."
+  },
+  {
+    "id": "ch20-contrast-005",
+    "chapter": 20,
+    "rule": "past-continuous.simple-or-continuous",
+    "difficulty": 3,
+    "kind": "choice",
+    "prompt": "I ___ to music with my headphones on when Professor Oak knocked, so I didn't hear him.",
+    "answers": [
+      "was listening"
+    ],
+    "distractors": [
+      "listened",
+      "have listened"
+    ],
+    "explanation": "J'écoutais déjà la musique quand on a frappé : action en cours, was listening. Listened ferait de l'écoute un événement venant après le coup à la porte, ce qui contredit « so I didn't hear him »."
+  },
+  {
+    "id": "ch20-contrast-006",
+    "chapter": 20,
+    "rule": "past-continuous.simple-or-continuous",
+    "difficulty": 3,
+    "kind": "choice",
+    "prompt": "Last Saturday, I ___ five episodes of the Pokémon cartoon in a row!",
+    "answers": [
+      "watched"
+    ],
+    "distractors": [
+      "was watching",
+      "have watched"
+    ],
+    "explanation": "Five episodes in a row présente l'action comme terminée et complète, avec un nombre précis : prétérit simple, watched. Was watching décrirait une action en cours, sans dire qu'elle est finie. Last Saturday exclut le present perfect."
+  }
+]

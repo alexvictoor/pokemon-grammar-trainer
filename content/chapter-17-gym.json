@@ -1,0 +1,175 @@
+[
+  {
+    "id": "ch17-gym-third-person-001",
+    "chapter": 17,
+    "rule": "simple-present.third-person",
+    "difficulty": 2,
+    "kind": "typed",
+    "prompt": "Professor Oak loves his job: every year, he ___ (teach) new trainers how to catch Pokémon.",
+    "answers": [
+      "teaches"
+    ],
+    "explanation": "Loves situe la phrase dans le présent, et every year exprime une répétition : présent simple. He + teach, verbe en -ch, donc on ajoute -es : teaches."
+  },
+  {
+    "id": "ch17-gym-do-does-001",
+    "chapter": 17,
+    "rule": "simple-present.do-does",
+    "difficulty": 2,
+    "kind": "typed",
+    "prompt": "Misty ___ (not / like) Bug-type Pokémon at all, so she's running away from that Caterpie!",
+    "answers": [
+      "doesn't like",
+      "does not like"
+    ],
+    "explanation": "Misty s'enfuit maintenant : son aversion est actuelle, donc présent simple. Forme négative avec she : does not (doesn't) + base verbale, sans -s à like."
+  },
+  {
+    "id": "ch17-gym-do-does-002",
+    "chapter": 17,
+    "rule": "simple-present.do-does",
+    "difficulty": 3,
+    "kind": "typed",
+    "prompt": "I give my Pikachu ketchup every day. ___ (you / give) yours ketchup too?",
+    "answers": [
+      "Do you give"
+    ],
+    "explanation": "La phrase précédente (I give… every day) décrit une habitude actuelle : question au présent simple, do + sujet + base verbale. Avec you, c'est do, pas does."
+  },
+  {
+    "id": "ch17-gym-habits-001",
+    "chapter": 17,
+    "rule": "simple-present.habits",
+    "difficulty": 3,
+    "kind": "typed",
+    "prompt": "Snorlax is so lazy: it ___ (often / sleep) all afternoon.",
+    "answers": [
+      "often sleeps"
+    ],
+    "explanation": "Is so lazy décrit Ronflex aujourd'hui, et often marque une habitude : présent simple avec -s. Often se place devant le verbe : often sleeps, et non « sleeps often »."
+  },
+  {
+    "id": "ch17-gym-states-001",
+    "chapter": 17,
+    "rule": "simple-present.state-verbs",
+    "difficulty": 2,
+    "kind": "typed",
+    "prompt": "My little sister is only six, but she already ___ (know) the names of all the Pokémon!",
+    "answers": [
+      "knows"
+    ],
+    "explanation": "Is only six situe la phrase dans le présent. Know décrit un état (une connaissance) : présent simple, jamais be + V-ing. She → knows."
+  },
+  {
+    "id": "ch17-gym-truths-001",
+    "chapter": 17,
+    "rule": "simple-present.third-person",
+    "difficulty": 2,
+    "kind": "typed",
+    "prompt": "Every trainer knows it: a Fire-type Pokémon ___ (hate) water.",
+    "answers": [
+      "hates"
+    ],
+    "explanation": "Vérité générale au présent simple. A Fire-type Pokémon = it, donc le verbe prend -s à la troisième personne : hates. Hate, verbe de goût, refuse be + V-ing."
+  },
+  {
+    "id": "ch17-gym-order-habits-001",
+    "chapter": 17,
+    "rule": "simple-present.habits",
+    "difficulty": 2,
+    "kind": "reorder",
+    "prompt": "Ash se lève toujours tôt les jours de combat.",
+    "tiles": [
+      "Ash",
+      "always",
+      "gets",
+      "up",
+      "early",
+      "on",
+      "battle",
+      "days."
+    ],
+    "decoys": [
+      "get",
+      "getting"
+    ],
+    "answers": [
+      "Ash always gets up early on battle days."
+    ],
+    "explanation": "Habitude : présent simple avec -s (Ash gets up). Always se place devant le verbe, et non après comme en français (« se lève toujours »)."
+  },
+  {
+    "id": "ch17-gym-order-do-does-001",
+    "chapter": 17,
+    "rule": "simple-present.do-does",
+    "difficulty": 2,
+    "kind": "reorder",
+    "prompt": "Est-ce que Brock cuisine pour ses amis ?",
+    "tiles": [
+      "Does",
+      "Brock",
+      "cook",
+      "for",
+      "his",
+      "friends?"
+    ],
+    "decoys": [
+      "cooks",
+      "Is"
+    ],
+    "answers": [
+      "Does Brock cook for his friends?"
+    ],
+    "explanation": "Question au présent simple : does + sujet + base verbale. Le -s est porté par does, donc cook reste sans -s."
+  },
+  {
+    "id": "ch17-gym-order-states-001",
+    "chapter": 17,
+    "rule": "simple-present.state-verbs",
+    "difficulty": 1,
+    "kind": "reorder",
+    "prompt": "Je veux un Évoli pour mon anniversaire.",
+    "tiles": [
+      "I",
+      "want",
+      "an",
+      "Eevee",
+      "for",
+      "my",
+      "birthday."
+    ],
+    "decoys": [
+      "am",
+      "wanting"
+    ],
+    "answers": [
+      "I want an Eevee for my birthday."
+    ],
+    "explanation": "Want exprime la volonté : c'est un verbe d'état, toujours au présent simple. « I am wanting » est incorrect."
+  },
+  {
+    "id": "ch17-gym-order-timetable-001",
+    "chapter": 17,
+    "rule": "simple-present.frequency-adverbs",
+    "difficulty": 3,
+    "kind": "reorder",
+    "prompt": "Mon frère regarde rarement les combats à la télé.",
+    "tiles": [
+      "My",
+      "brother",
+      "rarely",
+      "watches",
+      "battles",
+      "on",
+      "TV."
+    ],
+    "decoys": [
+      "watch",
+      "doesn't"
+    ],
+    "answers": [
+      "My brother rarely watches battles on TV."
+    ],
+    "explanation": "Rarely se place devant le verbe : he rarely watches. Le français met l'adverbe après le verbe (« regarde rarement »), mais l'anglais ne le glisse pas entre le verbe et son complément."
+  }
+]

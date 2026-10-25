@@ -1,0 +1,110 @@
+[
+  {
+    "id": "ch15-gym-present-001",
+    "chapter": 15,
+    "rule": "be.present-forms",
+    "difficulty": 2,
+    "kind": "typed",
+    "prompt": "Professor Oak ___ (not / be) in his lab today. He's on holiday.",
+    "answers": ["isn't", "is not"],
+    "explanation": "Be fait sa négation en ajoutant not, sans do : is not (isn't). He's on holiday montre qu'on parle d'aujourd'hui, donc le présent."
+  },
+  {
+    "id": "ch15-gym-past-001",
+    "chapter": 15,
+    "rule": "be.past-forms",
+    "difficulty": 2,
+    "kind": "typed",
+    "prompt": "Brock and Misty ___ (be) very tired after the battle yesterday.",
+    "answers": ["were"],
+    "explanation": "Yesterday impose le prétérit. Brock and Misty = they, donc were (was ne s'emploie qu'avec I / he / she / it)."
+  },
+  {
+    "id": "ch15-gym-age-001",
+    "chapter": 15,
+    "rule": "be.adjective-age",
+    "difficulty": 1,
+    "kind": "typed",
+    "prompt": "Ash ___ (be) ten, but he's already a great trainer.",
+    "answers": ["is"],
+    "explanation": "Pour donner un âge, l'anglais emploie be : Ash is ten (« Ash a dix ans »). Avec he, be se conjugue is."
+  },
+  {
+    "id": "ch15-gym-there-001",
+    "chapter": 15,
+    "rule": "be.there-is-are",
+    "difficulty": 3,
+    "kind": "typed",
+    "prompt": "Yesterday, ___ (there / be) twenty trainers at the Gym.",
+    "answers": ["there were"],
+    "explanation": "« Il y avait » + un nom pluriel (twenty trainers) : there were. Yesterday impose le prétérit, et be s'accorde avec le nom qui suit."
+  },
+  {
+    "id": "ch15-gym-imperative-001",
+    "chapter": 15,
+    "rule": "be.imperative",
+    "difficulty": 2,
+    "kind": "typed",
+    "prompt": "___ (not / be) late for the tournament, Ash!",
+    "answers": ["don't be", "do not be"],
+    "explanation": "L'impératif négatif de be se forme avec don't be : Don't be late! (« Ne sois pas en retard ! »). Late est un adjectif : be reste obligatoire après don't."
+  },
+  {
+    "id": "ch15-gym-auxiliary-001",
+    "chapter": 15,
+    "rule": "be.auxiliary",
+    "difficulty": 3,
+    "kind": "typed",
+    "prompt": "The bridge ___ (be / destroy) by Team Rocket last night, so we can't cross the river now.",
+    "answers": ["was destroyed"],
+    "explanation": "Le pont a subi l'action (by Team Rocket) : c'est le passif, be + participe passé. Last night impose le prétérit, et la destruction est terminée puisqu'on ne peut plus traverser : was destroyed."
+  },
+  {
+    "id": "ch15-gym-order-age-001",
+    "chapter": 15,
+    "rule": "be.adjective-age",
+    "difficulty": 2,
+    "kind": "reorder",
+    "prompt": "Ma sœur a douze ans.",
+    "tiles": ["My", "sister", "is", "twelve", "years", "old."],
+    "decoys": ["has"],
+    "answers": ["My sister is twelve years old."],
+    "explanation": "Pour donner un âge, l'anglais emploie be et non have : She is twelve years old. « She has twelve years » est un calque du français."
+  },
+  {
+    "id": "ch15-gym-order-there-001",
+    "chapter": 15,
+    "rule": "be.there-is-are",
+    "difficulty": 2,
+    "kind": "reorder",
+    "prompt": "Il y a deux Ronflex sur le pont.",
+    "tiles": ["There", "are", "two", "Snorlax", "on", "the", "bridge."],
+    "decoys": ["It", "has"],
+    "answers": ["There are two Snorlax on the bridge."],
+    "explanation": "« Il y a » + un nom pluriel (two Snorlax) : there are. « It has » est un calque du français."
+  },
+  {
+    "id": "ch15-gym-order-imperative-001",
+    "chapter": 15,
+    "rule": "be.imperative",
+    "difficulty": 3,
+    "kind": "reorder",
+    "prompt": "N'aie pas peur, Pikachu !",
+    "tiles": ["Don't", "be", "afraid,", "Pikachu!"],
+    "decoys": ["have", "Not"],
+    "answers": ["Don't be afraid, Pikachu!"],
+    "explanation": "« Avoir peur » se dit be afraid. À l'impératif négatif : Don't be afraid! On ne dit ni « Don't have afraid » ni « Not be afraid »."
+  },
+  {
+    "id": "ch15-gym-order-past-001",
+    "chapter": 15,
+    "rule": "be.past-forms",
+    "difficulty": 2,
+    "kind": "reorder",
+    "prompt": "Étiez-vous au Centre Pokémon hier ?",
+    "tiles": ["Were", "you", "at", "the", "Pokémon", "Center", "yesterday?"],
+    "decoys": ["Did", "Was"],
+    "answers": ["Were you at the Pokémon Center yesterday?"],
+    "explanation": "Au prétérit, be passe devant le sujet pour poser la question, sans did : Were you…? Avec you, le prétérit de be est were."
+  }
+]

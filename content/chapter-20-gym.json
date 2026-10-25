@@ -1,0 +1,110 @@
+[
+  {
+    "id": "ch20-gym-form-001",
+    "chapter": 20,
+    "rule": "past-continuous.form",
+    "difficulty": 2,
+    "kind": "typed",
+    "prompt": "This time yesterday, Misty and I ___ (swim) in the sea with our Pokémon.",
+    "answers": ["were swimming"],
+    "explanation": "This time yesterday : action en cours à un moment passé, donc were + V-ing (Misty and I = we). Swim double son m devant -ing : swimming."
+  },
+  {
+    "id": "ch20-gym-form-002",
+    "chapter": 20,
+    "rule": "past-continuous.form",
+    "difficulty": 3,
+    "kind": "typed",
+    "prompt": "When I came into the kitchen, Snorlax ___ (not / sleep): it was eating all the berries!",
+    "answers": ["wasn't sleeping", "was not sleeping"],
+    "explanation": "On décrit ce qui (ne) se passait (pas) au moment où je suis entré, comme was eating : was not (wasn't) + V-ing. Didn't sleep ne décrirait pas une situation en cours."
+  },
+  {
+    "id": "ch20-gym-progress-001",
+    "chapter": 20,
+    "rule": "past-continuous.in-progress",
+    "difficulty": 3,
+    "kind": "typed",
+    "prompt": "What ___ (you / do) this time yesterday?",
+    "answers": ["were you doing"],
+    "explanation": "This time yesterday (« hier à la même heure ») : on demande quelle action était en cours, donc What were you doing…? L'auxiliaire were passe devant le sujet."
+  },
+  {
+    "id": "ch20-gym-when-while-001",
+    "chapter": 20,
+    "rule": "past-continuous.when-while",
+    "difficulty": 2,
+    "kind": "typed",
+    "prompt": "I was riding my bike when a Ponyta suddenly ___ (run) across the road.",
+    "answers": ["ran"],
+    "explanation": "L'événement ponctuel (suddenly) qui interrompt l'action en cours (was riding) se met au prétérit simple. Run est irrégulier : run – ran – run."
+  },
+  {
+    "id": "ch20-gym-stative-001",
+    "chapter": 20,
+    "rule": "past-continuous.stative-verbs",
+    "difficulty": 2,
+    "kind": "typed",
+    "prompt": "When I was ten, I ___ (want) a Pikachu more than anything.",
+    "answers": ["wanted"],
+    "explanation": "Want exprime la volonté : c'est un verbe d'état, qui reste au prétérit simple (wanted) alors que le français emploie l'imparfait (« je voulais »)."
+  },
+  {
+    "id": "ch20-gym-contrast-001",
+    "chapter": 20,
+    "rule": "past-continuous.simple-or-continuous",
+    "difficulty": 3,
+    "kind": "typed",
+    "prompt": "Last week, Ash ___ (catch) four new Pokémon.",
+    "answers": ["caught"],
+    "explanation": "Une action terminée et comptée (four new Pokémon) se met au prétérit simple, pas à la forme en -ing. Last week exclut le present perfect. Catch – caught – caught."
+  },
+  {
+    "id": "ch20-gym-order-when-while-001",
+    "chapter": 20,
+    "rule": "past-continuous.when-while",
+    "difficulty": 2,
+    "kind": "reorder",
+    "prompt": "Pikachu dormait quand la Team Rocket est arrivée.",
+    "tiles": ["Pikachu", "was", "sleeping", "when", "Team", "Rocket", "arrived."],
+    "decoys": ["slept", "were"],
+    "answers": ["Pikachu was sleeping when Team Rocket arrived."],
+    "explanation": "« Dormait » décrit l'action en cours : was sleeping. L'arrivée, ponctuelle, est au prétérit simple (arrived). Pikachu slept when… voudrait dire qu'il s'est endormi après leur arrivée."
+  },
+  {
+    "id": "ch20-gym-order-when-while-002",
+    "chapter": 20,
+    "rule": "past-continuous.when-while",
+    "difficulty": 3,
+    "kind": "reorder",
+    "prompt": "Sacha nageait pendant qu'Ondine pêchait.",
+    "tiles": ["Ash", "was", "swimming", "while", "Misty", "was", "fishing."],
+    "decoys": ["during", "swiming"],
+    "answers": ["Ash was swimming while Misty was fishing."],
+    "explanation": "Deux actions en cours en même temps : was + V-ing dans les deux propositions, reliées par while (« pendant que »). During est suivi d'un nom, pas d'une phrase."
+  },
+  {
+    "id": "ch20-gym-order-stative-001",
+    "chapter": 20,
+    "rule": "past-continuous.stative-verbs",
+    "difficulty": 3,
+    "kind": "reorder",
+    "prompt": "Nous ne savions pas où était Pikachu.",
+    "tiles": ["We", "didn't", "know", "where", "Pikachu", "was."],
+    "decoys": ["weren't", "knowing"],
+    "answers": ["We didn't know where Pikachu was."],
+    "explanation": "Know est un verbe d'état : pas de forme en -ing, même pour traduire un imparfait (« ne savions pas » → didn't know). Dans la question indirecte, le sujet précède le verbe : where Pikachu was."
+  },
+  {
+    "id": "ch20-gym-order-form-001",
+    "chapter": 20,
+    "rule": "past-continuous.form",
+    "difficulty": 2,
+    "kind": "reorder",
+    "prompt": "Qu'est-ce que tu faisais quand Pikachu s'est enfui ?",
+    "tiles": ["What", "were", "you", "doing", "when", "Pikachu", "ran", "away?"],
+    "decoys": ["did", "was"],
+    "answers": ["What were you doing when Pikachu ran away?"],
+    "explanation": "« Que faisais-tu » : What were you doing…? Avec you, l'auxiliaire est were, placé devant le sujet. La fuite, ponctuelle, est au prétérit simple (ran away)."
+  }
+]

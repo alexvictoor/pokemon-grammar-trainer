@@ -1,0 +1,7 @@
+[
+  { "id": "obligation.form", "chapter": 28, "label": "Form: must + base verb (no to, no -s), has to with he / she / it" },
+  { "id": "obligation.mustnt-or-dont-have-to", "chapter": 28, "label": "mustn't (it is forbidden) or don't have to (it is not necessary)" },
+  { "id": "obligation.past", "chapter": 28, "label": "A past obligation: had to, didn't have to (must has no past)" },
+  { "id": "obligation.future", "chapter": 28, "label": "A future obligation: will have to, won't have to" },
+  { "id": "obligation.have-to-questions", "chapter": 28, "label": "have to in questions and negatives: do / does / did" }
+]

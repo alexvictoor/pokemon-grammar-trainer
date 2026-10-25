@@ -1,0 +1,110 @@
+[
+  {
+    "id": "ch28-gym-form-001",
+    "chapter": 28,
+    "rule": "obligation.form",
+    "difficulty": 2,
+    "kind": "typed",
+    "prompt": "Pikachu hates planes, but at the moment it ___ (have to) travel in its Poké Ball.",
+    "answers": ["has to", "has got to", "is having to"],
+    "explanation": "At the moment situe l'obligation dans le présent. Have to se conjugue comme un verbe ordinaire : avec it, c'est has to."
+  },
+  {
+    "id": "ch28-gym-mustnt-001",
+    "chapter": 28,
+    "rule": "obligation.mustnt-or-dont-have-to",
+    "difficulty": 2,
+    "kind": "typed",
+    "prompt": "Entry is free today: you ___ (pay) to visit the Safari Zone.",
+    "answers": ["don't have to pay", "do not have to pay", "haven't got to pay", "have not got to pay", "needn't pay", "need not pay", "don't need to pay", "do not need to pay", "won't have to pay", "will not have to pay", "won't need to pay", "will not need to pay"],
+    "explanation": "L'entrée est gratuite : il n'y a pas d'obligation de payer, donc don't have to pay (« tu n'es pas obligé »). Le piège est mustn't pay, qui voudrait dire « tu n'as pas le droit de payer »."
+  },
+  {
+    "id": "ch28-gym-past-001",
+    "chapter": 28,
+    "rule": "obligation.past",
+    "difficulty": 2,
+    "kind": "typed",
+    "prompt": "Last week I ___ (have to) take my Psyduck to the Pokémon Center twice.",
+    "answers": ["had to"],
+    "explanation": "Last week : obligation passée, had to. Must ne s'emploie pas pour une obligation passée : « j'ai dû » se dit had to."
+  },
+  {
+    "id": "ch28-gym-future-001",
+    "chapter": 28,
+    "rule": "obligation.future",
+    "difficulty": 2,
+    "kind": "typed",
+    "prompt": "One day, when you're a Gym Leader, you ___ (have to) accept challenges from every trainer.",
+    "answers": ["will have to", "are going to have to"],
+    "explanation": "One day, when… situe l'obligation dans l'avenir : will have to (« tu devras »). Must n'a pas de futur, et « will must » est impossible : deux modaux ne se suivent jamais."
+  },
+  {
+    "id": "ch28-gym-questions-001",
+    "chapter": 28,
+    "rule": "obligation.have-to-questions",
+    "difficulty": 3,
+    "kind": "typed",
+    "prompt": "___ (you / have to) feed your Pokémon right now, or can we go?",
+    "answers": ["Do you have to", "Have you got to"],
+    "explanation": "Right now et can we go situent la question dans le présent. Have to se comporte comme un verbe ordinaire : la question se forme avec do + sujet + have to."
+  },
+  {
+    "id": "ch28-gym-questions-002",
+    "chapter": 28,
+    "rule": "obligation.have-to-questions",
+    "difficulty": 3,
+    "kind": "typed",
+    "prompt": "Brock ___ (not / have to) cook on Sundays: that's Misty's job.",
+    "answers": ["doesn't have to", "does not have to", "hasn't got to", "has not got to"],
+    "explanation": "On Sundays et that's Misty's job décrivent une habitude présente. Négation de have to au présent avec he : does not (doesn't) have to, suivi de la base verbale have, pas has."
+  },
+  {
+    "id": "ch28-gym-order-mustnt-001",
+    "chapter": 28,
+    "rule": "obligation.mustnt-or-dont-have-to",
+    "difficulty": 2,
+    "kind": "reorder",
+    "prompt": "Tu ne dois pas nourrir les Pokémon sauvages.",
+    "tiles": ["You", "mustn't", "feed", "wild", "Pokémon."],
+    "decoys": ["to", "have"],
+    "answers": ["You mustn't feed wild Pokémon."],
+    "explanation": "Une interdiction se dit mustn't + base verbale, sans to. Pour une vérité générale, l'anglais n'emploie pas d'article : wild Pokémon."
+  },
+  {
+    "id": "ch28-gym-order-mustnt-002",
+    "chapter": 28,
+    "rule": "obligation.mustnt-or-dont-have-to",
+    "difficulty": 3,
+    "kind": "reorder",
+    "prompt": "Tu n'es pas obligé de venir au tournoi.",
+    "tiles": ["You", "don't", "have", "to", "come", "to", "the", "tournament."],
+    "decoys": ["mustn't", "must"],
+    "answers": ["You don't have to come to the tournament."],
+    "explanation": "« Tu n'es pas obligé » : absence d'obligation, don't have to. Mustn't voudrait dire « tu n'as pas le droit de venir »."
+  },
+  {
+    "id": "ch28-gym-order-past-001",
+    "chapter": 28,
+    "rule": "obligation.past",
+    "difficulty": 2,
+    "kind": "reorder",
+    "prompt": "J'ai dû soigner mon Pikachu hier.",
+    "tiles": ["I", "had", "to", "heal", "my", "Pikachu", "yesterday."],
+    "decoys": ["must", "have"],
+    "answers": ["I had to heal my Pikachu yesterday."],
+    "explanation": "Obligation passée (yesterday) : had to + base verbale. Must ne s'emploie pas pour une obligation passée."
+  },
+  {
+    "id": "ch28-gym-order-future-001",
+    "chapter": 28,
+    "rule": "obligation.future",
+    "difficulty": 3,
+    "kind": "reorder",
+    "prompt": "Tu devras montrer tes badges.",
+    "tiles": ["You", "will", "have", "to", "show", "your", "badges."],
+    "decoys": ["had", "would"],
+    "answers": ["You will have to show your badges."],
+    "explanation": "« Tu devras » : obligation future, will have to + base verbale. Must n'a pas de futur, et deux modaux ne se suivent jamais."
+  }
+]

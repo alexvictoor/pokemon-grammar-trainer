@@ -1,0 +1,482 @@
+[
+  {
+    "id": "ch25-prediction-001",
+    "chapter": 25,
+    "rule": "future.will-prediction",
+    "difficulty": 2,
+    "kind": "choice",
+    "prompt": "I'm going to say sorry to Misty, but I doubt she ___ my apology.",
+    "answers": [
+      "will accept"
+    ],
+    "distractors": [
+      "accepts",
+      "accept"
+    ],
+    "explanation": "On fait une prédiction : will + base verbale, will accept. Le piège est le subjonctif français « je doute qu'elle accepte », qui pousse vers accepts ou accept. Après I doubt, l'anglais emploie will pour parler de l'avenir."
+  },
+  {
+    "id": "ch25-prediction-002",
+    "chapter": 25,
+    "rule": "future.will-prediction",
+    "difficulty": 2,
+    "kind": "choice",
+    "prompt": "Psyduck is so clumsy. I don't think it ___ able to help us.",
+    "answers": [
+      "will be"
+    ],
+    "distractors": [
+      "be",
+      "is being"
+    ],
+    "explanation": "On fait une prédiction : will be. Le piège est le subjonctif français « je ne pense pas qu'il soit capable », qui pousse vers be seul. Is being able ne convient pas : be able to ne se met pas à la forme progressive."
+  },
+  {
+    "id": "ch25-prediction-003",
+    "chapter": 25,
+    "rule": "future.will-prediction",
+    "difficulty": 3,
+    "kind": "choice",
+    "prompt": "I don't think Team Rocket ___ us in this cave.",
+    "answers": [
+      "will find"
+    ],
+    "distractors": [
+      "finds",
+      "is finding"
+    ],
+    "explanation": "On fait une prédiction : will find. Le piège est le subjonctif français « je ne pense pas qu'ils nous trouvent », qui pousse vers le présent finds. Is finding exprimerait un projet organisé, ce qui n'a pas de sens ici."
+  },
+  {
+    "id": "ch25-prediction-004",
+    "chapter": 25,
+    "rule": "future.will-prediction",
+    "difficulty": 2,
+    "kind": "choice",
+    "prompt": "My Slowpoke is so slow that I'm afraid it ___ the race.",
+    "answers": [
+      "won't win"
+    ],
+    "distractors": [
+      "doesn't win",
+      "not win"
+    ],
+    "explanation": "On prédit le résultat de la course : will à la forme négative, won't (will not) + base verbale. Le subjonctif français « j'ai peur qu'il ne gagne pas » pousse vers le présent doesn't win. « Not win » oublie l'auxiliaire."
+  },
+  {
+    "id": "ch25-prediction-005",
+    "chapter": 25,
+    "rule": "future.will-prediction",
+    "difficulty": 3,
+    "kind": "choice",
+    "prompt": "I've broken Professor Oak's Pokédex, and he doesn't know yet. Do you think he ___ angry?",
+    "answers": [
+      "will be"
+    ],
+    "distractors": [
+      "is",
+      "is being"
+    ],
+    "explanation": "Le professeur ne sait encore rien : sa colère est une prédiction, will be. Is parlerait de son état maintenant, ce que he doesn't know yet exclut. Is being angry décrirait un comportement en cours, pas une prédiction."
+  },
+  {
+    "id": "ch25-spontaneous-001",
+    "chapter": 25,
+    "rule": "future.will-spontaneous",
+    "difficulty": 1,
+    "kind": "choice",
+    "prompt": "— I'm so hungry! — Wait here, I ___ you a sandwich.",
+    "answers": [
+      "will make"
+    ],
+    "distractors": [
+      "make",
+      "am make"
+    ],
+    "explanation": "On propose son aide et on le décide sur le moment : will + base verbale, will make. Le français « je te fais un sandwich » pousse vers le présent make, qui ne convient pas en anglais."
+  },
+  {
+    "id": "ch25-spontaneous-002",
+    "chapter": 25,
+    "rule": "future.will-spontaneous",
+    "difficulty": 1,
+    "kind": "choice",
+    "prompt": "I promise I ___ your Poké Ball back tomorrow, Misty.",
+    "answers": [
+      "will bring"
+    ],
+    "distractors": [
+      "bring",
+      "will brought"
+    ],
+    "explanation": "Une promesse (I promise) s'exprime avec will + base verbale : will bring. Le présent bring ne fait pas de promesse, et après will le verbe reste à la base verbale, jamais au prétérit."
+  },
+  {
+    "id": "ch25-spontaneous-003",
+    "chapter": 25,
+    "rule": "future.will-spontaneous",
+    "difficulty": 2,
+    "kind": "choice",
+    "prompt": "— We've run out of Potions! — Really? Then I ___ some at the Poké Mart.",
+    "answers": [
+      "will buy"
+    ],
+    "distractors": [
+      "buy",
+      "bought"
+    ],
+    "explanation": "Really? Then… : le locuteur décide sur le moment d'acheter des Potions, avec will + base verbale, will buy. Le présent buy est un calque de « j'en achète », et bought est un passé."
+  },
+  {
+    "id": "ch25-spontaneous-004",
+    "chapter": 25,
+    "rule": "future.will-spontaneous",
+    "difficulty": 2,
+    "kind": "choice",
+    "prompt": "That box of Potions looks heavy. Give it to me, I ___ it for you.",
+    "answers": [
+      "will carry"
+    ],
+    "distractors": [
+      "carry",
+      "am carrying"
+    ],
+    "explanation": "On offre son aide en le décidant sur le moment : will carry. Le présent carry est un calque de « je te la porte ». Am carrying décrirait une action en cours ou un projet organisé, pas une offre."
+  },
+  {
+    "id": "ch25-spontaneous-005",
+    "chapter": 25,
+    "rule": "future.will-spontaneous",
+    "difficulty": 2,
+    "kind": "choice",
+    "prompt": "Your secret is safe, Misty: I ___ anyone that you're scared of Bug Pokémon.",
+    "answers": [
+      "won't tell"
+    ],
+    "distractors": [
+      "don't tell",
+      "won't to tell"
+    ],
+    "explanation": "C'est une promesse à la forme négative : won't (will not) + base verbale, won't tell. Le présent don't tell ne fait pas de promesse, et will n'est jamais suivi de to."
+  },
+  {
+    "id": "ch25-evidence-001",
+    "chapter": 25,
+    "rule": "future.going-to-form",
+    "difficulty": 1,
+    "kind": "choice",
+    "prompt": "Look! Pikachu's cheeks are sparking. It ___ use Thunderbolt!",
+    "answers": [
+      "is going to"
+    ],
+    "distractors": [
+      "goes to",
+      "is going"
+    ],
+    "explanation": "« Il va utiliser » se traduit par be going to + base verbale : it is going to use. « Goes to » est un calque du français, et il ne faut pas oublier to devant la base verbale."
+  },
+  {
+    "id": "ch25-evidence-002",
+    "chapter": 25,
+    "rule": "future.going-to-form",
+    "difficulty": 2,
+    "kind": "choice",
+    "prompt": "Look, the Pokémon Egg is shaking! It ___ any second now.",
+    "answers": [
+      "is going to hatch"
+    ],
+    "distractors": [
+      "hatches",
+      "goes to hatch"
+    ],
+    "explanation": "« Il va éclore » se traduit par be going to + base verbale : it is going to hatch. « Goes to hatch » est un calque du français, et le présent hatches ne parle pas de ce qui va se produire."
+  },
+  {
+    "id": "ch25-evidence-003",
+    "chapter": 25,
+    "rule": "future.going-to-form",
+    "difficulty": 1,
+    "kind": "choice",
+    "prompt": "Watch out, Ash! You ___ into that sleeping Snorlax!",
+    "answers": [
+      "are going to bump"
+    ],
+    "distractors": [
+      "bump",
+      "go to bump"
+    ],
+    "explanation": "« Tu vas heurter » se traduit par be going to + base verbale : you are going to bump. « Go to bump » est un calque du français, et le présent bump ne parle pas de ce qui va se produire."
+  },
+  {
+    "id": "ch25-evidence-004",
+    "chapter": 25,
+    "rule": "future.going-to-form",
+    "difficulty": 2,
+    "kind": "choice",
+    "prompt": "Psyduck has fallen asleep in the middle of the track. It ___ the race!",
+    "answers": [
+      "isn't going to finish"
+    ],
+    "distractors": [
+      "doesn't finish",
+      "isn't going finish"
+    ],
+    "explanation": "À la forme négative de be going to, la négation porte sur be : it isn't going to finish. Il faut to devant la base verbale, et le présent doesn't finish ne parle pas de ce qui va se produire."
+  },
+  {
+    "id": "ch25-evidence-005",
+    "chapter": 25,
+    "rule": "future.going-to-form",
+    "difficulty": 3,
+    "kind": "choice",
+    "prompt": "Your face is all green, Ash. ___ to be sick?",
+    "answers": [
+      "Are you going"
+    ],
+    "distractors": [
+      "Do you go",
+      "Will you go"
+    ],
+    "explanation": "À la forme interrogative de be going to, be passe devant le sujet : Are you going to be sick? On n'emploie ni do ni will devant going to."
+  },
+  {
+    "id": "ch25-intention-001",
+    "chapter": 25,
+    "rule": "future.going-to-form",
+    "difficulty": 1,
+    "kind": "choice",
+    "prompt": "I've made up my mind: I ___ catch a Dragonite this summer.",
+    "answers": [
+      "am going to"
+    ],
+    "distractors": [
+      "go to",
+      "am going"
+    ],
+    "explanation": "« Je vais attraper » se traduit par be going to + base verbale : I am going to catch. « Go to » est un calque du français, et il ne faut pas oublier to devant la base verbale."
+  },
+  {
+    "id": "ch25-intention-002",
+    "chapter": 25,
+    "rule": "future.going-to-form",
+    "difficulty": 3,
+    "kind": "choice",
+    "prompt": "— Why are you buying so many Poké Balls? — Because I ___ go to the Safari Zone tomorrow.",
+    "answers": [
+      "am going to"
+    ],
+    "distractors": [
+      "go to",
+      "am going"
+    ],
+    "explanation": "« Je vais aller » se traduit par be going to + base verbale : I am going to go. « Go to » est un calque du français, et il ne faut pas oublier to devant la base verbale."
+  },
+  {
+    "id": "ch25-intention-003",
+    "chapter": 25,
+    "rule": "future.going-to-form",
+    "difficulty": 2,
+    "kind": "choice",
+    "prompt": "You've picked so many berries! What ___ do with them?",
+    "answers": [
+      "are you going to"
+    ],
+    "distractors": [
+      "do you go to",
+      "are you going"
+    ],
+    "explanation": "À la forme interrogative de be going to, be passe devant le sujet : What are you going to do…? « Do you go to » est un calque de « tu vas faire », et il faut to devant la base verbale."
+  },
+  {
+    "id": "ch25-intention-004",
+    "chapter": 25,
+    "rule": "future.going-to-form",
+    "difficulty": 3,
+    "kind": "choice",
+    "prompt": "We lost the battle, but I've thought about it: I ___ give up.",
+    "answers": [
+      "am not going to"
+    ],
+    "distractors": [
+      "don't go to",
+      "am not going"
+    ],
+    "explanation": "À la forme négative de be going to, la négation porte sur be : I am not going to give up. « Don't go to » est un calque de « je ne vais pas », et il faut to devant la base verbale."
+  },
+  {
+    "id": "ch25-intention-005",
+    "chapter": 25,
+    "rule": "future.going-to-form",
+    "difficulty": 2,
+    "kind": "choice",
+    "prompt": "My sister has bought a big sketchbook: she ___ every Pokémon in the Pokédex.",
+    "answers": [
+      "is going to draw"
+    ],
+    "distractors": [
+      "draws",
+      "goes to draw"
+    ],
+    "explanation": "« Elle va dessiner » se traduit par be going to + base verbale : she is going to draw. « Goes to draw » est un calque du français, et le présent draws ne parle pas de ce projet."
+  },
+  {
+    "id": "ch25-arrangement-001",
+    "chapter": 25,
+    "rule": "future.arrangement",
+    "difficulty": 1,
+    "kind": "choice",
+    "prompt": "Guess what? Misty ___ to my house this evening. She phoned me an hour ago to arrange it.",
+    "answers": [
+      "is coming"
+    ],
+    "distractors": [
+      "comes",
+      "coming"
+    ],
+    "explanation": "La visite de ce soir est organisée (elle a appelé pour l'arranger) : be + V-ing, is coming. Le français dit « Ondine vient chez moi ce soir », au présent, mais comes ne convient pas pour ce projet personnel. Il ne faut pas oublier l'auxiliaire be."
+  },
+  {
+    "id": "ch25-arrangement-002",
+    "chapter": 25,
+    "rule": "future.arrangement",
+    "difficulty": 1,
+    "kind": "choice",
+    "prompt": "We ___ a party for Pikachu's birthday on Saturday. Everyone is invited!",
+    "answers": [
+      "are throwing"
+    ],
+    "distractors": [
+      "throw",
+      "throwing"
+    ],
+    "explanation": "La fête est déjà organisée (tout le monde est invité) : be + V-ing, are throwing. Le présent simple throw ne s'emploie pas pour un projet personnel, et il ne faut pas oublier l'auxiliaire be."
+  },
+  {
+    "id": "ch25-arrangement-003",
+    "chapter": 25,
+    "rule": "future.arrangement",
+    "difficulty": 2,
+    "kind": "choice",
+    "prompt": "— ___ anything special tonight? — Yes, I'm having dinner with Brock.",
+    "answers": [
+      "Are you doing"
+    ],
+    "distractors": [
+      "Do you do",
+      "Are you do"
+    ],
+    "explanation": "On demande ce qui est prévu pour ce soir, et la réponse est un projet organisé (I'm having dinner) : be + V-ing, Are you doing…? « Do you do » parle d'une habitude, et be se construit avec -ing."
+  },
+  {
+    "id": "ch25-arrangement-004",
+    "chapter": 25,
+    "rule": "future.arrangement",
+    "difficulty": 2,
+    "kind": "choice",
+    "prompt": "I'm so excited! My parents ___ me to the Pokémon League final on Sunday. They bought the tickets last month.",
+    "answers": [
+      "are taking"
+    ],
+    "distractors": [
+      "take",
+      "took"
+    ],
+    "explanation": "La sortie de dimanche est organisée (les billets sont achetés) : be + V-ing, are taking. Le français dit « mes parents m'emmènent », au présent simple, mais take ne convient pas pour ce projet personnel. Took est un passé."
+  },
+  {
+    "id": "ch25-arrangement-005",
+    "chapter": 25,
+    "rule": "future.arrangement",
+    "difficulty": 3,
+    "kind": "choice",
+    "prompt": "Brock ___ dinner tonight: we're all eating at the Pokémon Center with Nurse Joy.",
+    "answers": [
+      "isn't cooking"
+    ],
+    "distractors": [
+      "doesn't cook",
+      "didn't cook"
+    ],
+    "explanation": "Le programme de ce soir est déjà organisé (we're all eating…) : be + V-ing à la forme négative, isn't cooking. Doesn't cook décrirait une habitude, et didn't cook est un passé, impossible avec tonight."
+  },
+  {
+    "id": "ch25-time-clause-001",
+    "chapter": 25,
+    "rule": "future.time-clauses",
+    "difficulty": 1,
+    "kind": "choice",
+    "prompt": "I'll text you as soon as Pikachu ___ better.",
+    "answers": [
+      "feels"
+    ],
+    "distractors": [
+      "will feel",
+      "would feel"
+    ],
+    "explanation": "Après as soon as (« dès que »), on n'emploie jamais will : on met le présent simple, feels. Le français dit « dès qu'il ira mieux », au futur, d'où le piège. Seul le verbe principal (I'll text) est au futur."
+  },
+  {
+    "id": "ch25-time-clause-002",
+    "chapter": 25,
+    "rule": "future.time-clauses",
+    "difficulty": 1,
+    "kind": "choice",
+    "prompt": "When Charmander ___ into Charmeleon, it will be much stronger.",
+    "answers": [
+      "evolves"
+    ],
+    "distractors": [
+      "will evolve",
+      "is evolving"
+    ],
+    "explanation": "Dans une proposition de temps introduite par when, l'anglais emploie le présent simple, pas will : when Charmander evolves. Le français dit « quand il évoluera ». Le futur reste dans la proposition principale (it will be)."
+  },
+  {
+    "id": "ch25-time-clause-003",
+    "chapter": 25,
+    "rule": "future.time-clauses",
+    "difficulty": 2,
+    "kind": "choice",
+    "prompt": "We'll have lunch before the Gym battle ___.",
+    "answers": [
+      "starts"
+    ],
+    "distractors": [
+      "will start",
+      "is going to start"
+    ],
+    "explanation": "Après before, dans une proposition de temps, l'anglais emploie le présent simple et jamais un futur : before the battle starts. Le futur reste dans la proposition principale (we'll have lunch)."
+  },
+  {
+    "id": "ch25-time-clause-004",
+    "chapter": 25,
+    "rule": "future.time-clauses",
+    "difficulty": 2,
+    "kind": "choice",
+    "prompt": "Don't open the Poké Ball until I ___ you, Ash!",
+    "answers": [
+      "tell"
+    ],
+    "distractors": [
+      "will tell",
+      "told"
+    ],
+    "explanation": "Après until (« jusqu'à ce que »), on n'emploie pas will : le présent simple suffit, until I tell you. Told est un passé, alors que l'action est à venir."
+  },
+  {
+    "id": "ch25-time-clause-005",
+    "chapter": 25,
+    "rule": "future.time-clauses",
+    "difficulty": 3,
+    "kind": "choice",
+    "prompt": "As soon as you ___ your eighth badge, you will be able to enter the Pokémon League.",
+    "answers": [
+      "get"
+    ],
+    "distractors": [
+      "will get",
+      "are getting"
+    ],
+    "explanation": "Après as soon as, l'anglais met le présent simple là où le français met le futur (« dès que tu obtiendras ») : as soon as you get. Le futur reste dans la principale : you will be able to."
+  }
+]

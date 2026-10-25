@@ -1,0 +1,8 @@
+[
+  { "id": "be.present-forms", "chapter": 15, "label": "Present: am / is / are, negatives, questions, short answers" },
+  { "id": "be.past-forms", "chapter": 15, "label": "Past: was / were, and the participle been" },
+  { "id": "be.imperative", "chapter": 15, "label": "Imperative: be / don't be" },
+  { "id": "be.adjective-age", "chapter": 15, "label": "be + adjective or age where French uses « avoir »" },
+  { "id": "be.there-is-are", "chapter": 15, "label": "« il y a »: there is / there are" },
+  { "id": "be.auxiliary", "chapter": 15, "label": "be as an auxiliary: be + V-ing and the passive" }
+]

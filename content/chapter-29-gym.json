@@ -1,0 +1,110 @@
+[
+  {
+    "id": "ch29-gym-should-001",
+    "chapter": 29,
+    "rule": "advice.should-form",
+    "difficulty": 2,
+    "kind": "typed",
+    "prompt": "You ___ (should / not / eat) so many berries before a battle.",
+    "answers": ["shouldn't eat", "should not eat"],
+    "explanation": "Should est un modal : la négation se place juste après lui (should not, shouldn't), suivie de la base verbale, sans to."
+  },
+  {
+    "id": "ch29-gym-should-have-001",
+    "chapter": 29,
+    "rule": "advice.should-have",
+    "difficulty": 3,
+    "kind": "typed",
+    "prompt": "I lost my Poké Balls in the river yesterday. I ___ (should / be) more careful when I crossed it.",
+    "answers": ["should have been"],
+    "explanation": "When I crossed it situe le regret dans le passé : should have + participe passé, « j'aurais dû être plus prudent ». Should be serait un conseil pour maintenant. Be – was / were – been."
+  },
+  {
+    "id": "ch29-gym-should-have-002",
+    "chapter": 29,
+    "rule": "advice.should-have",
+    "difficulty": 3,
+    "kind": "typed",
+    "prompt": "Ash ___ (should / not / leave) Pikachu alone yesterday. Team Rocket stole it!",
+    "answers": ["shouldn't have left", "should not have left"],
+    "explanation": "Reproche sur une action passée (yesterday) : shouldn't have + participe passé, « il n'aurait pas dû laisser ». Leave – left – left."
+  },
+  {
+    "id": "ch29-gym-better-001",
+    "chapter": 29,
+    "rule": "advice.had-better",
+    "difficulty": 2,
+    "kind": "typed",
+    "prompt": "It's late. We ___ (had better / go) back to the Pokémon Center.",
+    "answers": ["had better go", "'d better go"],
+    "explanation": "Had better (souvent contracté en 'd better) + base verbale, sans to : we'd better go, « nous ferions mieux de rentrer »."
+  },
+  {
+    "id": "ch29-gym-other-001",
+    "chapter": 29,
+    "rule": "advice.other-structures",
+    "difficulty": 2,
+    "kind": "typed",
+    "prompt": "How about ___ (visit) the Safari Zone this weekend?",
+    "answers": ["visiting"],
+    "explanation": "How about…? (« Que dirais-tu de… ? ») est suivi d'un verbe en -ing : How about visiting…?"
+  },
+  {
+    "id": "ch29-gym-other-002",
+    "chapter": 29,
+    "rule": "advice.other-structures",
+    "difficulty": 3,
+    "kind": "typed",
+    "prompt": "Brock suggested ___ (take) the boat to Cinnabar Island.",
+    "answers": ["taking"],
+    "explanation": "Suggest est suivi d'un verbe en -ing : suggested taking. « Suggested to take » est un calque du français « il a suggéré de prendre »."
+  },
+  {
+    "id": "ch29-gym-order-should-001",
+    "chapter": 29,
+    "rule": "advice.should-form",
+    "difficulty": 2,
+    "kind": "reorder",
+    "prompt": "Tu devrais entraîner ton Pikachu.",
+    "tiles": ["You", "should", "train", "your", "Pikachu."],
+    "decoys": ["to", "trains"],
+    "answers": ["You should train your Pikachu."],
+    "explanation": "Pour un conseil (« tu devrais »), should + base verbale, sans to et sans -s."
+  },
+  {
+    "id": "ch29-gym-order-should-have-001",
+    "chapter": 29,
+    "rule": "advice.should-have",
+    "difficulty": 3,
+    "kind": "reorder",
+    "prompt": "Tu aurais dû me le dire !",
+    "tiles": ["You", "should", "have", "told", "me!"],
+    "decoys": ["had", "tell"],
+    "answers": ["You should have told me!"],
+    "explanation": "« Tu aurais dû » : reproche sur le passé, should have + participe passé. Tell – told – told."
+  },
+  {
+    "id": "ch29-gym-order-better-001",
+    "chapter": 29,
+    "rule": "advice.had-better",
+    "difficulty": 3,
+    "kind": "reorder",
+    "prompt": "Tu ferais mieux de ne pas réveiller Ronflex.",
+    "tiles": ["You", "had", "better", "not", "wake", "Snorlax."],
+    "decoys": ["to", "don't"],
+    "answers": ["You had better not wake Snorlax."],
+    "explanation": "« Tu ferais mieux de ne pas… » : had better not + base verbale. Not se place après better, sans don't et sans to."
+  },
+  {
+    "id": "ch29-gym-order-lets-001",
+    "chapter": 29,
+    "rule": "advice.lets-shall",
+    "difficulty": 2,
+    "kind": "reorder",
+    "prompt": "Et si on allait au Centre Pokémon ?",
+    "tiles": ["Shall", "we", "go", "to", "the", "Pokémon", "Center?"],
+    "decoys": ["Let", "going"],
+    "answers": ["Shall we go to the Pokémon Center?"],
+    "explanation": "Pour suggérer une activité sous forme de question (« Et si on… ? »), on emploie Shall we + base verbale."
+  }
+]

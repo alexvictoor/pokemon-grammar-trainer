@@ -1,0 +1,110 @@
+[
+  {
+    "id": "ch22-gym-dated-001",
+    "chapter": 22,
+    "rule": "preterite-or-perfect.dated-past",
+    "difficulty": 2,
+    "kind": "typed",
+    "prompt": "My brother ___ (catch) a Magikarp an hour ago.",
+    "answers": ["caught"],
+    "explanation": "An hour ago date l'action : prétérit obligatoire. Catch est irrégulier : catch – caught – caught."
+  },
+  {
+    "id": "ch22-gym-when-001",
+    "chapter": 22,
+    "rule": "preterite-or-perfect.when-question",
+    "difficulty": 2,
+    "kind": "typed",
+    "prompt": "— I've known Professor Oak for years. — Really? When ___ (you / meet) him?",
+    "answers": ["did you meet"],
+    "explanation": "La question When…? demande une date : prétérit, did + sujet + base verbale (did you meet). Le present perfect de la première phrase (I've known… for years) ne se reporte pas dans la question."
+  },
+  {
+    "id": "ch22-gym-story-001",
+    "chapter": 22,
+    "rule": "preterite-or-perfect.story",
+    "difficulty": 2,
+    "kind": "typed",
+    "prompt": "Misty fell into the river, so Brock ___ (jump) in to help her.",
+    "answers": ["jumped"],
+    "explanation": "On raconte deux actions passées qui se suivent (fell, puis la réaction de Brock) : prétérit, jumped. Jump est régulier : on ajoute -ed."
+  },
+  {
+    "id": "ch22-gym-up-to-now-001",
+    "chapter": 22,
+    "rule": "preterite-or-perfect.up-to-now",
+    "difficulty": 3,
+    "kind": "typed",
+    "prompt": "So far, we ___ (find) three rare Pokémon in this cave.",
+    "answers": ["have found"],
+    "explanation": "So far fait un bilan jusqu'au moment présent : present perfect, have found. Avec une quantité (three rare Pokémon), on emploie la forme simple. Find – found – found."
+  },
+  {
+    "id": "ch22-gym-since-for-001",
+    "chapter": 22,
+    "rule": "preterite-or-perfect.since-for",
+    "difficulty": 3,
+    "kind": "typed",
+    "prompt": "Pikachu and I ___ (be) partners for six years now.",
+    "answers": ["have been"],
+    "explanation": "For six years now : la situation dure encore, for signifie « depuis » et impose le present perfect. Le français dit « Nous sommes partenaires depuis six ans » au présent. Be – was / were – been."
+  },
+  {
+    "id": "ch22-gym-since-for-002",
+    "chapter": 22,
+    "rule": "preterite-or-perfect.since-for",
+    "difficulty": 3,
+    "kind": "typed",
+    "prompt": "My uncle ___ (be) a Gym Leader for thirty years. Now he's retired and grows berries.",
+    "answers": ["was"],
+    "explanation": "Il est à la retraite maintenant : la période est terminée. For signifie ici « pendant » et va avec le prétérit, was. Has been voudrait dire qu'il est encore champion d'arène."
+  },
+  {
+    "id": "ch22-gym-order-when-001",
+    "chapter": 22,
+    "rule": "preterite-or-perfect.when-question",
+    "difficulty": 2,
+    "kind": "reorder",
+    "prompt": "Quand as-tu attrapé ton Évoli ?",
+    "tiles": ["When", "did", "you", "catch", "your", "Eevee?"],
+    "decoys": ["have", "caught"],
+    "answers": ["When did you catch your Eevee?"],
+    "explanation": "When…? demande une date : prétérit, did + sujet + base verbale (did you catch). « As-tu attrapé » ne se traduit pas par have you caught après When."
+  },
+  {
+    "id": "ch22-gym-order-dated-001",
+    "chapter": 22,
+    "rule": "preterite-or-perfect.dated-past",
+    "difficulty": 2,
+    "kind": "reorder",
+    "prompt": "J'ai vu Mewtwo il y a deux jours.",
+    "tiles": ["I", "saw", "Mewtwo", "two", "days", "ago."],
+    "decoys": ["have", "seen"],
+    "answers": ["I saw Mewtwo two days ago."],
+    "explanation": "Ago date l'action : prétérit obligatoire, saw. Le passé composé français « j'ai vu » ne devient pas have seen ici. See – saw – seen."
+  },
+  {
+    "id": "ch22-gym-order-since-for-001",
+    "chapter": 22,
+    "rule": "preterite-or-perfect.since-for",
+    "difficulty": 3,
+    "kind": "reorder",
+    "prompt": "Nous sommes à Azuria depuis mardi.",
+    "tiles": ["We", "have", "been", "in", "Cerulean", "City", "since", "Tuesday."],
+    "decoys": ["are", "for"],
+    "answers": ["We have been in Cerulean City since Tuesday."],
+    "explanation": "« Depuis » + une situation encore vraie : present perfect (have been), pas le présent comme en français. Tuesday est un point de départ, donc since."
+  },
+  {
+    "id": "ch22-gym-order-up-to-now-001",
+    "chapter": 22,
+    "rule": "preterite-or-perfect.up-to-now",
+    "difficulty": 3,
+    "kind": "reorder",
+    "prompt": "C'est la première fois que Salamèche voit la mer.",
+    "tiles": ["It's", "the", "first", "time", "Charmander", "has", "seen", "the", "sea."],
+    "decoys": ["sees", "is"],
+    "answers": ["It's the first time Charmander has seen the sea."],
+    "explanation": "Après It's the first time…, l'anglais emploie le present perfect (has seen), alors que le français utilise le présent (« voit »). See – saw – seen."
+  }
+]

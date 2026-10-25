@@ -1,0 +1,170 @@
+[
+  {
+    "id": "ch31-gym-do-001",
+    "chapter": 31,
+    "rule": "questions.do-support",
+    "difficulty": 2,
+    "kind": "typed",
+    "prompt": "I'm looking after your Squirtle tomorrow. What ___ (it / usually / eat) in the morning?",
+    "answers": [
+      "does it usually eat"
+    ],
+    "explanation": "On demande une habitude actuelle : présent simple. La question se construit avec does + sujet + base verbale : What does it usually eat? Usually se place devant le verbe, et eat reste à la base verbale."
+  },
+  {
+    "id": "ch31-gym-do-002",
+    "chapter": 31,
+    "rule": "questions.do-support",
+    "difficulty": 2,
+    "kind": "typed",
+    "prompt": "What time ___ (the battle / start) yesterday?",
+    "answers": [
+      "did the battle start"
+    ],
+    "explanation": "Yesterday : prétérit. La question se construit avec did + sujet + base verbale : did the battle start. Le passé est porté par did, donc start ne prend pas -ed."
+  },
+  {
+    "id": "ch31-gym-word-order-001",
+    "chapter": 31,
+    "rule": "questions.word-order",
+    "difficulty": 2,
+    "kind": "typed",
+    "prompt": "— Why ___ (Psyduck / be) always holding its head? — It has a headache.",
+    "answers": [
+      "is Psyduck"
+    ],
+    "explanation": "Avec be, on inverse be et le sujet après le mot interrogatif : Why is Psyduck always holding its head? On n'ajoute pas does devant be."
+  },
+  {
+    "id": "ch31-gym-subject-001",
+    "chapter": 31,
+    "rule": "questions.subject-question",
+    "difficulty": 2,
+    "kind": "typed",
+    "prompt": "— The basket is empty! Who ___ (eat) all the berries? — Snorlax, of course!",
+    "answers": [
+      "ate",
+      "has eaten"
+    ],
+    "explanation": "Who est le sujet (c'est Ronflex qui a mangé) : pas de did, le verbe se conjugue directement, Who ate…? Who has eaten…? est aussi correct, car le panier est vide maintenant. Eat – ate – eaten."
+  },
+  {
+    "id": "ch31-gym-subject-002",
+    "chapter": 31,
+    "rule": "questions.subject-question",
+    "difficulty": 3,
+    "kind": "typed",
+    "prompt": "— Who ___ (you / invite) to your party last Saturday? — Misty and Brock.",
+    "answers": [
+      "did you invite"
+    ],
+    "explanation": "Who est le complément (tu as invité Ondine et Pierre) et last Saturday impose le prétérit : did + sujet + base verbale, Who did you invite? Sans did, « Who invited you? » demanderait qui t'a invité."
+  },
+  {
+    "id": "ch31-gym-how-001",
+    "chapter": 31,
+    "rule": "questions.how-questions",
+    "difficulty": 3,
+    "kind": "typed",
+    "prompt": "— How ___ (you / wait) for the boat yesterday? — Two hours!",
+    "answers": [
+      "long did you wait",
+      "long were you waiting",
+      "long had you been waiting"
+    ],
+    "explanation": "La réponse donne une durée : How long, suivi de l'auxiliaire et du sujet. Yesterday impose le passé : How long did you wait? How long were you waiting? est aussi correct."
+  },
+  {
+    "id": "ch31-gym-order-wh-001",
+    "chapter": 31,
+    "rule": "questions.wh-words",
+    "difficulty": 2,
+    "kind": "reorder",
+    "prompt": "À quelle heure commence le combat ?",
+    "tiles": [
+      "What",
+      "time",
+      "does",
+      "the",
+      "battle",
+      "start?"
+    ],
+    "decoys": [
+      "starts",
+      "is"
+    ],
+    "answers": [
+      "What time does the battle start?"
+    ],
+    "explanation": "« À quelle heure » se traduit par What time. Au présent simple, on ajoute does devant le sujet, et le verbe reste à la base verbale : does… start."
+  },
+  {
+    "id": "ch31-gym-order-subject-001",
+    "chapter": 31,
+    "rule": "questions.subject-question",
+    "difficulty": 2,
+    "kind": "reorder",
+    "prompt": "Qui a réveillé Ronflex ?",
+    "tiles": [
+      "Who",
+      "woke",
+      "Snorlax",
+      "up?"
+    ],
+    "decoys": [
+      "did",
+      "has"
+    ],
+    "answers": [
+      "Who woke Snorlax up?"
+    ],
+    "explanation": "Who est le sujet (on demande qui a réveillé Ronflex) : pas de did, le verbe se met directement au prétérit. Wake – woke – woken."
+  },
+  {
+    "id": "ch31-gym-order-subject-002",
+    "chapter": 31,
+    "rule": "questions.subject-question",
+    "difficulty": 3,
+    "kind": "reorder",
+    "prompt": "Qu'est-ce que Pikachu a mangé ?",
+    "tiles": [
+      "What",
+      "did",
+      "Pikachu",
+      "eat?"
+    ],
+    "decoys": [
+      "ate",
+      "has"
+    ],
+    "answers": [
+      "What did Pikachu eat?"
+    ],
+    "explanation": "What est le complément (Pikachu a mangé quelque chose) : la question prend did + sujet + base verbale. « What ate Pikachu? » voudrait dire « Qu'est-ce qui a mangé Pikachu ? »."
+  },
+  {
+    "id": "ch31-gym-order-how-001",
+    "chapter": 31,
+    "rule": "questions.how-questions",
+    "difficulty": 2,
+    "kind": "reorder",
+    "prompt": "À quelle fréquence brosses-tu ton Évoli ?",
+    "tiles": [
+      "How",
+      "often",
+      "do",
+      "you",
+      "brush",
+      "your",
+      "Eevee?"
+    ],
+    "decoys": [
+      "much",
+      "are"
+    ],
+    "answers": [
+      "How often do you brush your Eevee?"
+    ],
+    "explanation": "« À quelle fréquence » se traduit par How often. Au présent simple, la question prend do + sujet + base verbale : do you brush. How much demanderait une quantité."
+  }
+]

@@ -1,0 +1,8 @@
+[
+  { "id": "simple-present.third-person", "chapter": 17, "label": "Form: he / she / it + -s, -es, -ies" },
+  { "id": "simple-present.do-does", "chapter": 17, "label": "Negatives and questions with do / does" },
+  { "id": "simple-present.habits", "chapter": 17, "label": "Habits: usually, every day, How often" },
+  { "id": "simple-present.frequency-adverbs", "chapter": 17, "label": "Position of frequency adverbs" },
+  { "id": "simple-present.general-truths", "chapter": 17, "label": "General truths and characteristics" },
+  { "id": "simple-present.state-verbs", "chapter": 17, "label": "State verbs: like, know, think, want" }
+]

@@ -1,0 +1,110 @@
+[
+  {
+    "id": "ch16-gym-lexical-001",
+    "chapter": 16,
+    "rule": "have.lexical",
+    "difficulty": 1,
+    "kind": "typed",
+    "prompt": "Yesterday, we ___ (have) lunch with Professor Oak.",
+    "answers": ["had"],
+    "explanation": "« Déjeuner » se dit have lunch. Yesterday impose le prétérit, et le prétérit de have est had."
+  },
+  {
+    "id": "ch16-gym-do-001",
+    "chapter": 16,
+    "rule": "have.do-support",
+    "difficulty": 2,
+    "kind": "typed",
+    "prompt": "___ (your sister / have) a Pokémon last year?",
+    "answers": ["Did your sister have"],
+    "explanation": "Last year impose le prétérit. Have « posséder » forme sa question avec did + sujet + base verbale : Did your sister have…?"
+  },
+  {
+    "id": "ch16-gym-got-001",
+    "chapter": 16,
+    "rule": "have.have-got",
+    "difficulty": 1,
+    "kind": "typed",
+    "prompt": "My cousin ___ (have got) a shiny Eevee.",
+    "answers": ["has got"],
+    "explanation": "Dans have got, have se conjugue comme un auxiliaire : has got avec he / she / it (my cousin)."
+  },
+  {
+    "id": "ch16-gym-have-to-001",
+    "chapter": 16,
+    "rule": "have.have-to",
+    "difficulty": 2,
+    "kind": "typed",
+    "prompt": "My little brother ___ (have to) feed our Pokémon every day.",
+    "answers": ["has to", "has got to"],
+    "explanation": "L'obligation se dit have to + base verbale. Avec he (my little brother), have devient has : he has to feed…"
+  },
+  {
+    "id": "ch16-gym-auxiliary-001",
+    "chapter": 16,
+    "rule": "have.auxiliary",
+    "difficulty": 3,
+    "kind": "typed",
+    "prompt": "I ___ (not / see) Professor Oak since Monday.",
+    "answers": ["haven't seen", "have not seen"],
+    "explanation": "Since impose le present perfect. Have est auxiliaire : sa négation se forme avec not, sans do : have not (haven't) + participe passé. See – saw – seen."
+  },
+  {
+    "id": "ch16-gym-avoir-001",
+    "chapter": 16,
+    "rule": "have.avoir-be",
+    "difficulty": 2,
+    "kind": "typed",
+    "prompt": "Hurry up! We ___ (be / have) hungry and the restaurant closes at nine.",
+    "answers": ["are"],
+    "explanation": "« Avoir faim » se dit be hungry, car hungry est un adjectif : we are hungry. Have serait un calque du français."
+  },
+  {
+    "id": "ch16-gym-order-do-001",
+    "chapter": 16,
+    "rule": "have.do-support",
+    "difficulty": 2,
+    "kind": "reorder",
+    "prompt": "Est-ce que ton frère a un Pokédex ?",
+    "tiles": ["Does", "your", "brother", "have", "a", "Pokédex?"],
+    "decoys": ["Is", "Do"],
+    "answers": ["Does your brother have a Pokédex?"],
+    "explanation": "Have « posséder » forme sa question avec does pour he / she / it : Does your brother have…? Have reste à la base verbale après does."
+  },
+  {
+    "id": "ch16-gym-order-got-001",
+    "chapter": 16,
+    "rule": "have.have-got",
+    "difficulty": 3,
+    "kind": "reorder",
+    "prompt": "Brock a un Onix.",
+    "tiles": ["Brock's", "got", "an", "Onix."],
+    "decoys": ["has", "have"],
+    "answers": ["Brock's got an Onix."],
+    "explanation": "Dans have got, have est un auxiliaire et peut se contracter : Brock has got = Brock's got. Ici 's vaut has, pas is."
+  },
+  {
+    "id": "ch16-gym-order-have-to-001",
+    "chapter": 16,
+    "rule": "have.have-to",
+    "difficulty": 3,
+    "kind": "reorder",
+    "prompt": "Ash n'a pas besoin d'attraper ce Pokémon.",
+    "tiles": ["Ash", "doesn't", "have", "to", "catch", "that", "Pokémon."],
+    "decoys": ["mustn't", "don't"],
+    "answers": ["Ash doesn't have to catch that Pokémon."],
+    "explanation": "Absence d'obligation : doesn't have to + base verbale, avec does pour he. Mustn't exprime une interdiction (« il ne doit pas »), ce qui change le sens."
+  },
+  {
+    "id": "ch16-gym-order-avoir-001",
+    "chapter": 16,
+    "rule": "have.avoir-be",
+    "difficulty": 2,
+    "kind": "reorder",
+    "prompt": "Ma petite sœur a peur des Nosferapti.",
+    "tiles": ["My", "little", "sister", "is", "afraid", "of", "Zubat."],
+    "decoys": ["has", "fear"],
+    "answers": ["My little sister is afraid of Zubat."],
+    "explanation": "« Avoir peur de » se dit be afraid of, car afraid est un adjectif. « She has fear of » est un calque du français."
+  }
+]

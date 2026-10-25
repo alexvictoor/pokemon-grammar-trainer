@@ -1,0 +1,506 @@
+[
+  {
+    "id": "ch33-who-which-001",
+    "chapter": 33,
+    "rule": "relatives.who-which",
+    "difficulty": 1,
+    "kind": "choice",
+    "prompt": "The girl ___ runs the Cerulean City Gym is called Misty.",
+    "answers": [
+      "who"
+    ],
+    "distractors": [
+      "which",
+      "where",
+      "whose"
+    ],
+    "explanation": "L'antécédent (the girl) est une personne et il est sujet de la relative : who. Which s'emploie pour les choses ; where reprend un lieu ; whose doit être suivi d'un nom."
+  },
+  {
+    "id": "ch33-who-which-002",
+    "chapter": 33,
+    "rule": "relatives.who-which",
+    "difficulty": 1,
+    "kind": "choice",
+    "prompt": "I've lost the Poké Ball ___ Professor Oak gave me.",
+    "answers": [
+      "which"
+    ],
+    "distractors": [
+      "who",
+      "where",
+      "whose"
+    ],
+    "explanation": "L'antécédent (the Poké Ball) est une chose : which. Who est réservé aux personnes ; where reprendrait un lieu ; whose doit être suivi d'un nom."
+  },
+  {
+    "id": "ch33-who-which-003",
+    "chapter": 33,
+    "rule": "relatives.who-which",
+    "difficulty": 2,
+    "kind": "choice",
+    "prompt": "Ash, ___ is only ten, wants to become a Pokémon Master.",
+    "answers": [
+      "who"
+    ],
+    "distractors": [
+      "which",
+      "whose",
+      "he"
+    ],
+    "explanation": "Ash est une personne : who. Which s'emploie pour les choses. « Ash, he is only ten, wants… » répète le sujet avec un pronom personnel, ce qui est impossible."
+  },
+  {
+    "id": "ch33-who-which-004",
+    "chapter": 33,
+    "rule": "relatives.who-which",
+    "difficulty": 2,
+    "kind": "choice",
+    "prompt": "Have you seen the bike ___ was parked outside the Pokémon Center?",
+    "answers": [
+      "which"
+    ],
+    "distractors": [
+      "who",
+      "where",
+      "whose"
+    ],
+    "explanation": "L'antécédent (the bike) est une chose, sujet de la relative : which. Where ne peut pas être sujet du verbe (was parked) ; who est réservé aux personnes."
+  },
+  {
+    "id": "ch33-who-which-005",
+    "chapter": 33,
+    "rule": "relatives.who-which",
+    "difficulty": 2,
+    "kind": "choice",
+    "prompt": "Nurse Joy uses a machine ___ heals Pokémon in a few seconds.",
+    "answers": [
+      "which"
+    ],
+    "distractors": [
+      "who",
+      "where",
+      "whose"
+    ],
+    "explanation": "Une machine est une chose : which. Who est réservé aux personnes, même si la machine « soigne » comme une infirmière."
+  },
+  {
+    "id": "ch33-who-which-006",
+    "chapter": 33,
+    "rule": "relatives.who-which",
+    "difficulty": 3,
+    "kind": "choice",
+    "prompt": "The boy ___ Misty is talking to is Ash.",
+    "answers": [
+      "who"
+    ],
+    "distractors": [
+      "which",
+      "whose",
+      "where"
+    ],
+    "explanation": "L'antécédent (the boy) est une personne : who, même quand il est complément (Misty is talking to him). La préposition to reste à la fin de la relative."
+  },
+  {
+    "id": "ch33-that-001",
+    "chapter": 33,
+    "rule": "relatives.that",
+    "difficulty": 2,
+    "kind": "choice",
+    "prompt": "Pewter City, ___ is famous for its Gym, is near Viridian Forest.",
+    "answers": [
+      "which"
+    ],
+    "distractors": [
+      "that",
+      "who",
+      "where"
+    ],
+    "explanation": "La relative entre virgules ajoute une information : elle ne sert pas à identifier la ville. That est alors impossible : on emploie which pour une chose. Where ne peut pas être sujet du verbe (is famous)."
+  },
+  {
+    "id": "ch33-that-002",
+    "chapter": 33,
+    "rule": "relatives.that",
+    "difficulty": 2,
+    "kind": "choice",
+    "prompt": "Professor Oak, ___ lives in Pallet Town, gives new trainers their first Pokémon.",
+    "answers": [
+      "who"
+    ],
+    "distractors": [
+      "that",
+      "which",
+      "whose"
+    ],
+    "explanation": "La relative entre virgules ajoute une information sur une personne déjà identifiée : who. That ne s'emploie pas après une virgule ; which est réservé aux choses."
+  },
+  {
+    "id": "ch33-that-003",
+    "chapter": 33,
+    "rule": "relatives.that",
+    "difficulty": 3,
+    "kind": "choice",
+    "prompt": "My Bulbasaur, ___ I caught last spring, loves lying in the sun.",
+    "answers": [
+      "which"
+    ],
+    "distractors": [
+      "that",
+      "whose",
+      "where"
+    ],
+    "explanation": "La relative entre virgules ajoute une information sur un Pokémon déjà identifié (my Bulbasaur) : that est impossible, et le relatif ne peut pas être omis. Which convient ; who aussi, pour un animal auquel on est attaché."
+  },
+  {
+    "id": "ch33-that-004",
+    "chapter": 33,
+    "rule": "relatives.that",
+    "difficulty": 2,
+    "kind": "choice",
+    "prompt": "Lavender Town, ___ is famous for its Pokémon Tower, is a very quiet place.",
+    "answers": [
+      "which"
+    ],
+    "distractors": [
+      "that",
+      "who",
+      "where"
+    ],
+    "explanation": "La ville est déjà identifiée par son nom : la relative entre virgules ajoute seulement une information, et that y est impossible. Pour une chose, on emploie which ; where ne peut pas être sujet du verbe (is famous)."
+  },
+  {
+    "id": "ch33-that-005",
+    "chapter": 33,
+    "rule": "relatives.that",
+    "difficulty": 1,
+    "kind": "choice",
+    "prompt": "My cousin Lily, ___ breeds Eevee, has a farm near Celadon City.",
+    "answers": [
+      "who"
+    ],
+    "distractors": [
+      "that",
+      "which",
+      "whose"
+    ],
+    "explanation": "Lily est déjà identifiée par son nom : la relative entre virgules ajoute une information, et that y est impossible. Pour une personne, on emploie who ; which est réservé aux choses."
+  },
+  {
+    "id": "ch33-that-006",
+    "chapter": 33,
+    "rule": "relatives.that",
+    "difficulty": 3,
+    "kind": "choice",
+    "prompt": "The Boulder Badge, ___ Brock gives to the winners, is grey.",
+    "answers": [
+      "which"
+    ],
+    "distractors": [
+      "that",
+      "who",
+      "whose"
+    ],
+    "explanation": "Le badge est déjà identifié par son nom : la relative entre virgules ajoute une information, et that y est impossible. Pour une chose, on emploie which."
+  },
+  {
+    "id": "ch33-omission-001",
+    "chapter": 33,
+    "rule": "relatives.omission",
+    "difficulty": 1,
+    "kind": "choice",
+    "prompt": "The berries ___ were delicious.",
+    "answers": [
+      "Misty picked for us"
+    ],
+    "distractors": [
+      "Misty picked them for us",
+      "who Misty picked for us"
+    ],
+    "explanation": "The berries est complément d'objet de la relative (Misty picked the berries) : le relatif peut être omis. On ne reprend pas l'antécédent par un pronom (them). Who est réservé aux personnes."
+  },
+  {
+    "id": "ch33-omission-002",
+    "chapter": 33,
+    "rule": "relatives.omission",
+    "difficulty": 1,
+    "kind": "choice",
+    "prompt": "I know a trainer ___ ten Pikachu!",
+    "answers": [
+      "who has"
+    ],
+    "distractors": [
+      "has",
+      "he has"
+    ],
+    "explanation": "A trainer est sujet du verbe de la relative (the trainer has ten Pikachu) : le relatif ne peut pas être omis, il faut who. « A trainer he has » ajoute un pronom personnel, ce qui est impossible."
+  },
+  {
+    "id": "ch33-omission-003",
+    "chapter": 33,
+    "rule": "relatives.omission",
+    "difficulty": 2,
+    "kind": "choice",
+    "prompt": "The Pokémon ___ the Gym door was a huge Onix.",
+    "answers": [
+      "that guarded"
+    ],
+    "distractors": [
+      "guarded",
+      "it guarded"
+    ],
+    "explanation": "Le Pokémon est sujet de la relative (it guarded the door) : le relatif est obligatoire, that guarded. On ne l'omet que lorsqu'il est complément d'objet ; on n'ajoute pas non plus de pronom personnel (it)."
+  },
+  {
+    "id": "ch33-omission-004",
+    "chapter": 33,
+    "rule": "relatives.omission",
+    "difficulty": 2,
+    "kind": "choice",
+    "prompt": "The bus ___ was full of trainers.",
+    "answers": [
+      "we took to Saffron City"
+    ],
+    "distractors": [
+      "we took it to Saffron City",
+      "took us to Saffron City"
+    ],
+    "explanation": "The bus est complément d'objet de la relative (we took the bus) : le relatif peut être omis, sans reprendre le bus par it. « The bus took us… was full » est impossible : quand l'antécédent est sujet, le relatif ne peut pas être omis."
+  },
+  {
+    "id": "ch33-omission-005",
+    "chapter": 33,
+    "rule": "relatives.omission",
+    "difficulty": 3,
+    "kind": "choice",
+    "prompt": "This is the Poké Ball ___.",
+    "answers": [
+      "I was looking for"
+    ],
+    "distractors": [
+      "I was looking for it",
+      "where I was looking for"
+    ],
+    "explanation": "The Poké Ball est complément de look for : le relatif peut être omis, et la préposition for reste à la fin. On ne reprend pas l'antécédent par it, et where reprend un lieu, pas un objet."
+  },
+  {
+    "id": "ch33-omission-006",
+    "chapter": 33,
+    "rule": "relatives.omission",
+    "difficulty": 3,
+    "kind": "choice",
+    "prompt": "The trainer ___ is called Gary.",
+    "answers": [
+      "Ash battled yesterday"
+    ],
+    "distractors": [
+      "Ash battled him yesterday",
+      "battled Ash yesterday",
+      "whose Ash battled yesterday"
+    ],
+    "explanation": "The trainer est complément d'objet de la relative (Ash battled the trainer) : le relatif peut être omis. Sans relatif, « battled Ash » laisserait le verbe sans sujet ; him reprend inutilement l'antécédent ; whose doit être suivi d'un nom."
+  },
+  {
+    "id": "ch33-where-when-001",
+    "chapter": 33,
+    "rule": "relatives.where-when",
+    "difficulty": 1,
+    "kind": "choice",
+    "prompt": "Cinnabar Island is the place ___ Blaine has his Gym.",
+    "answers": [
+      "where"
+    ],
+    "distractors": [
+      "which",
+      "when",
+      "who"
+    ],
+    "explanation": "« Où » reprend un lieu (the place) : where. Which demanderait une préposition (in which) ; when reprend un moment."
+  },
+  {
+    "id": "ch33-where-when-002",
+    "chapter": 33,
+    "rule": "relatives.where-when",
+    "difficulty": 1,
+    "kind": "choice",
+    "prompt": "Do you remember the day ___ you got your first Pokémon?",
+    "answers": [
+      "when"
+    ],
+    "distractors": [
+      "where",
+      "which",
+      "who"
+    ],
+    "explanation": "« Le jour où… » : quand « où » reprend un moment, il se traduit par when, pas par where. Which demanderait une préposition (on which)."
+  },
+  {
+    "id": "ch33-where-when-003",
+    "chapter": 33,
+    "rule": "relatives.where-when",
+    "difficulty": 2,
+    "kind": "choice",
+    "prompt": "This is the Pokémon Center ___ Nurse Joy healed my Pikachu.",
+    "answers": [
+      "where"
+    ],
+    "distractors": [
+      "which",
+      "when",
+      "who"
+    ],
+    "explanation": "« Le Centre où… » : la relative dit ce qui s'est passé dans ce lieu, donc where. La relative a déjà un sujet et un complément (Nurse Joy healed my Pikachu) : which n'y a pas de place."
+  },
+  {
+    "id": "ch33-where-when-004",
+    "chapter": 33,
+    "rule": "relatives.where-when",
+    "difficulty": 3,
+    "kind": "choice",
+    "prompt": "This is the Pokémon Center ___ I told you about.",
+    "answers": [
+      "which"
+    ],
+    "distractors": [
+      "where",
+      "when",
+      "who"
+    ],
+    "explanation": "Ici, le Centre est le complément de tell you about (I told you about the Center) : on emploie which, comme pour toute chose. Where ne s'emploie que lorsque « où » veut dire « à cet endroit »."
+  },
+  {
+    "id": "ch33-where-when-005",
+    "chapter": 33,
+    "rule": "relatives.where-when",
+    "difficulty": 2,
+    "kind": "choice",
+    "prompt": "1996 was the year ___ the first Pokémon games came out in Japan.",
+    "answers": [
+      "when"
+    ],
+    "distractors": [
+      "where",
+      "which",
+      "who"
+    ],
+    "explanation": "« L'année où… » : « où » reprend un moment (the year), il se traduit par when. Where reprend un lieu ; which demanderait une préposition (in which)."
+  },
+  {
+    "id": "ch33-where-when-006",
+    "chapter": 33,
+    "rule": "relatives.where-when",
+    "difficulty": 3,
+    "kind": "choice",
+    "prompt": "Viridian Forest, ___ Ash caught his first Caterpie, is full of Bug Pokémon.",
+    "answers": [
+      "where"
+    ],
+    "distractors": [
+      "which",
+      "when",
+      "that"
+    ],
+    "explanation": "« La forêt de Jade, où Sacha a attrapé… » : « où » reprend un lieu, donc where. Which demanderait une préposition (in which), et that ne s'emploie pas après une virgule."
+  },
+  {
+    "id": "ch33-whose-001",
+    "chapter": 33,
+    "rule": "relatives.whose",
+    "difficulty": 1,
+    "kind": "choice",
+    "prompt": "Ash is the trainer ___ Pikachu refuses to go into its Poké Ball.",
+    "answers": [
+      "whose"
+    ],
+    "distractors": [
+      "who",
+      "who's",
+      "which"
+    ],
+    "explanation": "« Le dresseur dont le Pikachu… » : whose + nom traduit « dont » et exprime l'appartenance (Ash's Pikachu). Who's veut dire who is ou who has."
+  },
+  {
+    "id": "ch33-whose-002",
+    "chapter": 33,
+    "rule": "relatives.whose",
+    "difficulty": 2,
+    "kind": "choice",
+    "prompt": "I met a girl ___ Togepi had just hatched.",
+    "answers": [
+      "whose"
+    ],
+    "distractors": [
+      "who",
+      "who her",
+      "which"
+    ],
+    "explanation": "« Une fille dont le Togepi venait d'éclore » : whose + nom remplace le possessif (her Togepi). On ne dit pas « who her » : whose suffit."
+  },
+  {
+    "id": "ch33-whose-003",
+    "chapter": 33,
+    "rule": "relatives.whose",
+    "difficulty": 2,
+    "kind": "choice",
+    "prompt": "Misty is the trainer whose ___ always comes out of its Poké Ball on its own.",
+    "answers": [
+      "Psyduck"
+    ],
+    "distractors": [
+      "the Psyduck",
+      "her Psyduck"
+    ],
+    "explanation": "Whose est directement suivi du nom, sans article ni possessif : whose Psyduck, et non « whose the Psyduck » ou « whose her Psyduck »."
+  },
+  {
+    "id": "ch33-whose-004",
+    "chapter": 33,
+    "rule": "relatives.whose",
+    "difficulty": 3,
+    "kind": "choice",
+    "prompt": "The trainer ___ I borrowed is waiting outside.",
+    "answers": [
+      "whose bike"
+    ],
+    "distractors": [
+      "who's bike",
+      "whose the bike",
+      "who the bike"
+    ],
+    "explanation": "« Le dresseur dont j'ai emprunté le vélo » : whose + nom, sans article (whose bike). Who's se prononce comme whose mais veut dire who is ou who has."
+  },
+  {
+    "id": "ch33-whose-005",
+    "chapter": 33,
+    "rule": "relatives.whose",
+    "difficulty": 2,
+    "kind": "choice",
+    "prompt": "Charmander is a Pokémon ___ tail always burns.",
+    "answers": [
+      "whose"
+    ],
+    "distractors": [
+      "which",
+      "who's",
+      "its"
+    ],
+    "explanation": "« Un Pokémon dont la queue brûle toujours » : whose + nom traduit « dont » et s'emploie aussi pour un animal ou une chose. « Which tail » est impossible, et its ferait deux phrases collées sans lien."
+  },
+  {
+    "id": "ch33-whose-006",
+    "chapter": 33,
+    "rule": "relatives.whose",
+    "difficulty": 3,
+    "kind": "choice",
+    "prompt": "Professor Oak, ___ grandson is Gary, lives in Pallet Town.",
+    "answers": [
+      "whose"
+    ],
+    "distractors": [
+      "who",
+      "who's",
+      "his"
+    ],
+    "explanation": "« Le professeur Chen, dont le petit-fils est Régis » : whose + nom (whose grandson) remplace le possessif his. Who's veut dire who is ou who has."
+  }
+]

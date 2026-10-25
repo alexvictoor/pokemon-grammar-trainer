@@ -1,0 +1,7 @@
+[
+  { "id": "questions.word-order", "chapter": 31, "label": "Word order: (question word) + auxiliary + subject + verb" },
+  { "id": "questions.do-support", "chapter": 31, "label": "do / does / did + subject + base form" },
+  { "id": "questions.subject-question", "chapter": 31, "label": "Subject questions without do: Who saw…? or Who did you see?" },
+  { "id": "questions.wh-words", "chapter": 31, "label": "Question words: what, who, where, why, whose, which, what time" },
+  { "id": "questions.how-questions", "chapter": 31, "label": "How + adjective or adverb: How old, How long, How often…" }
+]

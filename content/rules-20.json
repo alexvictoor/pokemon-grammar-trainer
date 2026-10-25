@@ -1,0 +1,7 @@
+[
+  { "id": "past-continuous.form", "chapter": 20, "label": "Form: was / were + V-ing" },
+  { "id": "past-continuous.in-progress", "chapter": 20, "label": "An action in progress at a past moment" },
+  { "id": "past-continuous.when-while", "chapter": 20, "label": "When, while, as: an event during an action in progress" },
+  { "id": "past-continuous.stative-verbs", "chapter": 20, "label": "Stative verbs: no -ing form" },
+  { "id": "past-continuous.simple-or-continuous", "chapter": 20, "label": "Background (was / were + V-ing) or event (simple past)?" }
+]

@@ -1,0 +1,225 @@
+<meta name="theme-color" content="#cc0000">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<title>Single-file probe</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<style>
+  /* One column of check results, readable on a phone. */
+  :root { --bg: #f6f7f9; --surface: #ffffff; --fg: #1d2330; --muted: #5a6273; --line: #d9dde5; --ok: #11772b; --ko: #b3261e; --accent: #cc0000; }
+  @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --bg: #12151b; --surface: #1b1f27; --fg: #e6e9ef; --muted: #9aa3b5; --line: #2e3542; --ok: #5fd07c; --ko: #ff8a80; --accent: #ff5a4e; color-scheme: dark; } }
+  :root[data-theme="dark"] { --bg: #12151b; --surface: #1b1f27; --fg: #e6e9ef; --muted: #9aa3b5; --line: #2e3542; --ok: #5fd07c; --ko: #ff8a80; --accent: #ff5a4e; color-scheme: dark; }
+  body { font: 15px/1.4 system-ui, sans-serif; background: var(--bg); color: var(--fg); padding-block: 16px; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+  h1 { font-size: 18px; margin: 0 0 12px; text-wrap: balance; }
+  .table-wrap { overflow-x: auto; }
+  table { border-collapse: collapse; width: 100%; background: var(--surface); }
+  td { border: 1px solid var(--line); padding: 6px 8px; vertical-align: top; word-break: break-word; }
+  td:first-child { width: 38%; font-weight: 600; }
+  .ok { color: var(--ok); } .ko { color: var(--ko); } .info { color: var(--muted); }
+  button { font: inherit; padding: 10px 14px; margin: 12px 8px 0 0; border: 1px solid var(--line); border-radius: 6px; background: var(--surface); color: var(--fg); }
+  button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  textarea { width: 100%; box-sizing: border-box; height: 160px; margin-top: 12px; font: 12px monospace; background: var(--surface); color: var(--fg); border: 1px solid var(--line); }
+  p { margin: 8px 0; }
+</style>
+<script>window.__probeStart = performance.now();</script>
+<h1>Single-file probe</h1>
+<p class="info">Reload once to check that the two visit counters go up. Then, for the hosted URL, turn on airplane mode and reload.</p>
+<div class="table-wrap"><table id="results"></table></div>
+<button id="install" hidden>Install (beforeinstallprompt)</button>
+<button id="copy">Copy the report</button>
+<textarea id="report" readonly></textarea>
+
+<script id="payload" type="application/octet-stream">__PAYLOAD__</script>
+
+<script>
+const rows = [];
+const table = document.getElementById('results');
+
+function record(name, status, detail) {
+  rows.push({ name, status, detail: String(detail) });
+  const tr = document.createElement('tr');
+  const label = document.createElement('td');
+  label.textContent = name;
+  const value = document.createElement('td');
+  value.className = status;
+  value.textContent = (status === 'ok' ? '✔ ' : status === 'ko' ? '✘ ' : '') + detail;
+  tr.append(label, value);
+  table.append(tr);
+  document.getElementById('report').value = rows.map(r => `${r.status.toUpperCase()}\t${r.name}\t${r.detail}`).join('\n');
+}
+
+async function check(name, fn) {
+  try {
+    const result = await fn();
+    record(name, result.status ?? 'ok', result.detail ?? result);
+  } catch (error) {
+    record(name, 'ko', `${error.name}: ${error.message}`);
+  }
+}
+
+function withTimeout(promise, ms, label) {
+  return Promise.race([promise, new Promise((_, reject) => setTimeout(() => reject(new Error(`${label} timed out after ${ms} ms`)), ms))]);
+}
+
+function iconDataUrl(size) {
+  const canvas = document.createElement('canvas');
+  canvas.width = canvas.height = size;
+  const ctx = canvas.getContext('2d');
+  ctx.fillStyle = '#cc0000';
+  ctx.fillRect(0, 0, size, size / 2);
+  ctx.fillStyle = '#ffffff';
+  ctx.fillRect(0, size / 2, size, size / 2);
+  ctx.fillStyle = '#222';
+  ctx.fillRect(0, size * 0.46, size, size * 0.08);
+  ctx.beginPath();
+  ctx.arc(size / 2, size / 2, size * 0.14, 0, Math.PI * 2);
+  ctx.fill();
+  ctx.fillStyle = '#fff';
+  ctx.beginPath();
+  ctx.arc(size / 2, size / 2, size * 0.09, 0, Math.PI * 2);
+  ctx.fill();
+  return canvas.toDataURL('image/png');
+}
+
+function injectManifest() {
+  const pageUrl = location.href.split('#')[0];
+  const manifest = {
+    name: 'Single-file probe',
+    short_name: 'Probe',
+    start_url: pageUrl,
+    scope: pageUrl.replace(/[^/]*$/, ''),
+    display: 'standalone',
+    background_color: '#ffffff',
+    theme_color: '#cc0000',
+    icons: [192, 512].map(size => ({ src: iconDataUrl(size), sizes: `${size}x${size}`, type: 'image/png', purpose: 'any' })),
+  };
+  const link = document.createElement('link');
+  link.rel = 'manifest';
+  link.href = 'data:application/manifest+json,' + encodeURIComponent(JSON.stringify(manifest));
+  document.head.append(link);
+  const apple = document.createElement('link');
+  apple.rel = 'apple-touch-icon';
+  apple.href = manifest.icons[0].src;
+  document.head.append(apple);
+}
+
+let deferredInstallPrompt = null;
+const installPromptSeen = new Promise(resolve => {
+  window.addEventListener('beforeinstallprompt', event => {
+    event.preventDefault();
+    deferredInstallPrompt = event;
+    document.getElementById('install').hidden = false;
+    resolve();
+  });
+});
+
+function idbCounter() {
+  return new Promise((resolve, reject) => {
+    const open = indexedDB.open('probe', 1);
+    open.onupgradeneeded = () => open.result.createObjectStore('kv');
+    open.onerror = () => reject(open.error);
+    open.onsuccess = () => {
+      const db = open.result;
+      const tx = db.transaction('kv', 'readwrite');
+      const store = tx.objectStore('kv');
+      const get = store.get('visits');
+      get.onsuccess = () => {
+        const visits = (get.result ?? 0) + 1;
+        store.put(visits, 'visits');
+        tx.oncomplete = () => { db.close(); resolve(visits); };
+      };
+      tx.onerror = () => reject(tx.error);
+    };
+  });
+}
+
+async function run() {
+  injectManifest();
+
+  record('URL', 'info', location.href);
+  record('Protocol / origin', 'info', `${location.protocol} / ${location.origin}`);
+  record('Secure context', isSecureContext ? 'ok' : 'ko', isSecureContext);
+  record('User agent', 'info', navigator.userAgent);
+  record('Online', 'info', navigator.onLine);
+  record('Inside a frame', 'info', window.self !== window.top);
+  record('Display mode standalone', 'info', matchMedia('(display-mode: standalone)').matches || navigator.standalone === true);
+
+  await check('Payload size and decode', () => {
+    const text = document.getElementById('payload').textContent;
+    const t0 = performance.now();
+    const bytes = atob(text).length;
+    const ms = Math.round(performance.now() - t0);
+    return `${(text.length / 1e6).toFixed(1)} MB base64 → ${(bytes / 1e6).toFixed(1)} MB in ${ms} ms`;
+  });
+
+  record('Time to script run', 'info', `${Math.round(performance.now())} ms since navigation start`);
+
+  await check('localStorage visits', () => {
+    const visits = Number(localStorage.getItem('probe-visits') ?? 0) + 1;
+    localStorage.setItem('probe-visits', String(visits));
+    if (localStorage.getItem('probe-visits') !== String(visits)) throw new Error('read back differs');
+    return `visit #${visits}`;
+  });
+
+  await check('IndexedDB visits', async () => `visit #${await withTimeout(idbCounter(), 3000, 'IndexedDB')}`);
+
+  await check('storage.persisted()', async () => {
+    if (!navigator.storage?.persisted) return { status: 'ko', detail: 'API missing' };
+    return `${await navigator.storage.persisted()}`;
+  });
+
+  await check('storage.persist()', async () => {
+    if (!navigator.storage?.persist) return { status: 'ko', detail: 'API missing' };
+    const granted = await withTimeout(navigator.storage.persist(), 3000, 'persist()');
+    return { status: granted ? 'ok' : 'ko', detail: granted };
+  });
+
+  await check('storage.estimate()', async () => {
+    if (!navigator.storage?.estimate) return { status: 'ko', detail: 'API missing' };
+    const { usage, quota } = await navigator.storage.estimate();
+    return `usage ${(usage / 1e6).toFixed(2)} MB, quota ${(quota / 1e6).toFixed(0)} MB`;
+  });
+
+  const swSource = "self.addEventListener('fetch', () => {});";
+  await check('Service worker from blob: URL', async () => {
+    if (!('serviceWorker' in navigator)) return { status: 'ko', detail: 'navigator.serviceWorker missing' };
+    const url = URL.createObjectURL(new Blob([swSource], { type: 'text/javascript' }));
+    const registration = await navigator.serviceWorker.register(url);
+    return `registered, scope ${registration.scope}`;
+  });
+
+  await check('Service worker from data: URL', async () => {
+    if (!('serviceWorker' in navigator)) return { status: 'ko', detail: 'navigator.serviceWorker missing' };
+    const registration = await navigator.serviceWorker.register('data:text/javascript,' + encodeURIComponent(swSource));
+    return `registered, scope ${registration.scope}`;
+  });
+
+  await check('beforeinstallprompt (Chromium only)', async () => {
+    try {
+      await withTimeout(installPromptSeen, 8000, 'beforeinstallprompt');
+      return 'fired: the page is installable';
+    } catch {
+      return { status: 'ko', detail: 'not fired within 8 s (expected on Safari and Firefox)' };
+    }
+  });
+
+  record('Done', 'info', `${Math.round(performance.now() - window.__probeStart)} ms of checks`);
+}
+
+document.getElementById('install').addEventListener('click', async () => {
+  if (!deferredInstallPrompt) return;
+  deferredInstallPrompt.prompt();
+  const { outcome } = await deferredInstallPrompt.userChoice;
+  record('Install prompt outcome', 'info', outcome);
+});
+
+document.getElementById('copy').addEventListener('click', async () => {
+  const text = document.getElementById('report').value;
+  try {
+    await navigator.clipboard.writeText(text);
+  } catch {
+    document.getElementById('report').select();
+    document.execCommand('copy');
+  }
+});
+
+run();
+</script>

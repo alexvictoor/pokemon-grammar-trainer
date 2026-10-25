@@ -1,0 +1,9 @@
+[
+  { "id": "present-perfect.form", "chapter": 21, "label": "Form: have / has + past participle" },
+  { "id": "present-perfect.irregular-participle", "chapter": 21, "label": "Irregular past participles" },
+  { "id": "present-perfect.result", "chapter": 21, "label": "A past action with a result now" },
+  { "id": "present-perfect.experience", "chapter": 21, "label": "Experience: ever, never, already, yet, always" },
+  { "id": "present-perfect.first-time", "chapter": 21, "label": "It's the first time + present perfect" },
+  { "id": "present-perfect.since-for", "chapter": 21, "label": "« depuis »: since, for and the present perfect" },
+  { "id": "present-perfect.just", "chapter": 21, "label": "Recent events: just, recently, lately" }
+]

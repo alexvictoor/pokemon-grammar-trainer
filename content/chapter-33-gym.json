@@ -1,0 +1,110 @@
+[
+  {
+    "id": "ch33-gym-who-which-001",
+    "chapter": 33,
+    "rule": "relatives.who-which",
+    "difficulty": 1,
+    "kind": "typed",
+    "prompt": "The woman ___ (relative pronoun) looks after the Pokémon Center is Nurse Joy.",
+    "answers": ["who", "that"],
+    "explanation": "L'antécédent (the woman) est une personne, sujet de la relative : who, ou that puisque la relative identifie la personne. Which est réservé aux choses."
+  },
+  {
+    "id": "ch33-gym-who-which-002",
+    "chapter": 33,
+    "rule": "relatives.who-which",
+    "difficulty": 2,
+    "kind": "typed",
+    "prompt": "I need a Poké Ball ___ (relative pronoun) can catch a legendary Pokémon.",
+    "answers": ["which", "that"],
+    "explanation": "L'antécédent (a Poké Ball) est une chose, sujet de la relative : which, ou that. Who est réservé aux personnes, et le relatif sujet ne peut pas être omis."
+  },
+  {
+    "id": "ch33-gym-that-001",
+    "chapter": 33,
+    "rule": "relatives.that",
+    "difficulty": 3,
+    "kind": "typed",
+    "prompt": "Snorlax, ___ (relative pronoun) sleeps all day, is blocking the road again.",
+    "answers": ["which", "who"],
+    "explanation": "La relative entre virgules ajoute une information sur un Pokémon déjà identifié : that y est impossible. Pour un animal, on emploie which, ou who quand on le traite comme une personne."
+  },
+  {
+    "id": "ch33-gym-whose-001",
+    "chapter": 33,
+    "rule": "relatives.whose",
+    "difficulty": 2,
+    "kind": "typed",
+    "prompt": "That's the trainer ___ (relative pronoun) Pikachu beat my Onix.",
+    "answers": ["whose"],
+    "explanation": "« Le dresseur dont le Pikachu a battu mon Onix » : whose + nom, sans article, exprime l'appartenance (the trainer's Pikachu). Who's veut dire who is ou who has."
+  },
+  {
+    "id": "ch33-gym-where-when-001",
+    "chapter": 33,
+    "rule": "relatives.where-when",
+    "difficulty": 2,
+    "kind": "typed",
+    "prompt": "This is the forest ___ (relative pronoun) I caught my first Caterpie.",
+    "answers": ["where", "in which"],
+    "explanation": "« La forêt où… » : « où » reprend un lieu, donc where (ou, plus soutenu, in which). Which seul est impossible, et when reprend un moment."
+  },
+  {
+    "id": "ch33-gym-where-when-002",
+    "chapter": 33,
+    "rule": "relatives.where-when",
+    "difficulty": 3,
+    "kind": "typed",
+    "prompt": "We'll leave on Monday, ___ (relative pronoun) the boat to Cinnabar Island comes back.",
+    "answers": ["when"],
+    "explanation": "« Lundi, quand le bateau revient » : la relative reprend un moment (on Monday), donc when. Where reprend un lieu, et that ne s'emploie pas après une virgule."
+  },
+  {
+    "id": "ch33-gym-order-omission-001",
+    "chapter": 33,
+    "rule": "relatives.omission",
+    "difficulty": 2,
+    "kind": "reorder",
+    "prompt": "Les sandwichs que Pierre a préparés étaient délicieux.",
+    "tiles": ["The", "sandwiches", "Brock", "made", "were", "delicious."],
+    "decoys": ["them", "what"],
+    "answers": ["The sandwiches Brock made were delicious."],
+    "explanation": "The sandwiches est complément d'objet de la relative (Brock made the sandwiches) : le relatif peut être omis. On ne reprend pas l'antécédent par them, et « que » ne se traduit pas par what après un nom."
+  },
+  {
+    "id": "ch33-gym-order-whose-001",
+    "chapter": 33,
+    "rule": "relatives.whose",
+    "difficulty": 2,
+    "kind": "reorder",
+    "prompt": "Voici le garçon dont le Pikachu a battu Pierre.",
+    "tiles": ["This", "is", "the", "boy", "whose", "Pikachu", "beat", "Brock."],
+    "decoys": ["who", "of"],
+    "answers": ["This is the boy whose Pikachu beat Brock."],
+    "explanation": "« Dont » + nom se traduit par whose + nom, sans article : whose Pikachu. « Who Pikachu » ou « of whom » sont des calques de « dont »."
+  },
+  {
+    "id": "ch33-gym-order-where-when-001",
+    "chapter": 33,
+    "rule": "relatives.where-when",
+    "difficulty": 1,
+    "kind": "reorder",
+    "prompt": "C'est la ville où Sacha a grandi.",
+    "tiles": ["This", "is", "the", "town", "where", "Ash", "grew", "up."],
+    "decoys": ["which", "when"],
+    "answers": ["This is the town where Ash grew up."],
+    "explanation": "« Où » reprend un lieu (the town) : where. Which seul est impossible ici, et when reprend un moment."
+  },
+  {
+    "id": "ch33-gym-order-that-001",
+    "chapter": 33,
+    "rule": "relatives.that",
+    "difficulty": 2,
+    "kind": "reorder",
+    "prompt": "Ondine, qui est championne d'arène à Azuria, adore les Pokémon Eau.",
+    "tiles": ["Misty,", "who", "is", "a", "Gym", "Leader", "in", "Cerulean", "City,", "loves", "Water", "Pokémon."],
+    "decoys": ["that", "which"],
+    "answers": ["Misty, who is a Gym Leader in Cerulean City, loves Water Pokémon."],
+    "explanation": "La relative entre virgules ajoute une information sur Ondine, déjà identifiée par son nom : that y est impossible. Ondine est une personne, donc who, pas which."
+  }
+]

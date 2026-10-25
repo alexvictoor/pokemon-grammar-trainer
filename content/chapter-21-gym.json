@@ -1,0 +1,218 @@
+[
+  {
+    "id": "ch21-gym-irregular-001",
+    "chapter": 21,
+    "rule": "present-perfect.irregular-participle",
+    "difficulty": 2,
+    "kind": "typed",
+    "prompt": "Snorlax has ___ (eat) twelve berries today!",
+    "answers": ["eaten"],
+    "explanation": "Après has, il faut le participe passé. Eat est irrégulier : eat – ate – eaten. Avec une quantité (twelve berries), on emploie la forme simple, pas has been eating."
+  },
+  {
+    "id": "ch21-gym-irregular-002",
+    "chapter": 21,
+    "rule": "present-perfect.irregular-participle",
+    "difficulty": 3,
+    "kind": "typed",
+    "prompt": "Have you ever ___ (ride) a Lapras across the sea?",
+    "answers": ["ridden"],
+    "explanation": "Have you ever + participe passé. Ride est irrégulier : ride – rode – ridden."
+  },
+  {
+    "id": "ch21-gym-irregular-003",
+    "chapter": 21,
+    "rule": "present-perfect.irregular-participle",
+    "difficulty": 2,
+    "kind": "typed",
+    "prompt": "Oh no! Team Rocket has ___ (steal) Pikachu again!",
+    "answers": ["stolen"],
+    "explanation": "Après has, il faut le participe passé. Steal est irrégulier : steal – stole – stolen."
+  },
+  {
+    "id": "ch21-gym-irregular-004",
+    "chapter": 21,
+    "rule": "present-perfect.irregular-participle",
+    "difficulty": 2,
+    "kind": "typed",
+    "prompt": "I've ___ (write) three letters to Professor Oak this week.",
+    "answers": ["written"],
+    "explanation": "I've = I have, suivi du participe passé. Write est irrégulier : write – wrote – written. Avec une quantité (three letters), on emploie la forme simple, pas have been writing."
+  },
+  {
+    "id": "ch21-gym-form-001",
+    "chapter": 21,
+    "rule": "present-perfect.form",
+    "difficulty": 3,
+    "kind": "typed",
+    "prompt": "Gary ___ (not / see) Ash since the last tournament.",
+    "answers": ["hasn't seen", "has not seen"],
+    "explanation": "Since impose le present perfect. Forme négative avec he : has not (hasn't) + participe passé. See – saw – seen."
+  },
+  {
+    "id": "ch21-gym-since-for-001",
+    "chapter": 21,
+    "rule": "present-perfect.since-for",
+    "difficulty": 3,
+    "kind": "typed",
+    "prompt": "I ___ (not / see) my Snorlax for two weeks, and I really miss it.",
+    "answers": ["haven't seen", "have not seen"],
+    "explanation": "« Je n'ai pas vu mon Ronflex depuis deux semaines » : la situation dure encore (I miss it), donc present perfect avec for. See – saw – seen."
+  },
+  {
+    "id": "ch21-gym-since-for-002",
+    "chapter": 21,
+    "rule": "present-perfect.since-for",
+    "difficulty": 3,
+    "kind": "typed",
+    "prompt": "My sister ___ (be) a Pokémon trainer since she was ten.",
+    "answers": ["has been"],
+    "explanation": "« Ma sœur est dresseuse depuis qu'elle a dix ans » : c'est toujours vrai, donc present perfect avec since. Be – was / were – been."
+  },
+  {
+    "id": "ch21-gym-since-for-003",
+    "chapter": 21,
+    "rule": "present-perfect.since-for",
+    "difficulty": 3,
+    "kind": "typed",
+    "prompt": "Misty and Brock ___ (know) each other for three years now.",
+    "answers": ["have known"],
+    "explanation": "« Ils se connaissent depuis trois ans » : le présent français devient un present perfect avec for. Know ne se met pas à la forme en -ing."
+  },
+  {
+    "id": "ch21-gym-since-for-004",
+    "chapter": 21,
+    "rule": "present-perfect.since-for",
+    "difficulty": 3,
+    "kind": "typed",
+    "prompt": "My cousin ___ (have) her Eevee since 2020.",
+    "answers": ["has had"],
+    "explanation": "Have au sens de « posséder » + since : present perfect, has had. Le premier has est l'auxiliaire, had le participe passé (« Ma cousine a son Évoli depuis 2020 »)."
+  },
+  {
+    "id": "ch21-gym-first-time-001",
+    "chapter": 21,
+    "rule": "present-perfect.first-time",
+    "difficulty": 2,
+    "kind": "typed",
+    "prompt": "It's the first time I ___ (win) a Gym battle!",
+    "answers": ["have won"],
+    "explanation": "It's the first time… + present perfect, alors que le français utilise le présent (« C'est la première fois que je gagne… »). Win – won – won."
+  },
+  {
+    "id": "ch21-gym-first-time-002",
+    "chapter": 21,
+    "rule": "present-perfect.first-time",
+    "difficulty": 3,
+    "kind": "typed",
+    "prompt": "This is the first time Psyduck ___ (be) so calm.",
+    "answers": ["has been", "has ever been"],
+    "explanation": "This is the first time… + present perfect. Psyduck = it → has been (« C'est la première fois que Psykokwak est si calme »)."
+  },
+  {
+    "id": "ch21-gym-experience-001",
+    "chapter": 21,
+    "rule": "present-perfect.irregular-participle",
+    "difficulty": 2,
+    "kind": "typed",
+    "prompt": "Have you ever ___ (see) a shiny Gyarados?",
+    "answers": ["seen"],
+    "explanation": "Après Have you ever, il faut le participe passé. See est irrégulier : see – saw – seen. Saw est le prétérit."
+  },
+  {
+    "id": "ch21-gym-order-since-for-001",
+    "chapter": 21,
+    "rule": "present-perfect.since-for",
+    "difficulty": 3,
+    "kind": "reorder",
+    "prompt": "Je connais Misty depuis cinq ans.",
+    "tiles": ["I", "have", "known", "Misty", "for", "five", "years."],
+    "decoys": ["know", "since"],
+    "answers": ["I have known Misty for five years."],
+    "explanation": "« Depuis » + une situation qui dure encore : present perfect (have known). Five years est une durée, donc for."
+  },
+  {
+    "id": "ch21-gym-order-since-for-002",
+    "chapter": 21,
+    "rule": "present-perfect.since-for",
+    "difficulty": 3,
+    "kind": "reorder",
+    "prompt": "Pikachu est mon meilleur ami depuis 2019.",
+    "tiles": ["Pikachu", "has", "been", "my", "best", "friend", "since", "2019."],
+    "decoys": ["is", "for"],
+    "answers": ["Pikachu has been my best friend since 2019."],
+    "explanation": "Le présent français devient un present perfect (has been). 2019 est un point de départ, donc since."
+  },
+  {
+    "id": "ch21-gym-order-since-for-003",
+    "chapter": 21,
+    "rule": "present-perfect.since-for",
+    "difficulty": 3,
+    "kind": "reorder",
+    "prompt": "Depuis combien de temps as-tu ton Pikachu ?",
+    "tiles": ["How", "long", "have", "you", "had", "your", "Pikachu?"],
+    "decoys": ["do", "since"],
+    "answers": ["How long have you had your Pikachu?"],
+    "explanation": "« Depuis combien de temps… ? » se traduit par How long + present perfect : How long have you had…?"
+  },
+  {
+    "id": "ch21-gym-order-first-time-001",
+    "chapter": 21,
+    "rule": "present-perfect.first-time",
+    "difficulty": 3,
+    "kind": "reorder",
+    "prompt": "C'est la première fois que je vois un Pokémon légendaire.",
+    "tiles": ["It's", "the", "first", "time", "I", "have", "seen", "a", "legendary", "Pokémon."],
+    "decoys": ["see", "am"],
+    "answers": ["It's the first time I have seen a legendary Pokémon."],
+    "explanation": "Après It's the first time…, l'anglais emploie le present perfect (have seen), pas le présent comme en français."
+  },
+  {
+    "id": "ch21-gym-order-experience-001",
+    "chapter": 21,
+    "rule": "present-perfect.experience",
+    "difficulty": 2,
+    "kind": "reorder",
+    "prompt": "Est-ce que tu as déjà attrapé un Dracolosse ?",
+    "tiles": ["Have", "you", "ever", "caught", "a", "Dragonite?"],
+    "decoys": ["Did", "catched"],
+    "answers": ["Have you ever caught a Dragonite?"],
+    "explanation": "« Est-ce que tu as déjà… ? » sur l'expérience : Have you ever + participe passé. Catch – caught – caught."
+  },
+  {
+    "id": "ch21-gym-order-experience-002",
+    "chapter": 21,
+    "rule": "present-perfect.experience",
+    "difficulty": 2,
+    "kind": "reorder",
+    "prompt": "Je n'ai pas encore gagné de badge.",
+    "tiles": ["I", "haven't", "won", "a", "badge", "yet."],
+    "decoys": ["already", "didn't"],
+    "answers": ["I haven't won a badge yet."],
+    "explanation": "« Pas encore » : haven't + participe passé… yet, avec yet en fin de phrase. Already s'emploie dans les phrases affirmatives."
+  },
+  {
+    "id": "ch21-gym-order-experience-003",
+    "chapter": 21,
+    "rule": "present-perfect.experience",
+    "difficulty": 2,
+    "kind": "reorder",
+    "prompt": "Je n'ai jamais vu de Mew.",
+    "tiles": ["I", "have", "never", "seen", "a", "Mew."],
+    "decoys": ["ever", "see"],
+    "answers": ["I have never seen a Mew."],
+    "explanation": "Bilan d'expérience (« jamais, jusqu'à maintenant ») : have never + participe passé. Ever n'a pas de sens négatif : il s'emploie surtout dans les questions (Have you ever…?) et après un superlatif (the best battle I've ever seen). See – saw – seen."
+  },
+  {
+    "id": "ch21-gym-order-just-001",
+    "chapter": 21,
+    "rule": "present-perfect.just",
+    "difficulty": 2,
+    "kind": "reorder",
+    "prompt": "Je viens de voir un Mewtwo !",
+    "tiles": ["I", "have", "just", "seen", "a", "Mewtwo!"],
+    "decoys": ["come", "am"],
+    "answers": ["I have just seen a Mewtwo!"],
+    "explanation": "« Venir de » + infinitif se traduit par have / has just + participe passé : I have just seen. See – saw – seen."
+  }
+]

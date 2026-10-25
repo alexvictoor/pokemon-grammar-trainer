@@ -1,0 +1,174 @@
+[
+  {
+    "id": "ch18-gym-now-001",
+    "chapter": 18,
+    "rule": "present-continuous.now",
+    "difficulty": 2,
+    "kind": "typed",
+    "prompt": "Look! Togepi ___ (dance) on the table!",
+    "answers": [
+      "is dancing"
+    ],
+    "explanation": "Look! : l'action se déroule sous nos yeux, donc be + V-ing. Dance perd son e muet devant -ing : dancing."
+  },
+  {
+    "id": "ch18-gym-ing-spelling-001",
+    "chapter": 18,
+    "rule": "present-continuous.ing-spelling",
+    "difficulty": 2,
+    "kind": "typed",
+    "prompt": "Pikachu ___ (sit) on Ash's shoulder right now.",
+    "answers": [
+      "is sitting"
+    ],
+    "explanation": "Right now : action en cours, be + V-ing. Sit se termine par une voyelle unique suivie d'une consonne unique : on double le t, sitting."
+  },
+  {
+    "id": "ch18-gym-form-001",
+    "chapter": 18,
+    "rule": "present-continuous.form",
+    "difficulty": 2,
+    "kind": "typed",
+    "prompt": "I ___ (not / watch) TV. I'm reading a book about Pokémon!",
+    "answers": [
+      "am not watching"
+    ],
+    "explanation": "Forme négative de be + V-ing : I am not (I'm not) + verbe en -ing. Le contexte (I'm reading) montre qu'on parle de ce qui se passe maintenant."
+  },
+  {
+    "id": "ch18-gym-temporary-001",
+    "chapter": 18,
+    "rule": "present-continuous.temporary",
+    "difficulty": 2,
+    "kind": "typed",
+    "prompt": "My brother usually works in Cerulean City, but at the moment he ___ (work) in Vermilion City.",
+    "answers": [
+      "is working"
+    ],
+    "explanation": "At the moment décrit une situation temporaire, opposée à l'habitude (usually works) : be + V-ing, he is working."
+  },
+  {
+    "id": "ch18-gym-states-001",
+    "chapter": 18,
+    "rule": "present-continuous.state-verbs",
+    "difficulty": 3,
+    "kind": "typed",
+    "prompt": "Ash ___ (need) a Potion for Pikachu right now!",
+    "answers": [
+      "needs"
+    ],
+    "explanation": "Malgré right now, need décrit un état (un besoin) : il refuse be + V-ing. On emploie le présent simple, avec -s pour he."
+  },
+  {
+    "id": "ch18-gym-now-002",
+    "chapter": 18,
+    "rule": "present-continuous.now",
+    "difficulty": 3,
+    "kind": "typed",
+    "prompt": "Brock usually makes dinner, but look! Tonight Misty ___ (make) it.",
+    "answers": [
+      "is making"
+    ],
+    "explanation": "Usually makes décrit l'habitude ; look! montre ce qui se passe en ce moment, donc be + V-ing. Make perd son e devant -ing : making."
+  },
+  {
+    "id": "ch18-gym-order-future-001",
+    "chapter": 18,
+    "rule": "present-continuous.future",
+    "difficulty": 2,
+    "kind": "reorder",
+    "prompt": "Je vais à la Zone Safari avec Misty demain.",
+    "tiles": [
+      "I",
+      "am",
+      "going",
+      "to",
+      "the",
+      "Safari",
+      "Zone",
+      "with",
+      "Misty",
+      "tomorrow."
+    ],
+    "decoys": [
+      "go",
+      "do"
+    ],
+    "answers": [
+      "I am going to the Safari Zone with Misty tomorrow.",
+      "I am going with Misty to the Safari Zone tomorrow."
+    ],
+    "explanation": "Un projet déjà organisé s'exprime avec be + V-ing, comme le présent à valeur de futur en français : I am going… tomorrow. « I go » ne s'emploie pas pour un projet personnel."
+  },
+  {
+    "id": "ch18-gym-order-states-001",
+    "chapter": 18,
+    "rule": "present-continuous.state-verbs",
+    "difficulty": 2,
+    "kind": "reorder",
+    "prompt": "Je ne comprends pas cette carte.",
+    "tiles": [
+      "I",
+      "don't",
+      "understand",
+      "this",
+      "map."
+    ],
+    "decoys": [
+      "am",
+      "understanding"
+    ],
+    "answers": [
+      "I don't understand this map."
+    ],
+    "explanation": "Understand décrit un état : il reste au présent simple, même pour parler de maintenant. Négation : don't + base verbale, et non « I'm not understanding »."
+  },
+  {
+    "id": "ch18-gym-order-form-001",
+    "chapter": 18,
+    "rule": "present-continuous.form",
+    "difficulty": 2,
+    "kind": "reorder",
+    "prompt": "Qu'est-ce que Pikachu est en train de manger ?",
+    "tiles": [
+      "What",
+      "is",
+      "Pikachu",
+      "eating?"
+    ],
+    "decoys": [
+      "does",
+      "eat"
+    ],
+    "answers": [
+      "What is Pikachu eating?"
+    ],
+    "explanation": "« Être en train de » se traduit par be + V-ing. Question : mot interrogatif + is + sujet + V-ing. What does Pikachu eat? porterait sur une habitude."
+  },
+  {
+    "id": "ch18-gym-order-temporary-001",
+    "chapter": 18,
+    "rule": "present-continuous.temporary",
+    "difficulty": 3,
+    "kind": "reorder",
+    "prompt": "Mon cousin loge chez nous cette semaine.",
+    "tiles": [
+      "My",
+      "cousin",
+      "is",
+      "staying",
+      "with",
+      "us",
+      "this",
+      "week."
+    ],
+    "decoys": [
+      "stays",
+      "since"
+    ],
+    "answers": [
+      "My cousin is staying with us this week."
+    ],
+    "explanation": "Cette semaine : la situation est temporaire, donc be + V-ing (is staying). Le présent simple (stays) présenterait ce séjour comme une habitude."
+  }
+]

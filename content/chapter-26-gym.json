@@ -1,0 +1,110 @@
+[
+  {
+    "id": "ch26-gym-third-person-001",
+    "chapter": 26,
+    "rule": "modals.third-person",
+    "difficulty": 1,
+    "kind": "typed",
+    "prompt": "A Snorlax ___ (can / sleep) anywhere, even in the middle of a road!",
+    "answers": ["can sleep"],
+    "explanation": "Can ne prend jamais de -s, même avec it, et le verbe qui suit reste à la base verbale : can sleep."
+  },
+  {
+    "id": "ch26-gym-questions-001",
+    "chapter": 26,
+    "rule": "modals.questions-negatives",
+    "difficulty": 2,
+    "kind": "typed",
+    "prompt": "You ___ (must / not / touch) the Master Ball: it's Professor Oak's.",
+    "answers": ["mustn't touch", "must not touch"],
+    "explanation": "L'interdiction se dit must not (mustn't) + base verbale. Le modal porte la négation sans do, et il n'est pas suivi de to."
+  },
+  {
+    "id": "ch26-gym-questions-002",
+    "chapter": 26,
+    "rule": "modals.questions-negatives",
+    "difficulty": 2,
+    "kind": "typed",
+    "prompt": "___ (should / I / take) my Bulbasaur to the Pokémon Center?",
+    "answers": ["Should I take"],
+    "explanation": "Question avec un modal : on inverse le modal et le sujet, sans do, puis la base verbale : Should I take…?"
+  },
+  {
+    "id": "ch26-gym-questions-003",
+    "chapter": 26,
+    "rule": "modals.questions-negatives",
+    "difficulty": 3,
+    "kind": "typed",
+    "prompt": "I'm sorry, I ___ (can / not) come to your party tomorrow.",
+    "answers": ["cannot", "can't"],
+    "explanation": "La négation de can est collée au modal, sans do. La forme pleine s'écrit en un seul mot : cannot ; la forme contractée est can't."
+  },
+  {
+    "id": "ch26-gym-short-answers-001",
+    "chapter": 26,
+    "rule": "modals.short-answers",
+    "difficulty": 2,
+    "kind": "typed",
+    "prompt": "— Can Togepi fly? — No, ___ (it / not).",
+    "answers": ["it can't", "it cannot"],
+    "explanation": "La réponse brève reprend le sujet et le modal de la question, sans le verbe : Can Togepi…? — No, it can't. Pas de doesn't : la question est posée avec can."
+  },
+  {
+    "id": "ch26-gym-substitutes-001",
+    "chapter": 26,
+    "rule": "modals.substitutes",
+    "difficulty": 3,
+    "kind": "typed",
+    "prompt": "Last night, Brock ___ (have to / cook) for everyone because nobody else knew how.",
+    "answers": ["had to cook"],
+    "explanation": "Must n'a pas de passé : pour une obligation passée (last night), on emploie le substitut have to au prétérit, had to + base verbale."
+  },
+  {
+    "id": "ch26-gym-order-questions-001",
+    "chapter": 26,
+    "rule": "modals.questions-negatives",
+    "difficulty": 1,
+    "kind": "reorder",
+    "prompt": "Est-ce que je peux caresser ton Évoli ?",
+    "tiles": ["Can", "I", "pet", "your", "Eevee?"],
+    "decoys": ["Does", "to"],
+    "answers": ["Can I pet your Eevee?"],
+    "explanation": "Question avec un modal : modal + sujet + base verbale (Can I pet…?). Pas de do / does, et pas de to après can."
+  },
+  {
+    "id": "ch26-gym-order-questions-002",
+    "chapter": 26,
+    "rule": "modals.questions-negatives",
+    "difficulty": 2,
+    "kind": "reorder",
+    "prompt": "Tu ne dois pas réveiller le Ronflex.",
+    "tiles": ["You", "mustn't", "wake", "the", "Snorlax."],
+    "decoys": ["to", "waking"],
+    "answers": ["You mustn't wake the Snorlax."],
+    "explanation": "L'interdiction se dit mustn't + base verbale : mustn't wake. Après un modal, jamais de to ni de forme en -ing."
+  },
+  {
+    "id": "ch26-gym-order-base-verb-001",
+    "chapter": 26,
+    "rule": "modals.base-verb",
+    "difficulty": 1,
+    "kind": "reorder",
+    "prompt": "Ma sœur doit partir maintenant.",
+    "tiles": ["My", "sister", "must", "go", "now."],
+    "decoys": ["to", "going"],
+    "answers": ["My sister must go now."],
+    "explanation": "Après must, la base verbale sans to : must go. « Must to go » est un calque de « doit partir »."
+  },
+  {
+    "id": "ch26-gym-order-substitutes-001",
+    "chapter": 26,
+    "rule": "modals.substitutes",
+    "difficulty": 3,
+    "kind": "reorder",
+    "prompt": "Ash a été obligé de se lever tôt ce matin.",
+    "tiles": ["Ash", "had", "to", "get", "up", "early", "this", "morning."],
+    "decoys": ["must", "musted"],
+    "answers": ["Ash had to get up early this morning."],
+    "explanation": "Must n'a pas de forme passée (« musted » n'existe pas). Pour une obligation passée (« il a été obligé de »), on emploie le substitut had to + base verbale."
+  }
+]

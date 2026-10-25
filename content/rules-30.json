@@ -1,0 +1,7 @@
+[
+  { "id": "probability.must", "chapter": 30, "label": "must: a logical deduction, almost certain" },
+  { "id": "probability.cant", "chapter": 30, "label": "can't: impossible (the opposite of must, not mustn't)" },
+  { "id": "probability.possibility", "chapter": 30, "label": "might, may, could: possible, not sure" },
+  { "id": "probability.past", "chapter": 30, "label": "A past event: must / can't / might have + past participle" },
+  { "id": "probability.form", "chapter": 30, "label": "Form: modal + base verb, be + V-ing or have + participle, never to" }
+]

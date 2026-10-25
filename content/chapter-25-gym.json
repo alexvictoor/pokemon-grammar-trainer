@@ -1,0 +1,195 @@
+[
+  {
+    "id": "ch25-gym-time-clause-001",
+    "chapter": 25,
+    "rule": "future.time-clauses",
+    "difficulty": 2,
+    "kind": "typed",
+    "prompt": "We'll go to the beach with our Water Pokémon when the weather ___ (be) better.",
+    "answers": [
+      "is"
+    ],
+    "explanation": "Après when, dans une proposition de temps, l'anglais emploie le présent simple et jamais will : when the weather is better. Le français dit « quand il fera meilleur », au futur."
+  },
+  {
+    "id": "ch25-gym-time-clause-002",
+    "chapter": 25,
+    "rule": "future.time-clauses",
+    "difficulty": 2,
+    "kind": "typed",
+    "prompt": "Pikachu, stay in your Poké Ball until I ___ (call) you!",
+    "answers": [
+      "call"
+    ],
+    "explanation": "Après until (« jusqu'à ce que »), on emploie le présent simple, pas will : until I call you."
+  },
+  {
+    "id": "ch25-gym-time-clause-003",
+    "chapter": 25,
+    "rule": "future.time-clauses",
+    "difficulty": 3,
+    "kind": "typed",
+    "prompt": "I'll lend you my bike as soon as I ___ (get) it back from my cousin.",
+    "answers": [
+      "get",
+      "have got",
+      "have gotten"
+    ],
+    "explanation": "Après as soon as, on n'emploie jamais will : présent simple, as soon as I get it back. Le français dit « dès que je le récupérerai », au futur. Le present perfect (have got) est aussi possible pour insister sur l'action terminée."
+  },
+  {
+    "id": "ch25-gym-prediction-001",
+    "chapter": 25,
+    "rule": "future.will-prediction",
+    "difficulty": 2,
+    "kind": "typed",
+    "prompt": "I'm sure Misty ___ (love) your present.",
+    "answers": [
+      "will love",
+      "is going to love",
+      "would love"
+    ],
+    "explanation": "I'm sure annonce une prédiction : will love, ou is going to love. Would love est aussi possible. Le présent loves ne convient pas, car Misty n'a pas encore reçu le cadeau."
+  },
+  {
+    "id": "ch25-gym-spontaneous-001",
+    "chapter": 25,
+    "rule": "future.will-spontaneous",
+    "difficulty": 2,
+    "kind": "typed",
+    "prompt": "— Oh no, I've left my money at home! — Don't worry, I ___ (lend) you some.",
+    "answers": [
+      "will lend",
+      "can lend",
+      "could lend"
+    ],
+    "explanation": "On propose son aide sur le moment : will lend, ou can lend. Le présent lend est un calque de « je t'en prête »."
+  },
+  {
+    "id": "ch25-gym-spontaneous-002",
+    "chapter": 25,
+    "rule": "future.will-spontaneous",
+    "difficulty": 3,
+    "kind": "typed",
+    "prompt": "Sorry I'm late again, Professor. I promise I ___ (not / be) late tomorrow.",
+    "answers": [
+      "will not be",
+      "am not going to be",
+      "shall not be"
+    ],
+    "explanation": "Une promesse sur l'avenir s'exprime avec will : I won't be late. Am not going to be est aussi correct. Le présent « I'm not late » est un calque de « je ne suis pas en retard demain »."
+  },
+  {
+    "id": "ch25-gym-order-evidence-001",
+    "chapter": 25,
+    "rule": "future.going-to-form",
+    "difficulty": 2,
+    "kind": "reorder",
+    "prompt": "Attention, Psykokwak va tomber dans la rivière !",
+    "tiles": [
+      "Careful,",
+      "Psyduck",
+      "is",
+      "going",
+      "to",
+      "fall",
+      "into",
+      "the",
+      "river!"
+    ],
+    "decoys": [
+      "goes",
+      "falls"
+    ],
+    "answers": [
+      "Careful, Psyduck is going to fall into the river!"
+    ],
+    "explanation": "« Va tomber » se traduit par be going to + base verbale : is going to fall. « Goes to fall » est un calque du français, et le présent falls ne parle pas de ce qui va se produire."
+  },
+  {
+    "id": "ch25-gym-order-intention-001",
+    "chapter": 25,
+    "rule": "future.going-to-form",
+    "difficulty": 2,
+    "kind": "reorder",
+    "prompt": "J'ai décidé : je vais devenir Maître Pokémon.",
+    "tiles": [
+      "I've",
+      "decided:",
+      "I",
+      "am",
+      "going",
+      "to",
+      "become",
+      "a",
+      "Pokémon",
+      "Master."
+    ],
+    "decoys": [
+      "go",
+      "becoming"
+    ],
+    "answers": [
+      "I've decided: I am going to become a Pokémon Master."
+    ],
+    "explanation": "« Je vais devenir » se traduit par be going to + base verbale : I am going to become. « I go to » est un calque du français, et becoming ne suit pas going to."
+  },
+  {
+    "id": "ch25-gym-order-time-clause-002",
+    "chapter": 25,
+    "rule": "future.time-clauses",
+    "difficulty": 3,
+    "kind": "reorder",
+    "prompt": "Je t'appellerai dès que j'arriverai à Azuria.",
+    "tiles": [
+      "I",
+      "will",
+      "call",
+      "you",
+      "as",
+      "soon",
+      "as",
+      "I",
+      "arrive",
+      "in",
+      "Cerulean",
+      "City."
+    ],
+    "decoys": [
+      "arriving",
+      "arrived"
+    ],
+    "answers": [
+      "I will call you as soon as I arrive in Cerulean City."
+    ],
+    "explanation": "Après as soon as (« dès que »), l'anglais emploie le présent pour parler du futur : as soon as I arrive, et non I will arrive comme le futur français. Le futur (will) reste dans la proposition principale : I will call you."
+  },
+  {
+    "id": "ch25-gym-order-time-clause-001",
+    "chapter": 25,
+    "rule": "future.time-clauses",
+    "difficulty": 3,
+    "kind": "reorder",
+    "prompt": "Je t'enverrai un message quand Pikachu se réveillera.",
+    "tiles": [
+      "I",
+      "will",
+      "send",
+      "you",
+      "a",
+      "message",
+      "when",
+      "Pikachu",
+      "wakes",
+      "up."
+    ],
+    "decoys": [
+      "wake",
+      "would"
+    ],
+    "answers": [
+      "I will send you a message when Pikachu wakes up."
+    ],
+    "explanation": "Le futur va dans la proposition principale (I will send), mais après when on emploie le présent simple : when Pikachu wakes up. Le français met les deux verbes au futur."
+  }
+]

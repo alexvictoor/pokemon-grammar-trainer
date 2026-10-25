@@ -1,0 +1,112 @@
+[
+  {
+    "id": "ch30-gym-possible-001",
+    "chapter": 30,
+    "rule": "probability.possibility",
+    "difficulty": 2,
+    "kind": "typed",
+    "prompt": "I'm not sure Misty is free today. She ___ (come) to the picnic, so don't wait for her.",
+    "answers": ["might not come", "may not come", "might not be coming", "may not be coming", "might not be able to come", "may not be able to come"],
+    "explanation": "I'm not sure : on envisage une possibilité négative, might not ou may not + base verbale (« elle ne viendra peut-être pas »). Can't come serait une impossibilité, ce qui contredit I'm not sure."
+  },
+  {
+    "id": "ch30-gym-order-cant-002",
+    "chapter": 30,
+    "rule": "probability.cant",
+    "difficulty": 2,
+    "kind": "reorder",
+    "prompt": "Ça ne peut pas être Pierre : il est à Azuria aujourd'hui !",
+    "tiles": ["It", "can't", "be", "Brock:", "he's", "in", "Cerulean", "City", "today!"],
+    "decoys": ["mustn't", "must"],
+    "answers": ["It can't be Brock: he's in Cerulean City today!"],
+    "explanation": "Brock est ailleurs : c'est une déduction d'impossibilité, can't + base verbale (« ça ne peut pas être »). Le piège est mustn't, qui exprime une interdiction : ce n'est pas le contraire de must « déduction »."
+  },
+  {
+    "id": "ch30-gym-past-001",
+    "chapter": 30,
+    "rule": "probability.past",
+    "difficulty": 3,
+    "kind": "typed",
+    "prompt": "Ash looks so happy. He ___ (must / win) his Gym battle this morning.",
+    "answers": ["must have won"],
+    "explanation": "Déduction sur un fait passé (this morning) : must have + participe passé, « il a dû gagner ». Win – won – won."
+  },
+  {
+    "id": "ch30-gym-past-002",
+    "chapter": 30,
+    "rule": "probability.past",
+    "difficulty": 3,
+    "kind": "typed",
+    "prompt": "Brock ___ (can't / cook) this curry. It's terrible, and he's a great cook!",
+    "answers": ["can't have cooked", "cannot have cooked"],
+    "explanation": "Le curry est déjà fait : on juge impossible que Brock l'ait préparé, donc can't have + participe passé. Can't cook voudrait dire qu'il ne sait pas cuisiner, ce que la phrase contredit."
+  },
+  {
+    "id": "ch30-gym-past-003",
+    "chapter": 30,
+    "rule": "probability.past",
+    "difficulty": 2,
+    "kind": "typed",
+    "prompt": "I'm not sure, but I ___ (might / leave) my Pokédex on the bus this morning.",
+    "answers": ["might have left"],
+    "explanation": "Possibilité sur un fait passé (this morning) : might have + participe passé, « je l'ai peut-être laissé ». Leave – left – left."
+  },
+  {
+    "id": "ch30-gym-form-001",
+    "chapter": 30,
+    "rule": "probability.form",
+    "difficulty": 3,
+    "kind": "typed",
+    "prompt": "I can hear splashing in the lake. A Lapras ___ (must / swim) near the shore.",
+    "answers": ["must be swimming"],
+    "explanation": "Déduction sur une action en cours au moment où l'on parle : modal + be + V-ing, must be swimming (« il doit être en train de nager »)."
+  },
+  {
+    "id": "ch30-gym-order-must-001",
+    "chapter": 30,
+    "rule": "probability.must",
+    "difficulty": 2,
+    "kind": "reorder",
+    "prompt": "Ash doit être fatigué.",
+    "tiles": ["Ash", "must", "be", "tired."],
+    "decoys": ["is", "to"],
+    "answers": ["Ash must be tired."],
+    "explanation": "« Il doit être fatigué » est une déduction presque certaine : must + base verbale (be), sans to."
+  },
+  {
+    "id": "ch30-gym-order-cant-001",
+    "chapter": 30,
+    "rule": "probability.cant",
+    "difficulty": 2,
+    "kind": "reorder",
+    "prompt": "Ça ne peut pas être Mewtwo !",
+    "tiles": ["That", "can't", "be", "Mewtwo!"],
+    "decoys": ["mustn't", "isn't"],
+    "answers": ["That can't be Mewtwo!"],
+    "explanation": "L'impossibilité se dit can't + base verbale. Mustn't n'est pas le contraire de must « déduction » : il exprime l'interdiction."
+  },
+  {
+    "id": "ch30-gym-order-past-001",
+    "chapter": 30,
+    "rule": "probability.past",
+    "difficulty": 3,
+    "kind": "reorder",
+    "prompt": "Pikachu a dû manger toutes les baies !",
+    "tiles": ["Pikachu", "must", "have", "eaten", "all", "the", "berries!"],
+    "decoys": ["had", "ate"],
+    "answers": ["Pikachu must have eaten all the berries!"],
+    "explanation": "Ici, « a dû manger » est une déduction sur le passé : must have + participe passé. Eat – ate – eaten : après have, le participe eaten."
+  },
+  {
+    "id": "ch30-gym-order-past-002",
+    "chapter": 30,
+    "rule": "probability.past",
+    "difficulty": 3,
+    "kind": "reorder",
+    "prompt": "Ash a peut-être oublié son badge.",
+    "tiles": ["Ash", "might", "have", "forgotten", "his", "badge."],
+    "decoys": ["must", "to"],
+    "answers": ["Ash might have forgotten his badge."],
+    "explanation": "Une possibilité sur le passé (« il a peut-être oublié ») : might have + participe passé. Must have exprimerait une quasi-certitude (« il a dû oublier »)."
+  }
+]

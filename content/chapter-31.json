@@ -1,0 +1,482 @@
+[
+  {
+    "id": "ch31-order-001",
+    "chapter": 31,
+    "rule": "questions.word-order",
+    "difficulty": 1,
+    "kind": "choice",
+    "prompt": "— What ___ to Professor Oak? — I'll tell him the truth.",
+    "answers": [
+      "will you say"
+    ],
+    "distractors": [
+      "you will say",
+      "will say you"
+    ],
+    "explanation": "Dans une question, l'ordre est : mot interrogatif + auxiliaire + sujet + verbe. What will you say…? L'auxiliaire will passe devant le sujet you."
+  },
+  {
+    "id": "ch31-order-002",
+    "chapter": 31,
+    "rule": "questions.word-order",
+    "difficulty": 1,
+    "kind": "choice",
+    "prompt": "— Why ___ so tired today? — It battled all night.",
+    "answers": [
+      "is Pikachu"
+    ],
+    "distractors": [
+      "Pikachu is",
+      "does Pikachu"
+    ],
+    "explanation": "Avec be, on inverse be et le sujet : Why is Pikachu tired? On ne garde pas l'ordre de la phrase affirmative, et on n'ajoute pas does devant be."
+  },
+  {
+    "id": "ch31-order-003",
+    "chapter": 31,
+    "rule": "questions.word-order",
+    "difficulty": 2,
+    "kind": "choice",
+    "prompt": "How many badges ___ so far?",
+    "answers": [
+      "have you won"
+    ],
+    "distractors": [
+      "you have won",
+      "have won you"
+    ],
+    "explanation": "Au present perfect, l'auxiliaire have passe devant le sujet : How many badges have you won? Le participe passé (won) vient après le sujet."
+  },
+  {
+    "id": "ch31-order-004",
+    "chapter": 31,
+    "rule": "questions.word-order",
+    "difficulty": 2,
+    "kind": "choice",
+    "prompt": "Which Pokémon ___ to the Gym tomorrow?",
+    "answers": [
+      "should I take"
+    ],
+    "distractors": [
+      "I should take",
+      "do I should take"
+    ],
+    "explanation": "Avec un modal (should, can, will…), c'est le modal qui passe devant le sujet : should I take. On n'ajoute jamais do devant un modal."
+  },
+  {
+    "id": "ch31-order-005",
+    "chapter": 31,
+    "rule": "questions.word-order",
+    "difficulty": 3,
+    "kind": "choice",
+    "prompt": "— What ___ when Team Rocket attacked? — I was sleeping.",
+    "answers": [
+      "were you doing"
+    ],
+    "distractors": [
+      "you were doing",
+      "were doing you"
+    ],
+    "explanation": "La réponse (I was sleeping) est au prétérit en be + V-ing. Dans la question, l'auxiliaire were passe devant le sujet, puis vient le verbe en -ing : What were you doing?"
+  },
+  {
+    "id": "ch31-order-006",
+    "chapter": 31,
+    "rule": "questions.word-order",
+    "difficulty": 3,
+    "kind": "choice",
+    "prompt": "— Who ___ to on the phone? — Nurse Joy. My Eevee is ready.",
+    "answers": [
+      "were you talking"
+    ],
+    "distractors": [
+      "you were talking",
+      "did you talking"
+    ],
+    "explanation": "L'auxiliaire were passe devant le sujet : Who were you talking to? La préposition to reste à la fin de la question. Did n'est jamais suivi d'un verbe en -ing."
+  },
+  {
+    "id": "ch31-do-001",
+    "chapter": 31,
+    "rule": "questions.do-support",
+    "difficulty": 1,
+    "kind": "choice",
+    "prompt": "What ___ your Eevee eat in the morning?",
+    "answers": [
+      "does"
+    ],
+    "distractors": [
+      "is",
+      "do"
+    ],
+    "explanation": "Au présent simple, la question se construit avec does (he / she / it) + sujet + base verbale : What does your Eevee eat? Is ne s'emploie pas avec la base verbale eat."
+  },
+  {
+    "id": "ch31-do-002",
+    "chapter": 31,
+    "rule": "questions.do-support",
+    "difficulty": 1,
+    "kind": "choice",
+    "prompt": "What ___ you buy at the Poké Mart yesterday?",
+    "answers": [
+      "did"
+    ],
+    "distractors": [
+      "do",
+      "have"
+    ],
+    "explanation": "Yesterday : la question est au prétérit, avec did + sujet + base verbale (did you buy). Do est un présent, et have serait suivi du participe passé (bought), impossible avec yesterday."
+  },
+  {
+    "id": "ch31-do-003",
+    "chapter": 31,
+    "rule": "questions.do-support",
+    "difficulty": 2,
+    "kind": "choice",
+    "prompt": "Where did Ash ___ his Pidgeotto?",
+    "answers": [
+      "catch"
+    ],
+    "distractors": [
+      "caught",
+      "catches"
+    ],
+    "explanation": "Après did, le verbe reste à la base verbale : did Ash catch. C'est did qui porte la marque du passé, donc on n'écrit pas caught."
+  },
+  {
+    "id": "ch31-do-004",
+    "chapter": 31,
+    "rule": "questions.do-support",
+    "difficulty": 2,
+    "kind": "choice",
+    "prompt": "Why ___ answer my call last night, Misty?",
+    "answers": [
+      "didn't you"
+    ],
+    "distractors": [
+      "you didn't",
+      "weren't you"
+    ],
+    "explanation": "Question négative au prétérit : Why + didn't + sujet + base verbale, Why didn't you answer? Le sujet vient après l'auxiliaire, et weren't ne peut pas se construire avec la base verbale answer."
+  },
+  {
+    "id": "ch31-do-005",
+    "chapter": 31,
+    "rule": "questions.do-support",
+    "difficulty": 3,
+    "kind": "choice",
+    "prompt": "___ your Pokémon have a nickname?",
+    "answers": [
+      "Does"
+    ],
+    "distractors": [
+      "Has",
+      "Is"
+    ],
+    "explanation": "Ici, have est un verbe ordinaire (« avoir ») : la question se construit avec does + sujet + base verbale, Does your Pokémon have…? Has ne peut pas être suivi de have."
+  },
+  {
+    "id": "ch31-do-006",
+    "chapter": 31,
+    "rule": "questions.do-support",
+    "difficulty": 3,
+    "kind": "choice",
+    "prompt": "How many Poké Balls ___ to catch that Abra in the end?",
+    "answers": [
+      "did you need"
+    ],
+    "distractors": [
+      "did you needed",
+      "you needed"
+    ],
+    "explanation": "Au prétérit, la question se construit avec did + sujet + base verbale : did you need. Le passé est porté par did, donc need ne prend pas -ed, et le sujet vient après did."
+  },
+  {
+    "id": "ch31-subject-001",
+    "chapter": 31,
+    "rule": "questions.subject-question",
+    "difficulty": 1,
+    "kind": "choice",
+    "prompt": "— Who ___ at the Pokémon Center? — I saw Nurse Joy, of course.",
+    "answers": [
+      "did you see"
+    ],
+    "distractors": [
+      "saw you",
+      "you saw"
+    ],
+    "explanation": "La réponse montre que Who est le complément (I saw Nurse Joy) : question avec did, Who did you see? « Who saw you? » demanderait qui t'a vu, et le sujet doit suivre did."
+  },
+  {
+    "id": "ch31-subject-002",
+    "chapter": 31,
+    "rule": "questions.subject-question",
+    "difficulty": 1,
+    "kind": "choice",
+    "prompt": "— ___ yesterday? — Ash did! Gary was so angry.",
+    "answers": [
+      "Who beat Gary"
+    ],
+    "distractors": [
+      "Who did Gary beat",
+      "Who Gary beat"
+    ],
+    "explanation": "La réponse « Ash did » montre que Who est le sujet : pas de did, Who beat Gary? « Who did Gary beat? » demanderait qui Gary a battu, et « Who Gary beat? » n'est pas une question correcte."
+  },
+  {
+    "id": "ch31-subject-003",
+    "chapter": 31,
+    "rule": "questions.subject-question",
+    "difficulty": 2,
+    "kind": "choice",
+    "prompt": "— What ___ to your bike, Misty? — Pikachu burnt it!",
+    "answers": [
+      "happened"
+    ],
+    "distractors": [
+      "did it happen",
+      "was happened"
+    ],
+    "explanation": "What est le sujet de happen : pas de did, le verbe se met directement au prétérit, What happened? Happen ne se met pas au passif, donc « was happened » est impossible."
+  },
+  {
+    "id": "ch31-subject-004",
+    "chapter": 31,
+    "rule": "questions.subject-question",
+    "difficulty": 2,
+    "kind": "choice",
+    "prompt": "— ___ this morning? — Professor Oak did. He wants to see you.",
+    "answers": [
+      "Who called you"
+    ],
+    "distractors": [
+      "Who did you call",
+      "Who you called"
+    ],
+    "explanation": "La réponse « Professor Oak did » montre que Who est le sujet : pas de did, Who called you? « Who did you call? » demanderait qui tu as appelé, et « Who you called? » n'est pas une question correcte."
+  },
+  {
+    "id": "ch31-subject-005",
+    "chapter": 31,
+    "rule": "questions.subject-question",
+    "difficulty": 3,
+    "kind": "choice",
+    "prompt": "— What ___ most? — Ketchup! It can't resist it.",
+    "answers": [
+      "does Pikachu love"
+    ],
+    "distractors": [
+      "loves Pikachu",
+      "Pikachu loves"
+    ],
+    "explanation": "Ici, What est le complément : Pikachu aime le ketchup. La question prend does + sujet + base verbale, What does Pikachu love? « What loves Pikachu? » demanderait ce qui aime Pikachu."
+  },
+  {
+    "id": "ch31-subject-006",
+    "chapter": 31,
+    "rule": "questions.subject-question",
+    "difficulty": 3,
+    "kind": "choice",
+    "prompt": "— ___ alone in the rain? — Its old trainer, Damian.",
+    "answers": [
+      "Who left Charmander"
+    ],
+    "distractors": [
+      "Who did Charmander leave",
+      "Who Charmander left"
+    ],
+    "explanation": "La réponse (son ancien dresseur) est le sujet de leave : pas de did, Who left Charmander…? « Who did Charmander leave? » demanderait qui Salamèche a abandonné, et « Who Charmander left? » n'est pas une question correcte."
+  },
+  {
+    "id": "ch31-wh-001",
+    "chapter": 31,
+    "rule": "questions.wh-words",
+    "difficulty": 1,
+    "kind": "choice",
+    "prompt": "— ___ bag is this? — It's Brock's.",
+    "answers": [
+      "Whose"
+    ],
+    "distractors": [
+      "Who's",
+      "Who"
+    ],
+    "explanation": "Whose (« à qui ») demande à qui appartient quelque chose et se place directement devant le nom : Whose bag…? Who's (who is) se prononce pareil mais ne se construit pas avec un nom."
+  },
+  {
+    "id": "ch31-wh-002",
+    "chapter": 31,
+    "rule": "questions.wh-words",
+    "difficulty": 1,
+    "kind": "choice",
+    "prompt": "— ___ do you train every morning? — Because I want to beat Gary!",
+    "answers": [
+      "Why"
+    ],
+    "distractors": [
+      "What",
+      "How"
+    ],
+    "explanation": "La réponse commence par Because : la question demande la raison, avec Why (« pourquoi »)."
+  },
+  {
+    "id": "ch31-wh-003",
+    "chapter": 31,
+    "rule": "questions.wh-words",
+    "difficulty": 2,
+    "kind": "choice",
+    "prompt": "— ___ did the Pokémon parade start yesterday? — At eight.",
+    "answers": [
+      "What time"
+    ],
+    "distractors": [
+      "How time",
+      "How much time"
+    ],
+    "explanation": "La réponse donne une heure : on demande What time (« à quelle heure »). How much time demande une durée, et « How time » n'existe pas."
+  },
+  {
+    "id": "ch31-wh-004",
+    "chapter": 31,
+    "rule": "questions.wh-words",
+    "difficulty": 2,
+    "kind": "choice",
+    "prompt": "___ Pokémon do you prefer, Bulbasaur or Squirtle?",
+    "answers": [
+      "Which"
+    ],
+    "distractors": [
+      "Who",
+      "Whose"
+    ],
+    "explanation": "Which + nom demande de choisir parmi un nombre limité de possibilités (Bulbizarre ou Carapuce). Who ne se place pas devant un nom, et Whose demande à qui appartient quelque chose."
+  },
+  {
+    "id": "ch31-wh-005",
+    "chapter": 31,
+    "rule": "questions.wh-words",
+    "difficulty": 2,
+    "kind": "choice",
+    "prompt": "— ___ did you meet Brock? — In Pewter City, at his Gym.",
+    "answers": [
+      "Where"
+    ],
+    "distractors": [
+      "When",
+      "Who"
+    ],
+    "explanation": "La réponse donne un lieu (in Pewter City) : la question commence par Where (« où »). When demande un moment, et Who une personne."
+  },
+  {
+    "id": "ch31-wh-006",
+    "chapter": 31,
+    "rule": "questions.wh-words",
+    "difficulty": 3,
+    "kind": "choice",
+    "prompt": "— ___ did you call your new Pikachu? — Sparky.",
+    "answers": [
+      "What"
+    ],
+    "distractors": [
+      "How",
+      "Who"
+    ],
+    "explanation": "Pour demander un nom, l'anglais dit What did you call it? Le piège est le français « Comment l'as-tu appelé ? » : How did you call it? demanderait de quelle manière tu l'as appelé."
+  },
+  {
+    "id": "ch31-how-001",
+    "chapter": 31,
+    "rule": "questions.how-questions",
+    "difficulty": 1,
+    "kind": "choice",
+    "prompt": "— How ___ is your Pikachu? — It's three years old.",
+    "answers": [
+      "old"
+    ],
+    "distractors": [
+      "many years",
+      "much age"
+    ],
+    "explanation": "Pour demander l'âge, on dit How old…? Le français « Quel âge a-t-il ? » ne se traduit ni avec many years ni avec age."
+  },
+  {
+    "id": "ch31-how-002",
+    "chapter": 31,
+    "rule": "questions.how-questions",
+    "difficulty": 1,
+    "kind": "choice",
+    "prompt": "— How ___ does Brock cook for you? — Every evening.",
+    "answers": [
+      "often"
+    ],
+    "distractors": [
+      "long",
+      "many"
+    ],
+    "explanation": "La réponse (every evening) donne une fréquence : How often…? (« tous les combien »). How long demande une durée, et how many se place devant un nom pluriel."
+  },
+  {
+    "id": "ch31-how-003",
+    "chapter": 31,
+    "rule": "questions.how-questions",
+    "difficulty": 2,
+    "kind": "choice",
+    "prompt": "— How ___ is your little brother? — One metre forty.",
+    "answers": [
+      "tall"
+    ],
+    "distractors": [
+      "high",
+      "much"
+    ],
+    "explanation": "Pour la taille d'une personne, on dit How tall…? High s'emploie pour la hauteur d'une chose (une montagne, un mur), pas pour une personne."
+  },
+  {
+    "id": "ch31-how-004",
+    "chapter": 31,
+    "rule": "questions.how-questions",
+    "difficulty": 2,
+    "kind": "choice",
+    "prompt": "— How ___ did the Gym battle last? — Almost two hours.",
+    "answers": [
+      "long"
+    ],
+    "distractors": [
+      "much",
+      "many"
+    ],
+    "explanation": "La réponse donne une durée : How long…? (« combien de temps »). How much et how many portent sur une quantité, pas sur une durée."
+  },
+  {
+    "id": "ch31-how-005",
+    "chapter": 31,
+    "rule": "questions.how-questions",
+    "difficulty": 3,
+    "kind": "choice",
+    "prompt": "— How ___ can Dragonite fly? — It can fly around the world in sixteen hours!",
+    "answers": [
+      "fast"
+    ],
+    "distractors": [
+      "speed",
+      "much quick"
+    ],
+    "explanation": "Pour demander une vitesse, on emploie How fast…? How est suivi d'un adjectif ou d'un adverbe, pas d'un nom comme speed, et « much quick » n'existe pas."
+  },
+  {
+    "id": "ch31-how-006",
+    "chapter": 31,
+    "rule": "questions.how-questions",
+    "difficulty": 3,
+    "kind": "choice",
+    "prompt": "— How ___ is Viridian City from Pallet Town? — Not far, just one route.",
+    "answers": [
+      "far"
+    ],
+    "distractors": [
+      "long",
+      "much"
+    ],
+    "explanation": "Pour demander une distance entre deux lieux, on dit How far…? How long demande une durée ou la longueur d'un objet, pas la distance jusqu'à un lieu."
+  }
+]

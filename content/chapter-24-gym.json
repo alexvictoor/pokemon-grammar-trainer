@@ -1,0 +1,110 @@
+[
+  {
+    "id": "ch24-gym-form-001",
+    "chapter": 24,
+    "rule": "past-perfect.form",
+    "difficulty": 2,
+    "kind": "typed",
+    "prompt": "When I got home, my little brother had already ___ (eat) all the cookies.",
+    "answers": ["eaten"],
+    "explanation": "Après had, il faut le participe passé. Eat est irrégulier : eat – ate – eaten. Ate est le prétérit."
+  },
+  {
+    "id": "ch24-gym-earlier-001",
+    "chapter": 24,
+    "rule": "past-perfect.earlier-event",
+    "difficulty": 3,
+    "kind": "typed",
+    "prompt": "By the time the rain stopped, Ash and Pikachu ___ (walk) twenty kilometres.",
+    "answers": ["had walked"],
+    "explanation": "By the time + un moment passé (the rain stopped) : l'action était terminée avant, donc past perfect, had walked. Avec une distance chiffrée, on emploie la forme simple."
+  },
+  {
+    "id": "ch24-gym-earlier-002",
+    "chapter": 24,
+    "rule": "past-perfect.earlier-event",
+    "difficulty": 3,
+    "kind": "typed",
+    "prompt": "When we finally found Psyduck, it ___ (be) lost in the forest for two days.",
+    "answers": ["had been"],
+    "explanation": "Psykokwak était perdu depuis deux jours au moment passé où nous l'avons trouvé : for + past perfect, had been. Le prétérit was ne relie pas la durée à ce moment."
+  },
+  {
+    "id": "ch24-gym-earlier-003",
+    "chapter": 24,
+    "rule": "past-perfect.earlier-event",
+    "difficulty": 3,
+    "kind": "typed",
+    "prompt": "When Ash met him, Brock ___ (be) the Pewter City Gym Leader for a long time.",
+    "answers": ["had been"],
+    "explanation": "La durée (for a long time) va jusqu'à un moment passé, la rencontre avec Ash : past perfect, had been. Be – was / were – been."
+  },
+  {
+    "id": "ch24-gym-adverbs-001",
+    "chapter": 24,
+    "rule": "past-perfect.adverbs",
+    "difficulty": 2,
+    "kind": "typed",
+    "prompt": "By the time we reached the port, the ferry ___ (already / leave).",
+    "answers": ["had already left", "had left already"],
+    "explanation": "By the time + un moment passé : le départ du ferry est antérieur, donc past perfect. Already se place en général entre had et le participe passé (had already left), parfois en fin de phrase (had left already). Leave – left – left."
+  },
+  {
+    "id": "ch24-gym-sequence-001",
+    "chapter": 24,
+    "rule": "past-perfect.sequence",
+    "difficulty": 2,
+    "kind": "typed",
+    "prompt": "As soon as Misty saw the Caterpie, she ___ (scream) and ran away.",
+    "answers": ["screamed"],
+    "explanation": "Misty crie dès qu'elle voit le Chenipan, puis s'enfuit : les actions se suivent dans l'ordre, donc prétérit, screamed, comme ran. Had screamed placerait le cri avant qu'elle voie le Chenipan."
+  },
+  {
+    "id": "ch24-gym-order-adverbs-001",
+    "chapter": 24,
+    "rule": "past-perfect.adverbs",
+    "difficulty": 2,
+    "kind": "reorder",
+    "prompt": "Quand nous sommes arrivés, le combat venait de commencer.",
+    "tiles": ["When", "we", "arrived,", "the", "battle", "had", "just", "begun."],
+    "decoys": ["has", "come"],
+    "answers": ["When we arrived, the battle had just begun."],
+    "explanation": "« Venait de » + infinitif se traduit par had just + participe passé : had just begun. Le début du combat précède notre arrivée, elle-même passée. Begin – began – begun."
+  },
+  {
+    "id": "ch24-gym-order-earlier-001",
+    "chapter": 24,
+    "rule": "past-perfect.earlier-event",
+    "difficulty": 3,
+    "kind": "reorder",
+    "prompt": "Le Centre Pokémon était fermé parce que l'Infirmière Joëlle était sortie.",
+    "tiles": ["The", "Pokémon", "Center", "was", "closed", "because", "Nurse", "Joy", "had", "gone", "out."],
+    "decoys": ["has", "is"],
+    "answers": ["The Pokémon Center was closed because Nurse Joy had gone out."],
+    "explanation": "Le plus-que-parfait « était sortie » se traduit par le past perfect : had gone out. Sa sortie est antérieure à un autre moment passé (was closed). Go – went – gone."
+  },
+  {
+    "id": "ch24-gym-order-reported-001",
+    "chapter": 24,
+    "rule": "past-perfect.reported",
+    "difficulty": 2,
+    "kind": "reorder",
+    "prompt": "Je pensais que Pikachu avait mangé toutes les baies.",
+    "tiles": ["I", "thought", "Pikachu", "had", "eaten", "all", "the", "berries."],
+    "decoys": ["has", "have"],
+    "answers": ["I thought Pikachu had eaten all the berries."],
+    "explanation": "Après un verbe de pensée au prétérit (thought), l'action antérieure se met au past perfect : had eaten. Has eaten ne respecte pas la concordance des temps. Eat – ate – eaten."
+  },
+  {
+    "id": "ch24-gym-order-adverbs-002",
+    "chapter": 24,
+    "rule": "past-perfect.adverbs",
+    "difficulty": 3,
+    "kind": "reorder",
+    "prompt": "Pikachu n'avait jamais mangé de ketchup avant ce jour-là.",
+    "tiles": ["Pikachu", "had", "never", "eaten", "ketchup", "before", "that", "day."],
+    "decoys": ["has", "ever"],
+    "answers": ["Pikachu had never eaten ketchup before that day."],
+    "explanation": "Bilan arrêté à un moment passé (before that day) : had never + participe passé. Has never eaten ferait le bilan jusqu'à aujourd'hui, ce qui ne va pas avec that day. Eat – ate – eaten."
+  }
+]

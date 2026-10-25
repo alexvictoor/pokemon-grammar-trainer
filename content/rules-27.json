@@ -1,0 +1,7 @@
+[
+  { "id": "ability.can-present", "chapter": 27, "label": "can / can't + base verb: ability now (can see, can hear)" },
+  { "id": "ability.could-past", "chapter": 27, "label": "could / couldn't: a general ability in the past" },
+  { "id": "ability.managed-to", "chapter": 27, "label": "One past success: was able to, managed to (not could)" },
+  { "id": "ability.be-able-to", "chapter": 27, "label": "be able to where can is impossible: will be able to, has been able to" },
+  { "id": "ability.other-structures", "chapter": 27, "label": "succeed in + V-ing, be unable to, be (in)capable of + V-ing" }
+]

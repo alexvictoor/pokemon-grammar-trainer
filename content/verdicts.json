@@ -1,0 +1,3100 @@
+{
+  "gate": true,
+  "verdicts": {
+    "ch21-form-001": {
+      "hash": "ce2a764d8120a74d",
+      "verdict": "pass"
+    },
+    "ch21-form-002": {
+      "hash": "a129378a7cd0e44c",
+      "verdict": "pass"
+    },
+    "ch21-form-003": {
+      "hash": "aa2d1664a72d3256",
+      "verdict": "pass"
+    },
+    "ch21-form-004": {
+      "hash": "afc717912bc4649a",
+      "verdict": "pass"
+    },
+    "ch21-irregular-001": {
+      "hash": "5ddb6cf264048a71",
+      "verdict": "pass"
+    },
+    "ch21-irregular-002": {
+      "hash": "34973f347fe5aa43",
+      "verdict": "pass"
+    },
+    "ch21-irregular-003": {
+      "hash": "693581dbf2cb4708",
+      "verdict": "pass"
+    },
+    "ch21-irregular-004": {
+      "hash": "12af0e9edd89e2f9",
+      "verdict": "pass"
+    },
+    "ch21-result-001": {
+      "hash": "d8f5489de66076e0",
+      "verdict": "pass"
+    },
+    "ch21-result-002": {
+      "hash": "666ed7674093428d",
+      "verdict": "pass"
+    },
+    "ch21-result-003": {
+      "hash": "c3af514b3b0d0bcb",
+      "verdict": "pass"
+    },
+    "ch21-result-004": {
+      "hash": "27134abfdde23576",
+      "verdict": "pass"
+    },
+    "ch21-experience-001": {
+      "hash": "ac9ab4a04b9fc2a1",
+      "verdict": "pass"
+    },
+    "ch21-experience-002": {
+      "hash": "a72d221703a1d8a8",
+      "verdict": "pass"
+    },
+    "ch21-experience-003": {
+      "hash": "a331e9178f321ee8",
+      "verdict": "pass"
+    },
+    "ch21-experience-004": {
+      "hash": "254d840e4381f2ae",
+      "verdict": "pass"
+    },
+    "ch21-experience-005": {
+      "hash": "c96c4daaba313f75",
+      "verdict": "pass"
+    },
+    "ch21-experience-006": {
+      "hash": "27c3d9ab6cd1a264",
+      "verdict": "pass"
+    },
+    "ch21-first-time-001": {
+      "hash": "6cf5f28c94856284",
+      "verdict": "pass"
+    },
+    "ch21-first-time-002": {
+      "hash": "917483c807de4c33",
+      "verdict": "pass"
+    },
+    "ch21-first-time-003": {
+      "hash": "c885bfe8bc2ace08",
+      "verdict": "pass"
+    },
+    "ch21-since-for-001": {
+      "hash": "2965a228d658b9d8",
+      "verdict": "pass"
+    },
+    "ch21-since-for-002": {
+      "hash": "efaa91397bd71e1d",
+      "verdict": "pass"
+    },
+    "ch21-since-for-003": {
+      "hash": "cdf179d552e8247b",
+      "verdict": "pass"
+    },
+    "ch21-since-for-004": {
+      "hash": "396e6c778f9994ca",
+      "verdict": "pass"
+    },
+    "ch21-since-for-005": {
+      "hash": "15421e2b6b9dd066",
+      "verdict": "pass"
+    },
+    "ch21-since-for-006": {
+      "hash": "a143fb44ae175cd7",
+      "verdict": "pass"
+    },
+    "ch21-just-001": {
+      "hash": "6ed40e2a495e8ff2",
+      "verdict": "pass"
+    },
+    "ch21-just-002": {
+      "hash": "0215f2b8757ba76b",
+      "verdict": "pass"
+    },
+    "ch21-just-003": {
+      "hash": "0d110808dfe7d75d",
+      "verdict": "pass"
+    },
+    "ch21-gym-irregular-001": {
+      "hash": "5f3ea69fe7884b54",
+      "verdict": "pass"
+    },
+    "ch21-gym-irregular-002": {
+      "hash": "42ae7f6900a5f451",
+      "verdict": "pass"
+    },
+    "ch21-gym-irregular-003": {
+      "hash": "9154c51b30ba9ef3",
+      "verdict": "pass"
+    },
+    "ch21-gym-irregular-004": {
+      "hash": "d616de5be1aea129",
+      "verdict": "pass"
+    },
+    "ch21-gym-form-001": {
+      "hash": "ff54a0d0ff31d416",
+      "verdict": "pass"
+    },
+    "ch21-gym-since-for-001": {
+      "hash": "def7e09f481110f2",
+      "verdict": "pass"
+    },
+    "ch21-gym-since-for-002": {
+      "hash": "5bef019e78327472",
+      "verdict": "pass"
+    },
+    "ch21-gym-since-for-003": {
+      "hash": "4de7d2cc9d0ab054",
+      "verdict": "pass"
+    },
+    "ch21-gym-since-for-004": {
+      "hash": "d8f5e94e28423b5a",
+      "verdict": "pass"
+    },
+    "ch21-gym-first-time-001": {
+      "hash": "520bb15c94889c5b",
+      "verdict": "pass"
+    },
+    "ch21-gym-first-time-002": {
+      "hash": "de9d6d0f7659e883",
+      "verdict": "pass"
+    },
+    "ch21-gym-experience-001": {
+      "hash": "768f9c80eca04045",
+      "verdict": "pass"
+    },
+    "ch21-gym-order-since-for-001": {
+      "hash": "03a952eb4c420d5b",
+      "verdict": "pass"
+    },
+    "ch21-gym-order-since-for-002": {
+      "hash": "8edfa09eab185401",
+      "verdict": "pass"
+    },
+    "ch21-gym-order-since-for-003": {
+      "hash": "73554b37a311c438",
+      "verdict": "pass"
+    },
+    "ch21-gym-order-first-time-001": {
+      "hash": "0627ddafe0cbbad0",
+      "verdict": "pass"
+    },
+    "ch21-gym-order-experience-001": {
+      "hash": "ff0215b18881537b",
+      "verdict": "pass"
+    },
+    "ch21-gym-order-experience-002": {
+      "hash": "edf75440dd4c4bcf",
+      "verdict": "pass"
+    },
+    "ch21-gym-order-experience-003": {
+      "hash": "68db450de3861b1b",
+      "verdict": "pass"
+    },
+    "ch21-gym-order-just-001": {
+      "hash": "1ec543a895c1c709",
+      "verdict": "pass"
+    },
+    "ch15-present-001": {
+      "hash": "0bda94c840623065",
+      "verdict": "pass"
+    },
+    "ch15-present-002": {
+      "hash": "1b788f2a693779da",
+      "verdict": "pass"
+    },
+    "ch15-present-003": {
+      "hash": "33f6b5b18e6511d7",
+      "verdict": "pass"
+    },
+    "ch15-present-004": {
+      "hash": "c947c307b023d7a7",
+      "verdict": "pass"
+    },
+    "ch15-present-005": {
+      "hash": "bb968edd24b7a2b0",
+      "verdict": "pass"
+    },
+    "ch15-past-001": {
+      "hash": "5a70b79ffff96984",
+      "verdict": "pass"
+    },
+    "ch15-past-002": {
+      "hash": "66e33020372361b7",
+      "verdict": "pass"
+    },
+    "ch15-past-003": {
+      "hash": "9d45b874b91304b5",
+      "verdict": "pass"
+    },
+    "ch15-past-004": {
+      "hash": "a2220540220b7b45",
+      "verdict": "pass"
+    },
+    "ch15-past-005": {
+      "hash": "d1089ab7c4a9778b",
+      "verdict": "pass"
+    },
+    "ch15-imperative-001": {
+      "hash": "382033ca6ae0df07",
+      "verdict": "pass"
+    },
+    "ch15-imperative-002": {
+      "hash": "a4d65e67f86844e1",
+      "verdict": "pass"
+    },
+    "ch15-imperative-003": {
+      "hash": "33772a2ea2c9d11c",
+      "verdict": "pass"
+    },
+    "ch15-imperative-004": {
+      "hash": "2be7bc55fb4176bb",
+      "verdict": "pass"
+    },
+    "ch15-age-001": {
+      "hash": "859daa08ecbfa3a1",
+      "verdict": "pass"
+    },
+    "ch15-age-002": {
+      "hash": "a05a79be2ef3c6f7",
+      "verdict": "pass"
+    },
+    "ch15-age-003": {
+      "hash": "576eb6641080d566",
+      "verdict": "pass"
+    },
+    "ch15-age-004": {
+      "hash": "56459a443211b4e0",
+      "verdict": "pass"
+    },
+    "ch15-age-005": {
+      "hash": "ba41dc49c0c6401a",
+      "verdict": "pass"
+    },
+    "ch15-there-001": {
+      "hash": "566da351d76232e4",
+      "verdict": "pass"
+    },
+    "ch15-there-002": {
+      "hash": "2496e9a09d96617f",
+      "verdict": "pass"
+    },
+    "ch15-there-003": {
+      "hash": "f6c4b20a6a225c15",
+      "verdict": "pass"
+    },
+    "ch15-there-004": {
+      "hash": "6b51a27436e86c32",
+      "verdict": "pass"
+    },
+    "ch15-there-005": {
+      "hash": "08f9e2df9a4d9a5f",
+      "verdict": "pass"
+    },
+    "ch15-there-006": {
+      "hash": "70fc01d2ed913f09",
+      "verdict": "pass"
+    },
+    "ch15-auxiliary-001": {
+      "hash": "218d4cbaa42e730f",
+      "verdict": "pass"
+    },
+    "ch15-auxiliary-002": {
+      "hash": "7cc1d79f1705e07c",
+      "verdict": "pass"
+    },
+    "ch15-auxiliary-003": {
+      "hash": "7d8b92ffac97f248",
+      "verdict": "pass"
+    },
+    "ch15-auxiliary-004": {
+      "hash": "2ff439d8a32f4439",
+      "verdict": "pass"
+    },
+    "ch15-auxiliary-005": {
+      "hash": "187a73ee807db0d8",
+      "verdict": "pass"
+    },
+    "ch15-gym-present-001": {
+      "hash": "98408da5764d4b8e",
+      "verdict": "pass"
+    },
+    "ch15-gym-past-001": {
+      "hash": "e2301be679c42a99",
+      "verdict": "pass"
+    },
+    "ch15-gym-age-001": {
+      "hash": "fa7ca7485844cd25",
+      "verdict": "pass"
+    },
+    "ch15-gym-there-001": {
+      "hash": "9bd92b3ad95ddd2f",
+      "verdict": "pass"
+    },
+    "ch15-gym-imperative-001": {
+      "hash": "0211adca36715d16",
+      "verdict": "pass"
+    },
+    "ch15-gym-auxiliary-001": {
+      "hash": "f94b4300d04701a9",
+      "verdict": "pass"
+    },
+    "ch15-gym-order-age-001": {
+      "hash": "23ec088f4c7b5fb4",
+      "verdict": "pass"
+    },
+    "ch15-gym-order-there-001": {
+      "hash": "a4b89d1bbcf01e1a",
+      "verdict": "pass"
+    },
+    "ch15-gym-order-imperative-001": {
+      "hash": "0956e0e8025e834f",
+      "verdict": "pass"
+    },
+    "ch15-gym-order-past-001": {
+      "hash": "1aacd5b73feb2421",
+      "verdict": "pass"
+    },
+    "ch16-lexical-001": {
+      "hash": "278547cd98c2d163",
+      "verdict": "pass"
+    },
+    "ch16-lexical-002": {
+      "hash": "e4d9a2f65008a67e",
+      "verdict": "pass"
+    },
+    "ch16-lexical-003": {
+      "hash": "41c436f7cf175581",
+      "verdict": "pass"
+    },
+    "ch16-lexical-004": {
+      "hash": "5798da3e7b1d54d0",
+      "verdict": "pass"
+    },
+    "ch16-lexical-005": {
+      "hash": "7c86c3e44a3d702f",
+      "verdict": "pass"
+    },
+    "ch16-do-001": {
+      "hash": "d5ae7fe320729029",
+      "verdict": "pass"
+    },
+    "ch16-do-002": {
+      "hash": "77bed5e8a688abe6",
+      "verdict": "pass"
+    },
+    "ch16-do-003": {
+      "hash": "d6d94eeeaf700f6b",
+      "verdict": "pass"
+    },
+    "ch16-do-004": {
+      "hash": "8e223fb15223fa69",
+      "verdict": "pass"
+    },
+    "ch16-do-005": {
+      "hash": "33b6433e5ff6c517",
+      "verdict": "pass"
+    },
+    "ch16-got-001": {
+      "hash": "a3208140f84a5a19",
+      "verdict": "pass"
+    },
+    "ch16-got-002": {
+      "hash": "5de29945e2b3484a",
+      "verdict": "pass"
+    },
+    "ch16-got-003": {
+      "hash": "88030aaf45dd4675",
+      "verdict": "pass"
+    },
+    "ch16-got-004": {
+      "hash": "4f0f15b011dc7bf6",
+      "verdict": "pass"
+    },
+    "ch16-got-005": {
+      "hash": "15827b6f4e15d0ce",
+      "verdict": "pass"
+    },
+    "ch16-have-to-001": {
+      "hash": "a0bc620a85693520",
+      "verdict": "pass"
+    },
+    "ch16-have-to-002": {
+      "hash": "8a97762bcb45a063",
+      "verdict": "pass"
+    },
+    "ch16-have-to-003": {
+      "hash": "102103fe831db153",
+      "verdict": "pass"
+    },
+    "ch16-have-to-004": {
+      "hash": "2eee61ced631f47c",
+      "verdict": "pass"
+    },
+    "ch16-have-to-005": {
+      "hash": "c671c7af0aeb6a1e",
+      "verdict": "pass"
+    },
+    "ch16-auxiliary-001": {
+      "hash": "20585ec3773bdf36",
+      "verdict": "pass"
+    },
+    "ch16-auxiliary-002": {
+      "hash": "7a064dd5f33f2da8",
+      "verdict": "pass"
+    },
+    "ch16-auxiliary-003": {
+      "hash": "1f34f2651a1aaae4",
+      "verdict": "pass"
+    },
+    "ch16-auxiliary-004": {
+      "hash": "afad2dff88795387",
+      "verdict": "pass"
+    },
+    "ch16-auxiliary-005": {
+      "hash": "b70c0f0ae8e00aa2",
+      "verdict": "pass"
+    },
+    "ch16-avoir-001": {
+      "hash": "950dbc9c89ca0d86",
+      "verdict": "pass"
+    },
+    "ch16-avoir-002": {
+      "hash": "b303d0935e33d201",
+      "verdict": "pass"
+    },
+    "ch16-avoir-003": {
+      "hash": "e6da2ac0010225f5",
+      "verdict": "pass"
+    },
+    "ch16-avoir-004": {
+      "hash": "dba44251605121f9",
+      "verdict": "pass"
+    },
+    "ch16-avoir-005": {
+      "hash": "66c4d892d82ef823",
+      "verdict": "pass"
+    },
+    "ch16-gym-lexical-001": {
+      "hash": "e346472f5f330bbb",
+      "verdict": "pass"
+    },
+    "ch16-gym-do-001": {
+      "hash": "691d03eecdc48b42",
+      "verdict": "pass"
+    },
+    "ch16-gym-got-001": {
+      "hash": "72dddb4278865e25",
+      "verdict": "pass"
+    },
+    "ch16-gym-have-to-001": {
+      "hash": "63ee82d20d5e6a5d",
+      "verdict": "pass"
+    },
+    "ch16-gym-auxiliary-001": {
+      "hash": "d853c9d8d9480b46",
+      "verdict": "pass"
+    },
+    "ch16-gym-avoir-001": {
+      "hash": "74c78c59686460b9",
+      "verdict": "pass"
+    },
+    "ch16-gym-order-do-001": {
+      "hash": "70a45172ed5da296",
+      "verdict": "pass"
+    },
+    "ch16-gym-order-got-001": {
+      "hash": "59e55f38b743a82a",
+      "verdict": "pass"
+    },
+    "ch16-gym-order-have-to-001": {
+      "hash": "4ec143d15dddd4c8",
+      "verdict": "pass"
+    },
+    "ch16-gym-order-avoir-001": {
+      "hash": "4de8a34dca7fc3ab",
+      "verdict": "pass"
+    },
+    "ch17-third-person-001": {
+      "hash": "09a7e1bf82e5bfd0",
+      "verdict": "pass"
+    },
+    "ch17-third-person-002": {
+      "hash": "42e35df7061f274e",
+      "verdict": "pass"
+    },
+    "ch17-third-person-003": {
+      "hash": "38a3c34e95aeaaed",
+      "verdict": "pass"
+    },
+    "ch17-third-person-004": {
+      "hash": "bb3526cd4eb69e1f",
+      "verdict": "pass"
+    },
+    "ch17-third-person-005": {
+      "hash": "d5d214cac59061cb",
+      "verdict": "pass"
+    },
+    "ch17-do-does-001": {
+      "hash": "fd670a003c50bbed",
+      "verdict": "pass"
+    },
+    "ch17-do-does-002": {
+      "hash": "3fcc53da86c24cc7",
+      "verdict": "pass"
+    },
+    "ch17-do-does-003": {
+      "hash": "0137b04a9a0052ec",
+      "verdict": "pass"
+    },
+    "ch17-do-does-004": {
+      "hash": "a84d400e9d23dcd5",
+      "verdict": "pass"
+    },
+    "ch17-do-does-005": {
+      "hash": "97228bcd43ef0c0c",
+      "verdict": "pass"
+    },
+    "ch17-habits-001": {
+      "hash": "231ceb2fd899ab82",
+      "verdict": "pass"
+    },
+    "ch17-habits-002": {
+      "hash": "d9d9f04efe63d4ad",
+      "verdict": "pass"
+    },
+    "ch17-habits-003": {
+      "hash": "e3808ca6e7ff09cc",
+      "verdict": "pass"
+    },
+    "ch17-habits-004": {
+      "hash": "7ab18977c113e9ce",
+      "verdict": "pass"
+    },
+    "ch17-habits-005": {
+      "hash": "4c2786d84c09fe8b",
+      "verdict": "pass"
+    },
+    "ch17-truths-001": {
+      "hash": "75de561f0bbfb282",
+      "verdict": "pass"
+    },
+    "ch17-truths-002": {
+      "hash": "6461cfbc22c6ed06",
+      "verdict": "pass"
+    },
+    "ch17-truths-003": {
+      "hash": "0e10a312e0133517",
+      "verdict": "pass"
+    },
+    "ch17-truths-004": {
+      "hash": "94c66e6988d6d10f",
+      "verdict": "pass"
+    },
+    "ch17-truths-005": {
+      "hash": "7ad2007e54a6e385",
+      "verdict": "pass"
+    },
+    "ch17-states-001": {
+      "hash": "e975a9caeb83dfe5",
+      "verdict": "pass"
+    },
+    "ch17-states-002": {
+      "hash": "eaaa6ab6bf070923",
+      "verdict": "pass"
+    },
+    "ch17-states-003": {
+      "hash": "b78e856c1530de3f",
+      "verdict": "pass"
+    },
+    "ch17-states-004": {
+      "hash": "660cef20a388a926",
+      "verdict": "pass"
+    },
+    "ch17-states-005": {
+      "hash": "6e82061f179c6b59",
+      "verdict": "pass"
+    },
+    "ch17-timetable-001": {
+      "hash": "670cd44fa97ec40d",
+      "verdict": "pass"
+    },
+    "ch17-timetable-002": {
+      "hash": "ee81f87db7a3bd6f",
+      "verdict": "pass"
+    },
+    "ch17-timetable-003": {
+      "hash": "f71019cdc21f66dd",
+      "verdict": "pass"
+    },
+    "ch17-timetable-004": {
+      "hash": "6e08b872a737f82b",
+      "verdict": "pass"
+    },
+    "ch17-timetable-005": {
+      "hash": "05859a43786c4ac2",
+      "verdict": "pass"
+    },
+    "ch17-gym-third-person-001": {
+      "hash": "c15bd768523f9c3b",
+      "verdict": "pass"
+    },
+    "ch17-gym-do-does-001": {
+      "hash": "7adbedef02b473be",
+      "verdict": "pass"
+    },
+    "ch17-gym-do-does-002": {
+      "hash": "24505ba04d41406d",
+      "verdict": "pass"
+    },
+    "ch17-gym-habits-001": {
+      "hash": "40e720528a6118bb",
+      "verdict": "pass"
+    },
+    "ch17-gym-states-001": {
+      "hash": "1c72a574ffd9f8a6",
+      "verdict": "pass"
+    },
+    "ch17-gym-truths-001": {
+      "hash": "9fbfca634e067991",
+      "verdict": "pass"
+    },
+    "ch17-gym-order-habits-001": {
+      "hash": "70e05b5602970ece",
+      "verdict": "pass"
+    },
+    "ch17-gym-order-do-does-001": {
+      "hash": "c5f1894b62e08adf",
+      "verdict": "pass"
+    },
+    "ch17-gym-order-states-001": {
+      "hash": "6bee83a30658bb6d",
+      "verdict": "pass"
+    },
+    "ch17-gym-order-timetable-001": {
+      "hash": "b272571cc5397b33",
+      "verdict": "pass"
+    },
+    "ch18-form-001": {
+      "hash": "a115bf7d34a5c346",
+      "verdict": "pass"
+    },
+    "ch18-form-002": {
+      "hash": "c939d7aa5574322f",
+      "verdict": "pass"
+    },
+    "ch18-form-003": {
+      "hash": "97616d94e5685870",
+      "verdict": "pass"
+    },
+    "ch18-form-004": {
+      "hash": "0adae58f577939dd",
+      "verdict": "pass"
+    },
+    "ch18-form-005": {
+      "hash": "c04d3715b30a2948",
+      "verdict": "pass"
+    },
+    "ch18-ing-spelling-001": {
+      "hash": "d4c77a64408e2815",
+      "verdict": "pass"
+    },
+    "ch18-ing-spelling-002": {
+      "hash": "c8892e6cb86fab79",
+      "verdict": "pass"
+    },
+    "ch18-ing-spelling-003": {
+      "hash": "ed3f0585c1238333",
+      "verdict": "pass"
+    },
+    "ch18-ing-spelling-004": {
+      "hash": "eab5b4467a7a814c",
+      "verdict": "pass"
+    },
+    "ch18-ing-spelling-005": {
+      "hash": "6256ecdf4b913016",
+      "verdict": "pass"
+    },
+    "ch18-now-001": {
+      "hash": "ccdd5102086f5fa3",
+      "verdict": "pass"
+    },
+    "ch18-now-002": {
+      "hash": "9ec282b65e31c0c1",
+      "verdict": "pass"
+    },
+    "ch18-now-003": {
+      "hash": "eae7050fe015afdd",
+      "verdict": "pass"
+    },
+    "ch18-now-004": {
+      "hash": "8672d42c18a633e8",
+      "verdict": "pass"
+    },
+    "ch18-now-005": {
+      "hash": "ffd2369afb26d1c0",
+      "verdict": "pass"
+    },
+    "ch18-temporary-001": {
+      "hash": "dccf4380217d860c",
+      "verdict": "pass"
+    },
+    "ch18-temporary-002": {
+      "hash": "20d412c27188ce90",
+      "verdict": "pass"
+    },
+    "ch18-temporary-003": {
+      "hash": "a8d6e7a09938de9a",
+      "verdict": "pass"
+    },
+    "ch18-temporary-004": {
+      "hash": "e029448f43e1bca2",
+      "verdict": "pass"
+    },
+    "ch18-temporary-005": {
+      "hash": "48fd15fa16fb4cc2",
+      "verdict": "pass"
+    },
+    "ch18-future-001": {
+      "hash": "b8d893610827c052",
+      "verdict": "pass"
+    },
+    "ch18-future-002": {
+      "hash": "81ba699c659f3b74",
+      "verdict": "pass"
+    },
+    "ch18-future-003": {
+      "hash": "f2fff0bc75b1d1d6",
+      "verdict": "pass"
+    },
+    "ch18-future-004": {
+      "hash": "5178bb86350c4811",
+      "verdict": "pass"
+    },
+    "ch18-future-005": {
+      "hash": "1e8772cc35eac35b",
+      "verdict": "pass"
+    },
+    "ch18-states-001": {
+      "hash": "6fdddbdee2d7b097",
+      "verdict": "pass"
+    },
+    "ch18-states-002": {
+      "hash": "5581a8e623103da0",
+      "verdict": "pass"
+    },
+    "ch18-states-003": {
+      "hash": "f3b554c74d74dc61",
+      "verdict": "pass"
+    },
+    "ch18-states-004": {
+      "hash": "5c8789541317724e",
+      "verdict": "pass"
+    },
+    "ch18-states-005": {
+      "hash": "3c16535cf565b576",
+      "verdict": "pass"
+    },
+    "ch18-gym-now-001": {
+      "hash": "213886eb230b20eb",
+      "verdict": "pass"
+    },
+    "ch18-gym-ing-spelling-001": {
+      "hash": "2e0d13a7380b53c2",
+      "verdict": "pass"
+    },
+    "ch18-gym-form-001": {
+      "hash": "f29cbdb80969995b",
+      "verdict": "pass"
+    },
+    "ch18-gym-temporary-001": {
+      "hash": "9707f227e9c719a2",
+      "verdict": "pass"
+    },
+    "ch18-gym-states-001": {
+      "hash": "590bc8b3f8eb1fa8",
+      "verdict": "pass"
+    },
+    "ch18-gym-now-002": {
+      "hash": "9c5be39efadd56d7",
+      "verdict": "pass"
+    },
+    "ch18-gym-order-future-001": {
+      "hash": "cfa6820889a13809",
+      "verdict": "pass"
+    },
+    "ch18-gym-order-states-001": {
+      "hash": "9e7cdedb1fff01a3",
+      "verdict": "pass"
+    },
+    "ch18-gym-order-form-001": {
+      "hash": "0a93ccef6e0f0c75",
+      "verdict": "pass"
+    },
+    "ch18-gym-order-temporary-001": {
+      "hash": "9e2b5bc85e1244d1",
+      "verdict": "pass"
+    },
+    "ch19-spelling-001": {
+      "hash": "f84731de53a35baf",
+      "verdict": "pass"
+    },
+    "ch19-spelling-002": {
+      "hash": "0a7cf47b85a9e92e",
+      "verdict": "pass"
+    },
+    "ch19-spelling-003": {
+      "hash": "35daca330cf65f99",
+      "verdict": "pass"
+    },
+    "ch19-spelling-004": {
+      "hash": "95dfc05c7f81fa47",
+      "verdict": "pass"
+    },
+    "ch19-spelling-005": {
+      "hash": "802408c10c49a0bb",
+      "verdict": "pass"
+    },
+    "ch19-spelling-006": {
+      "hash": "dc39c0355f2c3dc5",
+      "verdict": "pass"
+    },
+    "ch19-irregular-001": {
+      "hash": "74b08544b2b28d6a",
+      "verdict": "pass"
+    },
+    "ch19-irregular-002": {
+      "hash": "ffcb12e458707577",
+      "verdict": "pass"
+    },
+    "ch19-irregular-003": {
+      "hash": "61800fd00571034d",
+      "verdict": "pass"
+    },
+    "ch19-irregular-004": {
+      "hash": "d86ea089020c5e1e",
+      "verdict": "pass"
+    },
+    "ch19-irregular-005": {
+      "hash": "76aa51853b9dabb0",
+      "verdict": "pass"
+    },
+    "ch19-irregular-006": {
+      "hash": "cb92641c94324bae",
+      "verdict": "pass"
+    },
+    "ch19-did-001": {
+      "hash": "2b88b3936b70bdc3",
+      "verdict": "pass"
+    },
+    "ch19-did-002": {
+      "hash": "fe46dba9555cb5f9",
+      "verdict": "pass"
+    },
+    "ch19-did-003": {
+      "hash": "7c600ede76f8d09e",
+      "verdict": "pass"
+    },
+    "ch19-did-004": {
+      "hash": "748336f8ba141bf2",
+      "verdict": "pass"
+    },
+    "ch19-did-005": {
+      "hash": "477e9788762cd3df",
+      "verdict": "pass"
+    },
+    "ch19-did-006": {
+      "hash": "2a1cfa7bb083a4fb",
+      "verdict": "pass"
+    },
+    "ch19-dated-001": {
+      "hash": "bbd94bb57e1c71e5",
+      "verdict": "pass"
+    },
+    "ch19-dated-002": {
+      "hash": "39ec90e050134055",
+      "verdict": "pass"
+    },
+    "ch19-dated-003": {
+      "hash": "2c20ea658b10b9ac",
+      "verdict": "pass"
+    },
+    "ch19-dated-004": {
+      "hash": "821179b0714cd586",
+      "verdict": "pass"
+    },
+    "ch19-dated-005": {
+      "hash": "916a7568f4dcac10",
+      "verdict": "pass"
+    },
+    "ch19-dated-006": {
+      "hash": "9b791548541c0fbb",
+      "verdict": "pass"
+    },
+    "ch19-narrative-001": {
+      "hash": "2bfa4723dd734a44",
+      "verdict": "pass"
+    },
+    "ch19-narrative-002": {
+      "hash": "1b91fb5d8e3ef5f0",
+      "verdict": "pass"
+    },
+    "ch19-narrative-003": {
+      "hash": "d1e15485bf2fe63f",
+      "verdict": "pass"
+    },
+    "ch19-narrative-004": {
+      "hash": "c75733bbb0d02d33",
+      "verdict": "pass"
+    },
+    "ch19-narrative-005": {
+      "hash": "628c8f71898c8730",
+      "verdict": "pass"
+    },
+    "ch19-narrative-006": {
+      "hash": "f15e79e8891a1fb0",
+      "verdict": "pass"
+    },
+    "ch19-gym-irregular-001": {
+      "hash": "a37c667d03f807c7",
+      "verdict": "pass"
+    },
+    "ch19-gym-irregular-002": {
+      "hash": "3910ec1a8a54571f",
+      "verdict": "pass"
+    },
+    "ch19-gym-spelling-001": {
+      "hash": "f8b5ab223bda7d1c",
+      "verdict": "pass"
+    },
+    "ch19-gym-spelling-002": {
+      "hash": "ae6c19b438bbbe50",
+      "verdict": "pass"
+    },
+    "ch19-gym-did-001": {
+      "hash": "5eb54dcbbc44efd2",
+      "verdict": "pass"
+    },
+    "ch19-gym-did-002": {
+      "hash": "d756fe67575afe9e",
+      "verdict": "pass"
+    },
+    "ch19-gym-order-dated-001": {
+      "hash": "56add8a2e58e6ac4",
+      "verdict": "pass"
+    },
+    "ch19-gym-order-dated-002": {
+      "hash": "e59931133ec53269",
+      "verdict": "pass"
+    },
+    "ch19-gym-order-did-001": {
+      "hash": "7885a4e60af9a228",
+      "verdict": "pass"
+    },
+    "ch19-gym-order-narrative-001": {
+      "hash": "28c83975f731012f",
+      "verdict": "pass"
+    },
+    "ch20-form-001": {
+      "hash": "98a5366c72e79b5c",
+      "verdict": "pass"
+    },
+    "ch20-form-002": {
+      "hash": "911c35a70304a33e",
+      "verdict": "pass"
+    },
+    "ch20-form-003": {
+      "hash": "a6e8fbe82a9bad23",
+      "verdict": "pass"
+    },
+    "ch20-form-004": {
+      "hash": "2beb1208dac15491",
+      "verdict": "pass"
+    },
+    "ch20-form-005": {
+      "hash": "d84496e80171c982",
+      "verdict": "pass"
+    },
+    "ch20-form-006": {
+      "hash": "83a8a9ff960fbe97",
+      "verdict": "pass"
+    },
+    "ch20-progress-001": {
+      "hash": "0158cf7beb37209a",
+      "verdict": "pass"
+    },
+    "ch20-progress-002": {
+      "hash": "e902083ea3517558",
+      "verdict": "pass"
+    },
+    "ch20-progress-003": {
+      "hash": "63eec652c47b7191",
+      "verdict": "pass"
+    },
+    "ch20-progress-004": {
+      "hash": "f749f3a3874b17e9",
+      "verdict": "pass"
+    },
+    "ch20-progress-005": {
+      "hash": "5a29ecb350f320e9",
+      "verdict": "pass"
+    },
+    "ch20-progress-006": {
+      "hash": "463d151055e668f5",
+      "verdict": "pass"
+    },
+    "ch20-when-while-001": {
+      "hash": "e69acb6e11c0b9f2",
+      "verdict": "pass"
+    },
+    "ch20-when-while-002": {
+      "hash": "fd776a1747e61354",
+      "verdict": "pass"
+    },
+    "ch20-when-while-003": {
+      "hash": "4d683c87836b556c",
+      "verdict": "pass"
+    },
+    "ch20-when-while-004": {
+      "hash": "68e2807bd1291d8a",
+      "verdict": "pass"
+    },
+    "ch20-when-while-005": {
+      "hash": "43c2f44c55cb91b2",
+      "verdict": "pass"
+    },
+    "ch20-when-while-006": {
+      "hash": "405573860c20d125",
+      "verdict": "pass"
+    },
+    "ch20-stative-001": {
+      "hash": "c237245599431ab8",
+      "verdict": "pass"
+    },
+    "ch20-stative-002": {
+      "hash": "e5b27e20b38e8d7f",
+      "verdict": "pass"
+    },
+    "ch20-stative-003": {
+      "hash": "e301f90bf92734d3",
+      "verdict": "pass"
+    },
+    "ch20-stative-004": {
+      "hash": "993bc15552a36ab6",
+      "verdict": "pass"
+    },
+    "ch20-stative-005": {
+      "hash": "1e4b636d5de81f2c",
+      "verdict": "pass"
+    },
+    "ch20-stative-006": {
+      "hash": "346650f813734cc2",
+      "verdict": "pass"
+    },
+    "ch20-contrast-001": {
+      "hash": "e238d83bbc63c0d1",
+      "verdict": "pass"
+    },
+    "ch20-contrast-002": {
+      "hash": "78c83649441bafb9",
+      "verdict": "pass"
+    },
+    "ch20-contrast-003": {
+      "hash": "4bcb09db7f01afe9",
+      "verdict": "pass"
+    },
+    "ch20-contrast-004": {
+      "hash": "68f9aec7f5e16696",
+      "verdict": "pass"
+    },
+    "ch20-contrast-005": {
+      "hash": "2694dfe937caaf4b",
+      "verdict": "pass"
+    },
+    "ch20-contrast-006": {
+      "hash": "8fa99ad5a0adadff",
+      "verdict": "pass"
+    },
+    "ch20-gym-form-001": {
+      "hash": "5e4507b5afa9e184",
+      "verdict": "pass"
+    },
+    "ch20-gym-form-002": {
+      "hash": "f6cefc32938b2b83",
+      "verdict": "pass"
+    },
+    "ch20-gym-progress-001": {
+      "hash": "f99a80f3242f32e0",
+      "verdict": "pass"
+    },
+    "ch20-gym-when-while-001": {
+      "hash": "cecca00c948d0ca2",
+      "verdict": "pass"
+    },
+    "ch20-gym-stative-001": {
+      "hash": "905bf05739c13117",
+      "verdict": "pass"
+    },
+    "ch20-gym-contrast-001": {
+      "hash": "1f0d98ea0e0acfcf",
+      "verdict": "pass"
+    },
+    "ch20-gym-order-when-while-001": {
+      "hash": "095c576f3c2064f8",
+      "verdict": "pass"
+    },
+    "ch20-gym-order-when-while-002": {
+      "hash": "65dd6558a254cb9e",
+      "verdict": "pass"
+    },
+    "ch20-gym-order-stative-001": {
+      "hash": "1c8d281163986501",
+      "verdict": "pass"
+    },
+    "ch20-gym-order-form-001": {
+      "hash": "8fe45d2e6bd8bca8",
+      "verdict": "pass"
+    },
+    "ch22-dated-001": {
+      "hash": "2a2c39856bee9bf3",
+      "verdict": "pass"
+    },
+    "ch22-dated-002": {
+      "hash": "3b2fe9bb1de714cd",
+      "verdict": "pass"
+    },
+    "ch22-dated-003": {
+      "hash": "5249da0089cbc27e",
+      "verdict": "pass"
+    },
+    "ch22-dated-004": {
+      "hash": "b7c4dc2f144846e1",
+      "verdict": "pass"
+    },
+    "ch22-dated-005": {
+      "hash": "2df751737e2167f7",
+      "verdict": "pass"
+    },
+    "ch22-dated-006": {
+      "hash": "a949e8f0cd35513b",
+      "verdict": "pass"
+    },
+    "ch22-when-001": {
+      "hash": "a527f7fb8794be58",
+      "verdict": "pass"
+    },
+    "ch22-when-002": {
+      "hash": "8f632f85cf420743",
+      "verdict": "pass"
+    },
+    "ch22-when-003": {
+      "hash": "022a7650370a0b38",
+      "verdict": "pass"
+    },
+    "ch22-when-004": {
+      "hash": "113e752ecc8dd8d1",
+      "verdict": "pass"
+    },
+    "ch22-when-005": {
+      "hash": "640a43ac1d991463",
+      "verdict": "pass"
+    },
+    "ch22-when-006": {
+      "hash": "9733dc710e748c89",
+      "verdict": "pass"
+    },
+    "ch22-story-001": {
+      "hash": "9e88dca69942c8f6",
+      "verdict": "pass"
+    },
+    "ch22-story-002": {
+      "hash": "d0c9d38b05dd66e8",
+      "verdict": "pass"
+    },
+    "ch22-story-003": {
+      "hash": "5c36768fac7c744f",
+      "verdict": "pass"
+    },
+    "ch22-story-004": {
+      "hash": "350e33df1098bef2",
+      "verdict": "pass"
+    },
+    "ch22-story-005": {
+      "hash": "247be04e01459dc7",
+      "verdict": "pass"
+    },
+    "ch22-story-006": {
+      "hash": "162bb3242a2fbd60",
+      "verdict": "pass"
+    },
+    "ch22-up-to-now-001": {
+      "hash": "4bdc83dfd2101d9c",
+      "verdict": "pass"
+    },
+    "ch22-up-to-now-002": {
+      "hash": "8bae8659fcf2bd0a",
+      "verdict": "pass"
+    },
+    "ch22-up-to-now-003": {
+      "hash": "d2ae56f7cd56d1c2",
+      "verdict": "pass"
+    },
+    "ch22-up-to-now-004": {
+      "hash": "e0e21b842ed38d2d",
+      "verdict": "pass"
+    },
+    "ch22-up-to-now-005": {
+      "hash": "be3f730a7cf62243",
+      "verdict": "pass"
+    },
+    "ch22-up-to-now-006": {
+      "hash": "a73bc3233adf477f",
+      "verdict": "pass"
+    },
+    "ch22-since-for-001": {
+      "hash": "a07264322c091125",
+      "verdict": "pass"
+    },
+    "ch22-since-for-002": {
+      "hash": "6fc59a33739ce71d",
+      "verdict": "pass"
+    },
+    "ch22-since-for-003": {
+      "hash": "abeb4a6c86264a89",
+      "verdict": "pass"
+    },
+    "ch22-since-for-004": {
+      "hash": "e0b1dd26ec4e63cd",
+      "verdict": "pass"
+    },
+    "ch22-since-for-005": {
+      "hash": "3742b0b40d4d9378",
+      "verdict": "pass"
+    },
+    "ch22-since-for-006": {
+      "hash": "71bf7ed3d6d818bc",
+      "verdict": "pass"
+    },
+    "ch22-gym-dated-001": {
+      "hash": "724796dad25bd6c5",
+      "verdict": "pass"
+    },
+    "ch22-gym-when-001": {
+      "hash": "8d0f604c0e4037bc",
+      "verdict": "pass"
+    },
+    "ch22-gym-story-001": {
+      "hash": "ba4de757f6850e45",
+      "verdict": "pass"
+    },
+    "ch22-gym-up-to-now-001": {
+      "hash": "c3b1b9f3fccb74d9",
+      "verdict": "pass"
+    },
+    "ch22-gym-since-for-001": {
+      "hash": "cc4f22542e4e4f10",
+      "verdict": "pass"
+    },
+    "ch22-gym-since-for-002": {
+      "hash": "b40b65f16082e6eb",
+      "verdict": "pass"
+    },
+    "ch22-gym-order-when-001": {
+      "hash": "85ca1528e706e7ed",
+      "verdict": "pass"
+    },
+    "ch22-gym-order-dated-001": {
+      "hash": "9c29c2b8c466c39f",
+      "verdict": "pass"
+    },
+    "ch22-gym-order-since-for-001": {
+      "hash": "6beb1edf0d60f421",
+      "verdict": "pass"
+    },
+    "ch22-gym-order-up-to-now-001": {
+      "hash": "099bfe4415716787",
+      "verdict": "pass"
+    },
+    "ch23-form-001": {
+      "hash": "faf1bf2431679a9d",
+      "verdict": "pass"
+    },
+    "ch23-form-002": {
+      "hash": "5b9553a65b834bc2",
+      "verdict": "pass"
+    },
+    "ch23-form-003": {
+      "hash": "afd748f1c00de419",
+      "verdict": "pass"
+    },
+    "ch23-form-004": {
+      "hash": "29a5c0245b2788fe",
+      "verdict": "pass"
+    },
+    "ch23-form-005": {
+      "hash": "49fb2dfd23d1b7dc",
+      "verdict": "pass"
+    },
+    "ch23-form-006": {
+      "hash": "8b83b31f559f488c",
+      "verdict": "pass"
+    },
+    "ch23-duration-001": {
+      "hash": "da02e2b1fcc125f5",
+      "verdict": "pass"
+    },
+    "ch23-duration-002": {
+      "hash": "e15b647257079689",
+      "verdict": "pass"
+    },
+    "ch23-duration-003": {
+      "hash": "f95723d0d3a106c1",
+      "verdict": "pass"
+    },
+    "ch23-duration-004": {
+      "hash": "115858ce89ac71f1",
+      "verdict": "pass"
+    },
+    "ch23-duration-005": {
+      "hash": "f3f9934402cd93e5",
+      "verdict": "pass"
+    },
+    "ch23-duration-006": {
+      "hash": "a28a945ddae8145e",
+      "verdict": "pass"
+    },
+    "ch23-activity-001": {
+      "hash": "adadcea0b94d1e52",
+      "verdict": "pass"
+    },
+    "ch23-activity-002": {
+      "hash": "52eb16cf52c9fca9",
+      "verdict": "pass"
+    },
+    "ch23-activity-003": {
+      "hash": "96b552d268ff9176",
+      "verdict": "pass"
+    },
+    "ch23-activity-004": {
+      "hash": "3e2c47114caece5f",
+      "verdict": "pass"
+    },
+    "ch23-activity-005": {
+      "hash": "1893a3329597a79e",
+      "verdict": "pass"
+    },
+    "ch23-activity-006": {
+      "hash": "6c1148ca07954b03",
+      "verdict": "pass"
+    },
+    "ch23-result-001": {
+      "hash": "4d67d150b0d7ecba",
+      "verdict": "pass"
+    },
+    "ch23-result-002": {
+      "hash": "0c6e0daf426564ee",
+      "verdict": "pass"
+    },
+    "ch23-result-003": {
+      "hash": "32aa26a61aa3a006",
+      "verdict": "pass"
+    },
+    "ch23-result-004": {
+      "hash": "6150aa1b00a741b4",
+      "verdict": "pass"
+    },
+    "ch23-result-005": {
+      "hash": "e3c3c45bf042e430",
+      "verdict": "pass"
+    },
+    "ch23-result-006": {
+      "hash": "f127e36cb02ecefd",
+      "verdict": "pass"
+    },
+    "ch23-state-001": {
+      "hash": "5ecddfc396fd70b3",
+      "verdict": "pass"
+    },
+    "ch23-state-002": {
+      "hash": "4fccb276e9b73f1e",
+      "verdict": "pass"
+    },
+    "ch23-state-003": {
+      "hash": "d2daf106778aaa9d",
+      "verdict": "pass"
+    },
+    "ch23-state-004": {
+      "hash": "cf00d89a9a8de22b",
+      "verdict": "pass"
+    },
+    "ch23-state-005": {
+      "hash": "37236eb877caea76",
+      "verdict": "pass"
+    },
+    "ch23-state-006": {
+      "hash": "25694f96b30194a7",
+      "verdict": "pass"
+    },
+    "ch23-gym-form-001": {
+      "hash": "8075257adf369d14",
+      "verdict": "pass"
+    },
+    "ch23-gym-form-002": {
+      "hash": "5a2bc6b8aa78570a",
+      "verdict": "pass"
+    },
+    "ch23-gym-result-001": {
+      "hash": "785d05b64480175f",
+      "verdict": "pass"
+    },
+    "ch23-gym-result-002": {
+      "hash": "9e7d7d9275509498",
+      "verdict": "pass"
+    },
+    "ch23-gym-state-001": {
+      "hash": "55eb5a127a6ae80f",
+      "verdict": "pass"
+    },
+    "ch23-gym-activity-001": {
+      "hash": "b968b03e08933837",
+      "verdict": "pass"
+    },
+    "ch23-gym-order-duration-001": {
+      "hash": "830a2576fc028bdc",
+      "verdict": "pass"
+    },
+    "ch23-gym-order-activity-001": {
+      "hash": "be801444fc030acc",
+      "verdict": "pass"
+    },
+    "ch23-gym-order-result-001": {
+      "hash": "1f1f4097d55fd8d3",
+      "verdict": "pass"
+    },
+    "ch23-gym-order-state-001": {
+      "hash": "dcb7cb25b9189d9c",
+      "verdict": "pass"
+    },
+    "ch24-form-001": {
+      "hash": "2a0d62a6735a7eff",
+      "verdict": "pass"
+    },
+    "ch24-form-002": {
+      "hash": "876007c6d1f57660",
+      "verdict": "pass"
+    },
+    "ch24-form-003": {
+      "hash": "bf08bf813aec69ea",
+      "verdict": "pass"
+    },
+    "ch24-form-004": {
+      "hash": "b6cf1e8b524b3448",
+      "verdict": "pass"
+    },
+    "ch24-form-005": {
+      "hash": "a0f56af7bb17b236",
+      "verdict": "pass"
+    },
+    "ch24-form-006": {
+      "hash": "678fc031af093c81",
+      "verdict": "pass"
+    },
+    "ch24-earlier-001": {
+      "hash": "981c771c55c0fe9b",
+      "verdict": "pass"
+    },
+    "ch24-earlier-002": {
+      "hash": "9fc6c38d5a6428e2",
+      "verdict": "pass"
+    },
+    "ch24-earlier-003": {
+      "hash": "2e2efb86cead38f8",
+      "verdict": "pass"
+    },
+    "ch24-earlier-004": {
+      "hash": "4dea8d70ae0179da",
+      "verdict": "pass"
+    },
+    "ch24-earlier-005": {
+      "hash": "16585f85a36c0779",
+      "verdict": "pass"
+    },
+    "ch24-earlier-006": {
+      "hash": "cf8315426b1b789b",
+      "verdict": "pass"
+    },
+    "ch24-adverbs-001": {
+      "hash": "72453f55d5730349",
+      "verdict": "pass"
+    },
+    "ch24-adverbs-002": {
+      "hash": "c15a925d60defdf2",
+      "verdict": "pass"
+    },
+    "ch24-adverbs-003": {
+      "hash": "50d417f27a428681",
+      "verdict": "pass"
+    },
+    "ch24-adverbs-004": {
+      "hash": "0084dfdbbb866f27",
+      "verdict": "pass"
+    },
+    "ch24-adverbs-005": {
+      "hash": "7bceb63c1e3c6e72",
+      "verdict": "pass"
+    },
+    "ch24-adverbs-006": {
+      "hash": "db5e8c3076b1acf8",
+      "verdict": "pass"
+    },
+    "ch24-reported-001": {
+      "hash": "2dfc95b715741a7d",
+      "verdict": "pass"
+    },
+    "ch24-reported-002": {
+      "hash": "cda4550ab3d31f8a",
+      "verdict": "pass"
+    },
+    "ch24-reported-003": {
+      "hash": "0ce3301be13cb2c5",
+      "verdict": "pass"
+    },
+    "ch24-reported-004": {
+      "hash": "f3f56e2153a82e47",
+      "verdict": "pass"
+    },
+    "ch24-reported-005": {
+      "hash": "094fea3298b5eac4",
+      "verdict": "pass"
+    },
+    "ch24-reported-006": {
+      "hash": "ca9fae9ee49741dc",
+      "verdict": "pass"
+    },
+    "ch24-sequence-001": {
+      "hash": "e6dbcb0822f317d0",
+      "verdict": "pass"
+    },
+    "ch24-sequence-002": {
+      "hash": "0f0b559eb0f49ed2",
+      "verdict": "pass"
+    },
+    "ch24-sequence-003": {
+      "hash": "a52048b14e03bf8c",
+      "verdict": "pass"
+    },
+    "ch24-sequence-004": {
+      "hash": "933bc13b48756224",
+      "verdict": "pass"
+    },
+    "ch24-sequence-005": {
+      "hash": "a8ba2923f7f715cf",
+      "verdict": "pass"
+    },
+    "ch24-sequence-006": {
+      "hash": "4d5f23919a2bd74a",
+      "verdict": "pass"
+    },
+    "ch24-gym-form-001": {
+      "hash": "37edb6e27ac0ed68",
+      "verdict": "pass"
+    },
+    "ch24-gym-earlier-001": {
+      "hash": "77977fa6cffc0003",
+      "verdict": "pass"
+    },
+    "ch24-gym-earlier-002": {
+      "hash": "606932e1b9010a6d",
+      "verdict": "pass"
+    },
+    "ch24-gym-earlier-003": {
+      "hash": "9dc02f219f2d6135",
+      "verdict": "pass"
+    },
+    "ch24-gym-adverbs-001": {
+      "hash": "cceaa36bdbc2dad9",
+      "verdict": "pass"
+    },
+    "ch24-gym-sequence-001": {
+      "hash": "e8c1829ffbacdda7",
+      "verdict": "pass"
+    },
+    "ch24-gym-order-adverbs-001": {
+      "hash": "af2f1dfae48dcd19",
+      "verdict": "pass"
+    },
+    "ch24-gym-order-earlier-001": {
+      "hash": "aa3d6fe3342ee7e1",
+      "verdict": "pass"
+    },
+    "ch24-gym-order-reported-001": {
+      "hash": "2b5d0c33912b8f3c",
+      "verdict": "pass"
+    },
+    "ch24-gym-order-adverbs-002": {
+      "hash": "5bab909b8f11607e",
+      "verdict": "pass"
+    },
+    "ch25-prediction-001": {
+      "hash": "d0e5764165606e76",
+      "verdict": "pass"
+    },
+    "ch25-prediction-002": {
+      "hash": "27184095e8375cee",
+      "verdict": "pass"
+    },
+    "ch25-prediction-003": {
+      "hash": "8de1ccc23485eb8a",
+      "verdict": "pass"
+    },
+    "ch25-prediction-004": {
+      "hash": "9af8d19f8dea7f1c",
+      "verdict": "pass"
+    },
+    "ch25-prediction-005": {
+      "hash": "de6bb56ffa1a0706",
+      "verdict": "pass"
+    },
+    "ch25-spontaneous-001": {
+      "hash": "4f32b50247565084",
+      "verdict": "pass"
+    },
+    "ch25-spontaneous-002": {
+      "hash": "f489b3092b144913",
+      "verdict": "pass"
+    },
+    "ch25-spontaneous-003": {
+      "hash": "f4e38293af62e39a",
+      "verdict": "pass"
+    },
+    "ch25-spontaneous-004": {
+      "hash": "050eadf027bd029f",
+      "verdict": "pass"
+    },
+    "ch25-spontaneous-005": {
+      "hash": "8ee502b138f5e456",
+      "verdict": "pass"
+    },
+    "ch25-evidence-001": {
+      "hash": "f9d1810a0bf7f341",
+      "verdict": "pass"
+    },
+    "ch25-evidence-002": {
+      "hash": "51abd1bfdbc051b7",
+      "verdict": "pass"
+    },
+    "ch25-evidence-003": {
+      "hash": "1c5a8d53f8e9ff60",
+      "verdict": "pass"
+    },
+    "ch25-evidence-004": {
+      "hash": "fbf67bd83f456c23",
+      "verdict": "pass"
+    },
+    "ch25-evidence-005": {
+      "hash": "161b8425b9b2cb46",
+      "verdict": "pass"
+    },
+    "ch25-intention-001": {
+      "hash": "06bf00f8a1ee914b",
+      "verdict": "pass"
+    },
+    "ch25-intention-002": {
+      "hash": "296e93ddf017bc1f",
+      "verdict": "pass"
+    },
+    "ch25-intention-003": {
+      "hash": "5a2585ed98dbe542",
+      "verdict": "pass"
+    },
+    "ch25-intention-004": {
+      "hash": "1164a6e70935d4a9",
+      "verdict": "pass"
+    },
+    "ch25-intention-005": {
+      "hash": "6163d365fab5ce4a",
+      "verdict": "pass"
+    },
+    "ch25-arrangement-001": {
+      "hash": "b17805d9199fc30d",
+      "verdict": "pass"
+    },
+    "ch25-arrangement-002": {
+      "hash": "37e3146571caebeb",
+      "verdict": "pass"
+    },
+    "ch25-arrangement-003": {
+      "hash": "cbca54412fc0c83b",
+      "verdict": "pass"
+    },
+    "ch25-arrangement-004": {
+      "hash": "922ac47debdceedf",
+      "verdict": "pass"
+    },
+    "ch25-arrangement-005": {
+      "hash": "5e2ee1302b4dede3",
+      "verdict": "pass"
+    },
+    "ch25-time-clause-001": {
+      "hash": "76d6377470a3af44",
+      "verdict": "pass"
+    },
+    "ch25-time-clause-002": {
+      "hash": "aff5c5ac4efbdd91",
+      "verdict": "pass"
+    },
+    "ch25-time-clause-003": {
+      "hash": "e4fba7fa57af7ae8",
+      "verdict": "pass"
+    },
+    "ch25-time-clause-004": {
+      "hash": "e38a646865735fd1",
+      "verdict": "pass"
+    },
+    "ch25-time-clause-005": {
+      "hash": "b3646a792f19db08",
+      "verdict": "pass"
+    },
+    "ch25-gym-time-clause-001": {
+      "hash": "4d8eb177e4a47d4a",
+      "verdict": "pass"
+    },
+    "ch25-gym-time-clause-002": {
+      "hash": "809e876256c02732",
+      "verdict": "pass"
+    },
+    "ch25-gym-time-clause-003": {
+      "hash": "ac09649c460f748d",
+      "verdict": "pass"
+    },
+    "ch25-gym-prediction-001": {
+      "hash": "550d21df6d70abe6",
+      "verdict": "pass"
+    },
+    "ch25-gym-spontaneous-001": {
+      "hash": "13dcda35892adc21",
+      "verdict": "pass"
+    },
+    "ch25-gym-spontaneous-002": {
+      "hash": "04ebb71bee0a6936",
+      "verdict": "pass"
+    },
+    "ch25-gym-order-evidence-001": {
+      "hash": "46dd698faed1da8d",
+      "verdict": "pass"
+    },
+    "ch25-gym-order-intention-001": {
+      "hash": "502c1d992fce21a9",
+      "verdict": "pass"
+    },
+    "ch25-gym-order-arrangement-001": {
+      "hash": "a118d06fb357baeb",
+      "verdict": "fail",
+      "reasons": [
+        "one-right-answer: Doubt: « We have dinner with Brock tonight », built with the decoy have, is used by natives for a fixed plan and is not accepted.",
+        "explanation: Says we have dinner would describe a habit, which is not true with tonight."
+      ]
+    },
+    "ch25-gym-order-time-clause-001": {
+      "hash": "66aeb9378cc845d5",
+      "verdict": "pass"
+    },
+    "ch31-order-001": {
+      "hash": "cc8904790e7f0ad3",
+      "verdict": "pass"
+    },
+    "ch31-order-002": {
+      "hash": "d660c6e67421f53e",
+      "verdict": "pass"
+    },
+    "ch31-order-003": {
+      "hash": "5b9d6d928d222f2d",
+      "verdict": "pass"
+    },
+    "ch31-order-004": {
+      "hash": "f0409ce6dac3af93",
+      "verdict": "pass"
+    },
+    "ch31-order-005": {
+      "hash": "86f7f017b8aea5b7",
+      "verdict": "pass"
+    },
+    "ch31-order-006": {
+      "hash": "13fd8f31e3be984d",
+      "verdict": "pass"
+    },
+    "ch31-do-001": {
+      "hash": "65dccdc1568751f6",
+      "verdict": "pass"
+    },
+    "ch31-do-002": {
+      "hash": "e04f27e781542731",
+      "verdict": "pass"
+    },
+    "ch31-do-003": {
+      "hash": "faec26b299bf08a6",
+      "verdict": "pass"
+    },
+    "ch31-do-004": {
+      "hash": "65deadb5d0d1a0a9",
+      "verdict": "pass"
+    },
+    "ch31-do-005": {
+      "hash": "85aab07d58f67a57",
+      "verdict": "pass"
+    },
+    "ch31-do-006": {
+      "hash": "af64c707d36854cd",
+      "verdict": "pass"
+    },
+    "ch31-subject-001": {
+      "hash": "7496af7bfb775383",
+      "verdict": "pass"
+    },
+    "ch31-subject-002": {
+      "hash": "f484d4d079d6b013",
+      "verdict": "pass"
+    },
+    "ch31-subject-003": {
+      "hash": "f4674d03b8db03e9",
+      "verdict": "pass"
+    },
+    "ch31-subject-004": {
+      "hash": "7160eae6df923fc2",
+      "verdict": "pass"
+    },
+    "ch31-subject-005": {
+      "hash": "6d61786fdf07ccdf",
+      "verdict": "pass"
+    },
+    "ch31-subject-006": {
+      "hash": "716f5d182a1977ad",
+      "verdict": "pass"
+    },
+    "ch31-wh-001": {
+      "hash": "526d2c015e10349f",
+      "verdict": "pass"
+    },
+    "ch31-wh-002": {
+      "hash": "be389793752d1f1c",
+      "verdict": "pass"
+    },
+    "ch31-wh-003": {
+      "hash": "05698a309ac9bb48",
+      "verdict": "pass"
+    },
+    "ch31-wh-004": {
+      "hash": "0cde958bc8b718c7",
+      "verdict": "pass"
+    },
+    "ch31-wh-005": {
+      "hash": "520ec8f43c5f4968",
+      "verdict": "pass"
+    },
+    "ch31-wh-006": {
+      "hash": "daac76dbda4a41cf",
+      "verdict": "pass"
+    },
+    "ch31-how-001": {
+      "hash": "54223a5164e94ee9",
+      "verdict": "pass"
+    },
+    "ch31-how-002": {
+      "hash": "04f00b5e57793c62",
+      "verdict": "pass"
+    },
+    "ch31-how-003": {
+      "hash": "264f3312a803562d",
+      "verdict": "pass"
+    },
+    "ch31-how-004": {
+      "hash": "75beea985c18eca9",
+      "verdict": "pass"
+    },
+    "ch31-how-005": {
+      "hash": "490135e243894b06",
+      "verdict": "pass"
+    },
+    "ch31-how-006": {
+      "hash": "cd812bf52d8af42c",
+      "verdict": "pass"
+    },
+    "ch31-gym-do-001": {
+      "hash": "726b49ec9fad8475",
+      "verdict": "pass"
+    },
+    "ch31-gym-do-002": {
+      "hash": "fd99eba10585aa4d",
+      "verdict": "pass"
+    },
+    "ch31-gym-word-order-001": {
+      "hash": "ad658601ba8e7459",
+      "verdict": "pass"
+    },
+    "ch31-gym-subject-001": {
+      "hash": "70b185e3230b4610",
+      "verdict": "pass"
+    },
+    "ch31-gym-subject-002": {
+      "hash": "19cf82b6f93a7f2d",
+      "verdict": "pass"
+    },
+    "ch31-gym-how-001": {
+      "hash": "cfc368646188a5df",
+      "verdict": "pass"
+    },
+    "ch31-gym-order-wh-001": {
+      "hash": "8759f734f1c4e35c",
+      "verdict": "pass"
+    },
+    "ch31-gym-order-subject-001": {
+      "hash": "b18aee07185f23f8",
+      "verdict": "pass"
+    },
+    "ch31-gym-order-subject-002": {
+      "hash": "bf5b9c595b4f01e9",
+      "verdict": "pass"
+    },
+    "ch31-gym-order-how-001": {
+      "hash": "12bc232fcaeafb53",
+      "verdict": "pass"
+    },
+    "ch32-form-001": {
+      "hash": "cf1136d7ee014ae4",
+      "verdict": "pass"
+    },
+    "ch32-form-002": {
+      "hash": "3fd9f2f9b23a3d2d",
+      "verdict": "pass"
+    },
+    "ch32-form-003": {
+      "hash": "e6dccecc47f09afa",
+      "verdict": "pass"
+    },
+    "ch32-form-004": {
+      "hash": "320a4e7e5b5af01d",
+      "verdict": "pass"
+    },
+    "ch32-form-005": {
+      "hash": "114e559a42494eb8",
+      "verdict": "pass"
+    },
+    "ch32-form-006": {
+      "hash": "93fba2883abe821e",
+      "verdict": "pass"
+    },
+    "ch32-tenses-001": {
+      "hash": "8caff819586d208d",
+      "verdict": "pass"
+    },
+    "ch32-tenses-002": {
+      "hash": "c9c7a413ac73751a",
+      "verdict": "pass"
+    },
+    "ch32-tenses-003": {
+      "hash": "287325e88e991479",
+      "verdict": "pass"
+    },
+    "ch32-tenses-004": {
+      "hash": "a5b55ff6e3730d25",
+      "verdict": "pass"
+    },
+    "ch32-tenses-005": {
+      "hash": "3d75a26fe7f6639e",
+      "verdict": "pass"
+    },
+    "ch32-tenses-006": {
+      "hash": "23e721d8a72a3dea",
+      "verdict": "pass"
+    },
+    "ch32-agent-001": {
+      "hash": "7b5e3ba5d5f48cb6",
+      "verdict": "pass"
+    },
+    "ch32-agent-002": {
+      "hash": "72c34948f82039df",
+      "verdict": "pass"
+    },
+    "ch32-agent-003": {
+      "hash": "126097a78f73c3e4",
+      "verdict": "pass"
+    },
+    "ch32-agent-004": {
+      "hash": "b74da05d5abd7119",
+      "verdict": "pass"
+    },
+    "ch32-agent-005": {
+      "hash": "f496dd24fd1c7ee9",
+      "verdict": "pass"
+    },
+    "ch32-agent-006": {
+      "hash": "3367b2eac205435d",
+      "verdict": "pass"
+    },
+    "ch32-active-passive-001": {
+      "hash": "09aeba1cf00b6459",
+      "verdict": "pass"
+    },
+    "ch32-active-passive-002": {
+      "hash": "472aba035eae8a94",
+      "verdict": "pass"
+    },
+    "ch32-active-passive-003": {
+      "hash": "774bebf752b619c6",
+      "verdict": "pass"
+    },
+    "ch32-active-passive-004": {
+      "hash": "ee3746c9863cdf28",
+      "verdict": "pass"
+    },
+    "ch32-active-passive-005": {
+      "hash": "7a0f8f783e3d22bf",
+      "verdict": "pass"
+    },
+    "ch32-active-passive-006": {
+      "hash": "0b9ee141a813bc8d",
+      "verdict": "pass"
+    },
+    "ch32-two-objects-001": {
+      "hash": "bdede6bd25bead91",
+      "verdict": "pass"
+    },
+    "ch32-two-objects-002": {
+      "hash": "261f053fda2fe591",
+      "verdict": "pass"
+    },
+    "ch32-two-objects-003": {
+      "hash": "0b5bcb5a6670d398",
+      "verdict": "pass"
+    },
+    "ch32-two-objects-004": {
+      "hash": "59f9905330d0acaa",
+      "verdict": "pass"
+    },
+    "ch32-two-objects-005": {
+      "hash": "4d7f012a26249bf9",
+      "verdict": "pass"
+    },
+    "ch32-two-objects-006": {
+      "hash": "e8839d37ff267a94",
+      "verdict": "pass"
+    },
+    "ch32-gym-form-001": {
+      "hash": "787c14808a9eee09",
+      "verdict": "pass"
+    },
+    "ch32-gym-form-002": {
+      "hash": "41bb827208352867",
+      "verdict": "pass"
+    },
+    "ch32-gym-tenses-001": {
+      "hash": "84ed47283d12fe8d",
+      "verdict": "pass"
+    },
+    "ch32-gym-tenses-002": {
+      "hash": "74d3d146cdb6af6d",
+      "verdict": "pass"
+    },
+    "ch32-gym-tenses-003": {
+      "hash": "54aeff4921e78fc1",
+      "verdict": "pass"
+    },
+    "ch32-gym-two-objects-001": {
+      "hash": "ef92e0b79ad6b21e",
+      "verdict": "pass"
+    },
+    "ch32-gym-order-agent-001": {
+      "hash": "671b78915c61fea3",
+      "verdict": "pass"
+    },
+    "ch32-gym-order-active-passive-001": {
+      "hash": "f9eb0a864fd2795b",
+      "verdict": "pass"
+    },
+    "ch32-gym-order-two-objects-001": {
+      "hash": "58b428e118f258a6",
+      "verdict": "pass"
+    },
+    "ch32-gym-order-tenses-001": {
+      "hash": "d502f7aaea09c7de",
+      "verdict": "pass"
+    },
+    "ch33-who-which-001": {
+      "hash": "cb9e850c72ce0dfb",
+      "verdict": "pass"
+    },
+    "ch33-who-which-002": {
+      "hash": "5fdf4abf01cf914f",
+      "verdict": "pass"
+    },
+    "ch33-who-which-003": {
+      "hash": "c2d503556597dee8",
+      "verdict": "pass"
+    },
+    "ch33-who-which-004": {
+      "hash": "6aa271593825f44c",
+      "verdict": "pass"
+    },
+    "ch33-who-which-005": {
+      "hash": "dd23ea6e49084838",
+      "verdict": "pass"
+    },
+    "ch33-who-which-006": {
+      "hash": "412e044dbbf679bd",
+      "verdict": "pass"
+    },
+    "ch33-that-001": {
+      "hash": "789685b23a8d041f",
+      "verdict": "pass"
+    },
+    "ch33-that-002": {
+      "hash": "75b28c33ee56f651",
+      "verdict": "pass"
+    },
+    "ch33-that-003": {
+      "hash": "942cb608ad545098",
+      "verdict": "pass"
+    },
+    "ch33-that-004": {
+      "hash": "56e3770b6a871dda",
+      "verdict": "pass"
+    },
+    "ch33-that-005": {
+      "hash": "951f1cd18967f67d",
+      "verdict": "pass"
+    },
+    "ch33-that-006": {
+      "hash": "045da393637e7ad3",
+      "verdict": "pass"
+    },
+    "ch33-omission-001": {
+      "hash": "ab1b5957015505d0",
+      "verdict": "pass"
+    },
+    "ch33-omission-002": {
+      "hash": "ebfdbcd5ed80115d",
+      "verdict": "pass"
+    },
+    "ch33-omission-003": {
+      "hash": "106af7e51536cfca",
+      "verdict": "pass"
+    },
+    "ch33-omission-004": {
+      "hash": "8e73fca9e2749d82",
+      "verdict": "pass"
+    },
+    "ch33-omission-005": {
+      "hash": "b314691b93ceb51d",
+      "verdict": "pass"
+    },
+    "ch33-omission-006": {
+      "hash": "bfab1ca7ecda849a",
+      "verdict": "pass"
+    },
+    "ch33-where-when-001": {
+      "hash": "cbde6c08268ad0c6",
+      "verdict": "pass"
+    },
+    "ch33-where-when-002": {
+      "hash": "5d250493cc9d4f69",
+      "verdict": "pass"
+    },
+    "ch33-where-when-003": {
+      "hash": "8eaaefceb3c94a6a",
+      "verdict": "pass"
+    },
+    "ch33-where-when-004": {
+      "hash": "ecd93833b9862d0f",
+      "verdict": "pass"
+    },
+    "ch33-where-when-005": {
+      "hash": "1d0c67a873644b6f",
+      "verdict": "pass"
+    },
+    "ch33-where-when-006": {
+      "hash": "31c6de82584c1170",
+      "verdict": "pass"
+    },
+    "ch33-whose-001": {
+      "hash": "3051e553eb8d7fd7",
+      "verdict": "pass"
+    },
+    "ch33-whose-002": {
+      "hash": "e9e775e340bb2d9b",
+      "verdict": "pass"
+    },
+    "ch33-whose-003": {
+      "hash": "a25a32b804e92b3d",
+      "verdict": "pass"
+    },
+    "ch33-whose-004": {
+      "hash": "b6b3936494fe2bd7",
+      "verdict": "pass"
+    },
+    "ch33-whose-005": {
+      "hash": "a7fedd88bd83a8fb",
+      "verdict": "pass"
+    },
+    "ch33-whose-006": {
+      "hash": "b633b402c4ccf34a",
+      "verdict": "pass"
+    },
+    "ch33-gym-who-which-001": {
+      "hash": "f272af49319cb7ad",
+      "verdict": "pass"
+    },
+    "ch33-gym-who-which-002": {
+      "hash": "415b532a08b655b2",
+      "verdict": "pass"
+    },
+    "ch33-gym-that-001": {
+      "hash": "90b0fc1581062c2d",
+      "verdict": "pass"
+    },
+    "ch33-gym-whose-001": {
+      "hash": "ac8839daa6504225",
+      "verdict": "pass"
+    },
+    "ch33-gym-where-when-001": {
+      "hash": "aedf224d79e684b9",
+      "verdict": "pass"
+    },
+    "ch33-gym-where-when-002": {
+      "hash": "970ab0cff6621335",
+      "verdict": "pass"
+    },
+    "ch33-gym-order-omission-001": {
+      "hash": "2741aadb9ed4b7b4",
+      "verdict": "pass"
+    },
+    "ch33-gym-order-whose-001": {
+      "hash": "3a9330838c2e2e38",
+      "verdict": "pass"
+    },
+    "ch33-gym-order-where-when-001": {
+      "hash": "625b36c4bf231ce4",
+      "verdict": "pass"
+    },
+    "ch33-gym-order-that-001": {
+      "hash": "9ac3c2e00952b2dd",
+      "verdict": "pass"
+    },
+    "ch25-gym-order-time-clause-002": {
+      "hash": "96bb87bdb70fe9b4",
+      "verdict": "pass"
+    },
+    "ch26-third-person-001": {
+      "hash": "b35952932d441f12",
+      "verdict": "pass"
+    },
+    "ch26-third-person-002": {
+      "hash": "bd548a395254f557",
+      "verdict": "pass"
+    },
+    "ch26-third-person-003": {
+      "hash": "80622a2ec86879be",
+      "verdict": "pass"
+    },
+    "ch26-third-person-004": {
+      "hash": "0caa2fe83239e62c",
+      "verdict": "pass"
+    },
+    "ch26-third-person-005": {
+      "hash": "a70874d1b4357000",
+      "verdict": "pass"
+    },
+    "ch26-third-person-006": {
+      "hash": "ab497f727893e644",
+      "verdict": "pass"
+    },
+    "ch26-base-verb-001": {
+      "hash": "26e52082add1c5d9",
+      "verdict": "pass"
+    },
+    "ch26-base-verb-002": {
+      "hash": "525dbd4a588f1d87",
+      "verdict": "pass"
+    },
+    "ch26-base-verb-003": {
+      "hash": "587b26173958cbe0",
+      "verdict": "pass"
+    },
+    "ch26-base-verb-004": {
+      "hash": "67377f7ec57a8708",
+      "verdict": "pass"
+    },
+    "ch26-base-verb-005": {
+      "hash": "c45ae4e11f9a4ba3",
+      "verdict": "pass"
+    },
+    "ch26-base-verb-006": {
+      "hash": "71e12c7fddbb6a7f",
+      "verdict": "pass"
+    },
+    "ch26-questions-001": {
+      "hash": "917ca4c8309ba304",
+      "verdict": "pass"
+    },
+    "ch26-questions-002": {
+      "hash": "ccac868947cef1ea",
+      "verdict": "pass"
+    },
+    "ch26-questions-003": {
+      "hash": "c874e8c43b62b62a",
+      "verdict": "pass"
+    },
+    "ch26-questions-004": {
+      "hash": "d6993eadd0fda779",
+      "verdict": "pass"
+    },
+    "ch26-questions-005": {
+      "hash": "07d639f8866801b9",
+      "verdict": "pass"
+    },
+    "ch26-questions-006": {
+      "hash": "2a0655e14f7e6494",
+      "verdict": "pass"
+    },
+    "ch26-short-answers-001": {
+      "hash": "219d2559ae354b62",
+      "verdict": "pass"
+    },
+    "ch26-short-answers-002": {
+      "hash": "122d73c25bbfdfc5",
+      "verdict": "pass"
+    },
+    "ch26-short-answers-003": {
+      "hash": "3abeb0786d3698a1",
+      "verdict": "pass"
+    },
+    "ch26-short-answers-004": {
+      "hash": "b218a7725191be22",
+      "verdict": "pass"
+    },
+    "ch26-short-answers-005": {
+      "hash": "fa84b0bd245a0405",
+      "verdict": "pass"
+    },
+    "ch26-short-answers-006": {
+      "hash": "1358050233185801",
+      "verdict": "pass"
+    },
+    "ch26-substitutes-001": {
+      "hash": "cc7dda58079b13f4",
+      "verdict": "pass"
+    },
+    "ch26-substitutes-002": {
+      "hash": "75e511c992086a49",
+      "verdict": "pass"
+    },
+    "ch26-substitutes-003": {
+      "hash": "76820bbd668c53f2",
+      "verdict": "pass"
+    },
+    "ch26-substitutes-004": {
+      "hash": "36d074e22276ea4d",
+      "verdict": "pass"
+    },
+    "ch26-substitutes-005": {
+      "hash": "a63ac18e4c8a123a",
+      "verdict": "pass"
+    },
+    "ch26-substitutes-006": {
+      "hash": "fdca297b6dabef55",
+      "verdict": "pass"
+    },
+    "ch26-gym-third-person-001": {
+      "hash": "596a123fa24b56e7",
+      "verdict": "pass"
+    },
+    "ch26-gym-questions-001": {
+      "hash": "e1d5631c9de450f5",
+      "verdict": "pass"
+    },
+    "ch26-gym-questions-002": {
+      "hash": "cc23c8f831ee60ad",
+      "verdict": "pass"
+    },
+    "ch26-gym-questions-003": {
+      "hash": "4f1c2fffb5c6b9fa",
+      "verdict": "pass"
+    },
+    "ch26-gym-short-answers-001": {
+      "hash": "c81ab03ce681a654",
+      "verdict": "pass"
+    },
+    "ch26-gym-substitutes-001": {
+      "hash": "f526296237d7849e",
+      "verdict": "pass"
+    },
+    "ch26-gym-order-questions-001": {
+      "hash": "3dd5e7924147a1a8",
+      "verdict": "pass"
+    },
+    "ch26-gym-order-questions-002": {
+      "hash": "c1efac24eace624e",
+      "verdict": "pass"
+    },
+    "ch26-gym-order-base-verb-001": {
+      "hash": "932497ad4dab6e7f",
+      "verdict": "pass"
+    },
+    "ch26-gym-order-substitutes-001": {
+      "hash": "31c6e9b48e51a699",
+      "verdict": "pass"
+    },
+    "ch27-can-001": {
+      "hash": "09cdb8021db861e8",
+      "verdict": "pass"
+    },
+    "ch27-can-002": {
+      "hash": "510fd191caf7236c",
+      "verdict": "pass"
+    },
+    "ch27-can-003": {
+      "hash": "e7b94f569e4b29c4",
+      "verdict": "pass"
+    },
+    "ch27-can-004": {
+      "hash": "f2f7e9bb363d50c5",
+      "verdict": "pass"
+    },
+    "ch27-can-005": {
+      "hash": "5f52f06d68664f70",
+      "verdict": "pass"
+    },
+    "ch27-can-006": {
+      "hash": "76a808a8f9cf2b86",
+      "verdict": "pass"
+    },
+    "ch27-could-001": {
+      "hash": "6f733080a3f4c5d9",
+      "verdict": "pass"
+    },
+    "ch27-could-002": {
+      "hash": "e2dd0a732cd93c36",
+      "verdict": "pass"
+    },
+    "ch27-could-003": {
+      "hash": "63ddd9069df9eada",
+      "verdict": "pass"
+    },
+    "ch27-could-004": {
+      "hash": "53e851febda15653",
+      "verdict": "pass"
+    },
+    "ch27-could-005": {
+      "hash": "d84215b65d6ab004",
+      "verdict": "pass"
+    },
+    "ch27-could-006": {
+      "hash": "fca120315d0b31cf",
+      "verdict": "pass"
+    },
+    "ch27-managed-001": {
+      "hash": "26d88e058ec289eb",
+      "verdict": "pass"
+    },
+    "ch27-managed-002": {
+      "hash": "69ca8dd190d3cd85",
+      "verdict": "pass"
+    },
+    "ch27-managed-003": {
+      "hash": "b519ac55ec7c34de",
+      "verdict": "pass"
+    },
+    "ch27-managed-004": {
+      "hash": "c3e38c965a5997e5",
+      "verdict": "pass"
+    },
+    "ch27-managed-005": {
+      "hash": "41d0ca1ffcb244a6",
+      "verdict": "pass"
+    },
+    "ch27-managed-006": {
+      "hash": "f918be56ef626252",
+      "verdict": "pass"
+    },
+    "ch27-able-001": {
+      "hash": "c81631a75a5d9f72",
+      "verdict": "pass"
+    },
+    "ch27-able-002": {
+      "hash": "41ae33871977e663",
+      "verdict": "pass"
+    },
+    "ch27-able-003": {
+      "hash": "4ff7ac1e16a80ecf",
+      "verdict": "pass"
+    },
+    "ch27-able-004": {
+      "hash": "e7f8c08f571ffbe1",
+      "verdict": "pass"
+    },
+    "ch27-able-005": {
+      "hash": "4f46002d092032a8",
+      "verdict": "pass"
+    },
+    "ch27-able-006": {
+      "hash": "9f2300c83f5da3d1",
+      "verdict": "pass"
+    },
+    "ch27-other-001": {
+      "hash": "037862febaf88ba5",
+      "verdict": "pass"
+    },
+    "ch27-other-002": {
+      "hash": "b001cc567214aabf",
+      "verdict": "pass"
+    },
+    "ch27-other-003": {
+      "hash": "00418e6d611e7479",
+      "verdict": "pass"
+    },
+    "ch27-other-004": {
+      "hash": "fb7f12b0d18def65",
+      "verdict": "pass"
+    },
+    "ch27-other-005": {
+      "hash": "13af53dccb230578",
+      "verdict": "pass"
+    },
+    "ch27-other-006": {
+      "hash": "50000033e0707157",
+      "verdict": "pass"
+    },
+    "ch27-gym-can-001": {
+      "hash": "db48c18dc33184fd",
+      "verdict": "pass"
+    },
+    "ch27-gym-could-001": {
+      "hash": "318009d898a0e179",
+      "verdict": "pass"
+    },
+    "ch27-gym-managed-001": {
+      "hash": "863e74de6d965507",
+      "verdict": "pass"
+    },
+    "ch27-gym-able-001": {
+      "hash": "0881f28a70d84b56",
+      "verdict": "pass"
+    },
+    "ch27-gym-able-002": {
+      "hash": "2dab1661327f7c6f",
+      "verdict": "pass"
+    },
+    "ch27-gym-other-001": {
+      "hash": "f924b32c337ef4c9",
+      "verdict": "pass"
+    },
+    "ch27-gym-order-managed-001": {
+      "hash": "fb6df0f13248dd2e",
+      "verdict": "pass"
+    },
+    "ch27-gym-order-could-001": {
+      "hash": "b5f84a968b50bd18",
+      "verdict": "pass"
+    },
+    "ch27-gym-order-able-001": {
+      "hash": "6d963731ca0855ec",
+      "verdict": "pass"
+    },
+    "ch27-gym-order-other-001": {
+      "hash": "0b5498d5f28d7590",
+      "verdict": "pass"
+    },
+    "ch28-form-001": {
+      "hash": "8262e3bdb2d3ef94",
+      "verdict": "pass"
+    },
+    "ch28-form-002": {
+      "hash": "32a816aa15bca72d",
+      "verdict": "pass"
+    },
+    "ch28-form-003": {
+      "hash": "e519f33b3a447a61",
+      "verdict": "pass"
+    },
+    "ch28-form-004": {
+      "hash": "bb2c04250508f399",
+      "verdict": "pass"
+    },
+    "ch28-form-005": {
+      "hash": "13973fce695f15a7",
+      "verdict": "pass"
+    },
+    "ch28-form-006": {
+      "hash": "869aac6bd2713a79",
+      "verdict": "pass"
+    },
+    "ch28-mustnt-001": {
+      "hash": "4e454d7ea8c87f0c",
+      "verdict": "pass"
+    },
+    "ch28-mustnt-002": {
+      "hash": "51bee050bb2d1a91",
+      "verdict": "pass"
+    },
+    "ch28-mustnt-003": {
+      "hash": "0d6c79a31adf8163",
+      "verdict": "pass"
+    },
+    "ch28-mustnt-004": {
+      "hash": "7071b9901f9b3a34",
+      "verdict": "pass"
+    },
+    "ch28-mustnt-005": {
+      "hash": "981f8c193a0aa0ac",
+      "verdict": "pass"
+    },
+    "ch28-mustnt-006": {
+      "hash": "6891d56ad9d65ba4",
+      "verdict": "pass"
+    },
+    "ch28-past-001": {
+      "hash": "a9336b80e6a5f296",
+      "verdict": "pass"
+    },
+    "ch28-past-002": {
+      "hash": "0f2f16342035fe94",
+      "verdict": "pass"
+    },
+    "ch28-past-003": {
+      "hash": "6f2aad68ed204b60",
+      "verdict": "pass"
+    },
+    "ch28-past-004": {
+      "hash": "8b800cec11a05960",
+      "verdict": "pass"
+    },
+    "ch28-past-005": {
+      "hash": "efaf92dce99f96fb",
+      "verdict": "pass"
+    },
+    "ch28-past-006": {
+      "hash": "dd36bcc07eaf3890",
+      "verdict": "pass"
+    },
+    "ch28-future-001": {
+      "hash": "4bfc8d9ce8b034ad",
+      "verdict": "pass"
+    },
+    "ch28-future-002": {
+      "hash": "068fcab439c2ebdc",
+      "verdict": "pass"
+    },
+    "ch28-future-003": {
+      "hash": "823280fc8e39a1eb",
+      "verdict": "pass"
+    },
+    "ch28-future-004": {
+      "hash": "45083ba9ddb7496a",
+      "verdict": "pass"
+    },
+    "ch28-future-005": {
+      "hash": "f303637212b8da5a",
+      "verdict": "pass"
+    },
+    "ch28-future-006": {
+      "hash": "56e5c50a2df0dee7",
+      "verdict": "pass"
+    },
+    "ch28-questions-001": {
+      "hash": "e973668a18a538c6",
+      "verdict": "pass"
+    },
+    "ch28-questions-002": {
+      "hash": "95b1e11c36bc470b",
+      "verdict": "pass"
+    },
+    "ch28-questions-003": {
+      "hash": "093af7defab4a0f6",
+      "verdict": "pass"
+    },
+    "ch28-questions-004": {
+      "hash": "47e26b70ecf69d7c",
+      "verdict": "pass"
+    },
+    "ch28-questions-005": {
+      "hash": "178a1525e4577cdd",
+      "verdict": "pass"
+    },
+    "ch28-questions-006": {
+      "hash": "7422189778aa06d5",
+      "verdict": "pass"
+    },
+    "ch28-gym-form-001": {
+      "hash": "0e35ef4606f6a453",
+      "verdict": "pass"
+    },
+    "ch28-gym-mustnt-001": {
+      "hash": "073cadc6bf0e4357",
+      "verdict": "pass"
+    },
+    "ch28-gym-past-001": {
+      "hash": "30342196f60f9db2",
+      "verdict": "pass"
+    },
+    "ch28-gym-future-001": {
+      "hash": "f6e1358ce17fff6b",
+      "verdict": "pass"
+    },
+    "ch28-gym-questions-001": {
+      "hash": "f3292f72e0d050c3",
+      "verdict": "pass"
+    },
+    "ch28-gym-questions-002": {
+      "hash": "dc68023cf85f1621",
+      "verdict": "pass"
+    },
+    "ch28-gym-order-mustnt-001": {
+      "hash": "396c98cf075cf4d8",
+      "verdict": "pass"
+    },
+    "ch28-gym-order-mustnt-002": {
+      "hash": "1f3222c971ec790d",
+      "verdict": "pass"
+    },
+    "ch28-gym-order-past-001": {
+      "hash": "630c3ac4c9011fc9",
+      "verdict": "pass"
+    },
+    "ch28-gym-order-future-001": {
+      "hash": "707e6bc0dfbcc161",
+      "verdict": "pass"
+    },
+    "ch29-should-001": {
+      "hash": "38a0dc0b33a47399",
+      "verdict": "pass"
+    },
+    "ch29-should-002": {
+      "hash": "cc7dd7b2d585c027",
+      "verdict": "pass"
+    },
+    "ch29-should-003": {
+      "hash": "ccb5861ff85f5cb6",
+      "verdict": "pass"
+    },
+    "ch29-should-004": {
+      "hash": "a649efb0f04f54b1",
+      "verdict": "pass"
+    },
+    "ch29-should-005": {
+      "hash": "1578b8a0c9b07522",
+      "verdict": "pass"
+    },
+    "ch29-should-006": {
+      "hash": "c136a7dbf3c9fa69",
+      "verdict": "pass"
+    },
+    "ch29-should-have-001": {
+      "hash": "3e53ee50a9c038d2",
+      "verdict": "pass"
+    },
+    "ch29-should-have-002": {
+      "hash": "3247b7e0571ce014",
+      "verdict": "pass"
+    },
+    "ch29-should-have-003": {
+      "hash": "ca62558c204208ae",
+      "verdict": "pass"
+    },
+    "ch29-should-have-004": {
+      "hash": "8037080cc6e5acd6",
+      "verdict": "pass"
+    },
+    "ch29-should-have-005": {
+      "hash": "9a5880f21fb277b6",
+      "verdict": "pass"
+    },
+    "ch29-should-have-006": {
+      "hash": "ddc1e0a5355013b0",
+      "verdict": "pass"
+    },
+    "ch29-better-001": {
+      "hash": "f09cfac25200bbfd",
+      "verdict": "pass"
+    },
+    "ch29-better-002": {
+      "hash": "231e40d5c701e14b",
+      "verdict": "pass"
+    },
+    "ch29-better-003": {
+      "hash": "b40280cdc6ff7371",
+      "verdict": "pass"
+    },
+    "ch29-better-004": {
+      "hash": "d46d2f9a5818da84",
+      "verdict": "pass"
+    },
+    "ch29-better-005": {
+      "hash": "77189e3e1940c756",
+      "verdict": "pass"
+    },
+    "ch29-better-006": {
+      "hash": "02a5c24abef69aac",
+      "verdict": "pass"
+    },
+    "ch29-lets-001": {
+      "hash": "6bf68a14e23259d8",
+      "verdict": "pass"
+    },
+    "ch29-lets-002": {
+      "hash": "d89e1ba9bc2c654a",
+      "verdict": "pass"
+    },
+    "ch29-lets-003": {
+      "hash": "a9e4ecfdf7bf2580",
+      "verdict": "pass"
+    },
+    "ch29-lets-004": {
+      "hash": "405f290e42b09a38",
+      "verdict": "pass"
+    },
+    "ch29-lets-005": {
+      "hash": "ea27102f520e622f",
+      "verdict": "pass"
+    },
+    "ch29-lets-006": {
+      "hash": "b4db9ffd6f9467f3",
+      "verdict": "pass"
+    },
+    "ch29-other-001": {
+      "hash": "2f532bda44283ebe",
+      "verdict": "pass"
+    },
+    "ch29-other-002": {
+      "hash": "836ba52ec9a1469f",
+      "verdict": "pass"
+    },
+    "ch29-other-003": {
+      "hash": "52070ba7e4e35354",
+      "verdict": "pass"
+    },
+    "ch29-other-004": {
+      "hash": "8bc24f2c7355ad6c",
+      "verdict": "pass"
+    },
+    "ch29-other-005": {
+      "hash": "4f3fe3bab12ed13e",
+      "verdict": "pass"
+    },
+    "ch29-other-006": {
+      "hash": "e98b5b812f60d169",
+      "verdict": "pass"
+    },
+    "ch29-gym-should-001": {
+      "hash": "231370e87c6a8530",
+      "verdict": "pass"
+    },
+    "ch29-gym-should-have-001": {
+      "hash": "f71aab61ab6971c8",
+      "verdict": "pass"
+    },
+    "ch29-gym-should-have-002": {
+      "hash": "121b5db86b596e99",
+      "verdict": "pass"
+    },
+    "ch29-gym-better-001": {
+      "hash": "8c3d6dc530e3d3f2",
+      "verdict": "pass"
+    },
+    "ch29-gym-other-001": {
+      "hash": "427fcd66c64458db",
+      "verdict": "pass"
+    },
+    "ch29-gym-other-002": {
+      "hash": "3ebdc8c36c0348bd",
+      "verdict": "pass"
+    },
+    "ch29-gym-order-should-001": {
+      "hash": "74b54103bb9cd959",
+      "verdict": "pass"
+    },
+    "ch29-gym-order-should-have-001": {
+      "hash": "74a05c63e1ba4c49",
+      "verdict": "pass"
+    },
+    "ch29-gym-order-better-001": {
+      "hash": "a29213a1c2387b30",
+      "verdict": "pass"
+    },
+    "ch29-gym-order-lets-001": {
+      "hash": "9637eaf66cda6125",
+      "verdict": "pass"
+    },
+    "ch30-must-001": {
+      "hash": "be72a66081d895f8",
+      "verdict": "pass"
+    },
+    "ch30-must-002": {
+      "hash": "05c3588aa2443686",
+      "verdict": "pass"
+    },
+    "ch30-must-003": {
+      "hash": "27c29178f0121b3d",
+      "verdict": "pass"
+    },
+    "ch30-must-004": {
+      "hash": "9173f0eb21c8d976",
+      "verdict": "pass"
+    },
+    "ch30-must-005": {
+      "hash": "adee0dd336be68fa",
+      "verdict": "pass"
+    },
+    "ch30-must-006": {
+      "hash": "d040b7ba001767f8",
+      "verdict": "pass"
+    },
+    "ch30-cant-001": {
+      "hash": "d84d06546a593583",
+      "verdict": "pass"
+    },
+    "ch30-cant-002": {
+      "hash": "c42e6e49b511aa85",
+      "verdict": "pass"
+    },
+    "ch30-cant-003": {
+      "hash": "df543254192ef201",
+      "verdict": "pass"
+    },
+    "ch30-cant-004": {
+      "hash": "4e890e9607d2da59",
+      "verdict": "pass"
+    },
+    "ch30-cant-005": {
+      "hash": "18779a600f5c1766",
+      "verdict": "pass"
+    },
+    "ch30-cant-006": {
+      "hash": "57d3c10744ab382f",
+      "verdict": "pass"
+    },
+    "ch30-possible-001": {
+      "hash": "465d9a4535677964",
+      "verdict": "pass"
+    },
+    "ch30-possible-002": {
+      "hash": "641ff8f37edc62d6",
+      "verdict": "pass"
+    },
+    "ch30-possible-003": {
+      "hash": "eaf25d0e37bf5e6a",
+      "verdict": "pass"
+    },
+    "ch30-possible-004": {
+      "hash": "c0072b6bcd8bb1a1",
+      "verdict": "pass"
+    },
+    "ch30-possible-005": {
+      "hash": "ab73747712dcf782",
+      "verdict": "pass"
+    },
+    "ch30-possible-006": {
+      "hash": "e1b17c9cb5bfa8cb",
+      "verdict": "pass"
+    },
+    "ch30-past-001": {
+      "hash": "6eaafc2dba1cd2c7",
+      "verdict": "pass"
+    },
+    "ch30-past-002": {
+      "hash": "a6a5ce9eb38e3757",
+      "verdict": "pass"
+    },
+    "ch30-past-003": {
+      "hash": "36255520bfa4a94c",
+      "verdict": "pass"
+    },
+    "ch30-past-004": {
+      "hash": "2aa3e8dd4648066d",
+      "verdict": "pass"
+    },
+    "ch30-past-005": {
+      "hash": "1ebebe80b63c3354",
+      "verdict": "pass"
+    },
+    "ch30-past-006": {
+      "hash": "72dae4a6fb7fe233",
+      "verdict": "pass"
+    },
+    "ch30-form-001": {
+      "hash": "0a6f1c2fa0be021a",
+      "verdict": "pass"
+    },
+    "ch30-form-002": {
+      "hash": "b2553e72c28af995",
+      "verdict": "pass"
+    },
+    "ch30-form-003": {
+      "hash": "ae349c1461d5b4e2",
+      "verdict": "pass"
+    },
+    "ch30-form-004": {
+      "hash": "3d7aac12c66123ef",
+      "verdict": "pass"
+    },
+    "ch30-form-005": {
+      "hash": "22df0860e1adabd2",
+      "verdict": "pass"
+    },
+    "ch30-form-006": {
+      "hash": "9d187abecdd010cb",
+      "verdict": "pass"
+    },
+    "ch30-gym-possible-001": {
+      "hash": "9e4214fe58342413",
+      "verdict": "pass"
+    },
+    "ch30-gym-cant-001": {
+      "hash": "78e856ce2f8af289",
+      "verdict": "fail",
+      "reasons": [
+        "tests-its-rule: The bracket gives can / not / be, so the can't-versus-mustn't choice the rule names is made for the student."
+      ]
+    },
+    "ch30-gym-past-001": {
+      "hash": "64a0ee997ec08873",
+      "verdict": "pass"
+    },
+    "ch30-gym-past-002": {
+      "hash": "710af6ba8da88f63",
+      "verdict": "pass"
+    },
+    "ch30-gym-past-003": {
+      "hash": "177bd6e8b2c9f523",
+      "verdict": "pass"
+    },
+    "ch30-gym-form-001": {
+      "hash": "60a2147375764e7d",
+      "verdict": "pass"
+    },
+    "ch30-gym-order-must-001": {
+      "hash": "90171e06baeeda0d",
+      "verdict": "pass"
+    },
+    "ch30-gym-order-cant-001": {
+      "hash": "cb4604eeffbfe3e2",
+      "verdict": "pass"
+    },
+    "ch30-gym-order-past-001": {
+      "hash": "607a18d3d122c4c9",
+      "verdict": "pass"
+    },
+    "ch30-gym-order-past-002": {
+      "hash": "3e64c1ff9336e697",
+      "verdict": "pass"
+    },
+    "ch30-gym-order-cant-002": {
+      "hash": "172512a25b60ba03",
+      "verdict": "pass"
+    }
+  }
+}
